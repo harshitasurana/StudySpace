@@ -1,13 +1,34 @@
 # ============================================================
-# Excluded modules and folders (Explicit User Instructions)
+# Scratch and Local Tools (Explicit User Instructions)
 # ============================================================
-Education-Admin/
-education-admin/
-Education-Admin
-education-admin
 **/scratch/
 scratch/
 .claude/
+**/node_modules/
+node_modules/
+dist/
+dist-ssr/
+build/
+.next/
+out/
+coverage/
+
+# ============================================================
+# Jenkins & CI (Explicit User Instruction: Do NOT add)
+# ============================================================
+**/Jenkinsfile*
+**/jenkinsfile*
+
+# ============================================================
+# Deployment & Docker (Explicit User Instruction: Do NOT add)
+# ============================================================
+**/Docker/
+**/docker/
+**/Dockerfile*
+**/docker-compose*
+**/compose/
+**/nginx/
+**/.dockerignore
 
 # ============================================================
 # Environment / Secrets
@@ -33,22 +54,11 @@ ENV/
 .ruff_cache/
 
 # ============================================================
-# Node
+# Node / Package Logs
 # ============================================================
-node_modules/
 npm-debug.log*
 yarn-debug.log*
 pnpm-debug.log*
-
-# ============================================================
-# Build output
-# ============================================================
-dist/
-dist-ssr/
-build/
-.next/
-out/
-coverage/
 
 # ============================================================
 # IDE / Editor
@@ -117,9 +127,3 @@ sample_paper/
 **/sample_paper/
 solutions_ch1_structure.txt
 full_dump.txt
-
-# ============================================================
-# CI / Jenkins
-# ============================================================
-**/Jenkinsfile
-**/jenkinsfile
