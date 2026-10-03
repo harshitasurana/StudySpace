@@ -1,0 +1,5 @@
+/* App-level shell styles only. Component and page styles live in scoped CSS files. */
+
+.App {
+  min-height: 100vh;
+}
