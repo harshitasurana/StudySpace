@@ -1,0 +1,82 @@
+@import "../../css/adminlogin.css";
+@import "../Auth/Auth.css";
+
+/* ── Login page responsive overrides ── */
+
+.hc-logo {
+  width: 110px;
+  height: 110px;
+  object-fit: contain;
+  border-radius: 50%;
+}
+
+.hc-title {
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  font-size: 1.75rem;
+}
+
+.hc-card-title {
+  font-size: 1.15rem;
+  padding: 1rem 0;
+}
+
+.hc-btn-submit,
+.hc-btn-reset {
+  padding: 0.6rem 1rem;
+  font-size: 0.95rem;
+}
+
+.hc-otp-input {
+  letter-spacing: 0.5rem;
+  font-size: 1.25rem;
+  padding: 0.65rem 0.5rem;
+}
+
+/* Small screens */
+@media (max-width: 576px) {
+  .hc-logo {
+    width: 80px;
+    height: 80px;
+  }
+
+  .hc-title {
+    font-size: 1.35rem;
+  }
+
+  .hc-card-title {
+    font-size: 1rem;
+    padding: 0.75rem 0;
+  }
+
+  .hc-glass-card {
+    border-radius: 16px !important;
+  }
+
+  .hc-btn-submit,
+  .hc-btn-reset {
+    padding: 0.5rem 0.75rem;
+    font-size: 0.9rem;
+  }
+
+  .hc-otp-input {
+    font-size: 1.1rem;
+    letter-spacing: 0.3rem;
+  }
+
+  .hc-2fa-icon {
+    width: 48px !important;
+    height: 48px !important;
+  }
+}
+
+.hc-2fa-icon-inner {
+  font-size: 1.5rem;
+}
+
+/* Medium screens */
+@media (min-width: 577px) and (max-width: 991px) {
+  .hc-logo {
+    width: 100px;
+    height: 100px;
+  }
+}
