@@ -1,0 +1,88 @@
+[project]
+name = "ragproductionapp"
+version = "1.0.0"
+description = "AI Tutor using Local RAG"
+requires-python = ">=3.12,<3.13"
+
+dependencies = [
+    # ============================
+    # Web Framework
+    # ============================
+    "fastapi",
+    "uvicorn",
+    # ============================
+    # Inngest
+    # ============================
+    "inngest",
+    # ============================
+    # Local LLM
+    # ============================
+    "ollama",
+    "openai",
+    # ============================
+    # Vector Database
+    # ============================
+    "qdrant-client",
+    # ============================
+    # Data Processing
+    # ============================
+    "numpy",
+    "pandas",
+    # ============================
+    # Environment Variables
+    # ============================
+    "python-dotenv",
+    # ============================
+    # HTTP Client
+    # ============================
+    "requests",
+    # ============================
+    # PDF Processing
+    # ============================
+    "PyMuPDF",
+    "pypdf",
+    "pdf2image",
+    # ============================
+    # Computer Vision
+    # ============================
+    "Pillow",
+    # ============================
+    # NLP
+    # ============================
+    "spacy",
+    "langdetect",
+    # ============================
+    # LlamaIndex
+    # ============================
+    "llama-index-core",
+    "llama-index-readers-file",
+    # ============================
+    # Monitoring
+    # ============================
+    "langfuse",
+    # ============================
+    # Utilities
+    # ============================
+    "rich",
+    "tqdm",
+    # OCR
+    "paddleocr==2.10.0",
+    "paddlepaddle==3.0.0",
+    # Computer Vision
+    "opencv-python==4.10.0.84",
+    "Pillow==11.1.0",
+    # Deep Learning
+    "torch==2.6.0",
+    "torchvision==0.21.0",
+    "ultralytics==8.3.170",
+    "doclayout-yolo==0.0.4",
+    "transformers==4.53.3",
+    "accelerate==1.9.0",
+    "sentence-transformers==5.0.0",
+    # OCR dependency
+    "albumentations==1.4.24",
+    "faster-whisper>=1.2.1",
+    "piper-tts>=1.7.0",
+    "rank-bm25>=0.2.2",
+    "faiss-cpu>=1.15.1",
+]
