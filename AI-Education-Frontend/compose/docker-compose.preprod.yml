@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  ai-education-frontend:
+    build:
+      context: ..
+      dockerfile: Docker/Dockerfile
+      args:
+        VITE_MODE: frontend.preprod
+    container_name: ai_education_frontend_preprod
+    ports:
+      - "5272:80"
+    restart: unless-stopped
