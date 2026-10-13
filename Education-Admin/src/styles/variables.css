@@ -1,0 +1,163 @@
+/* ============================================================================
+   DESIGN SYSTEM - MODERN HEALTHCARE THEME
+   ============================================================================ */
+
+:root {
+  /* PRIMARY COLORS - Modern Healthcare Gradient */
+  --hc-primary-50: #f0f9ff;
+  --hc-primary-100: #e0f2fe;
+  --hc-primary-200: #bae6fd;
+  --hc-primary-300: #7dd3fc;
+  --hc-primary-400: #38bdf8;
+  --hc-primary-500: #0ea5e9;
+  --hc-primary-600: #0284c7;
+  --hc-primary-700: #0369a1;
+  --hc-primary-800: #075985;
+  --hc-primary-900: #0c3a56;
+
+  /* ACCENT COLORS - Emerald for health/success */
+  --hc-accent-50: #f0fdf4;
+  --hc-accent-100: #dcfce7;
+  --hc-accent-200: #bbf7d0;
+  --hc-accent-300: #86efac;
+  --hc-accent-400: #4ade80;
+  --hc-accent-500: #22c55e;
+  --hc-accent-600: #16a34a;
+  --hc-accent-700: #15803d;
+  --hc-accent-800: #166534;
+  --hc-accent-900: #134e3a;
+
+  /* SECONDARY COLORS - Violet for analytics */
+  --hc-secondary-50: #faf5ff;
+  --hc-secondary-100: #f3e8ff;
+  --hc-secondary-200: #e9d5ff;
+  --hc-secondary-300: #d8b4fe;
+  --hc-secondary-400: #c084fc;
+  --hc-secondary-500: #a855f7;
+  --hc-secondary-600: #9333ea;
+  --hc-secondary-700: #7e22ce;
+  --hc-secondary-800: #6b21a8;
+  --hc-secondary-900: #581c87;
+
+  /* STATUS COLORS */
+  --hc-success: #10b981;
+  --hc-warning: #f59e0b;
+  --hc-danger: #ef4444;
+  --hc-info: #06b6d4;
+  --hc-pending: #f97316;
+
+  /* NEUTRAL COLORS */
+  --hc-slate-50: #f8fafc;
+  --hc-slate-100: #f1f5f9;
+  --hc-slate-200: #e2e8f0;
+  --hc-slate-300: #cbd5e1;
+  --hc-slate-400: #94a3b8;
+  --hc-slate-500: #64748b;
+  --hc-slate-600: #475569;
+  --hc-slate-700: #334155;
+  --hc-slate-800: #1e293b;
+  --hc-slate-900: #0f172a;
+
+  /* SEMANTIC COLORS */
+  --hc-surface: #ffffff;
+  --hc-surface-soft: #f8fafc;
+  --hc-surface-muted: #f1f5f9;
+  --hc-border: #e2e8f0;
+  --hc-border-light: #f1f5f9;
+  --hc-text: #0f172a;
+  --hc-text-secondary: #64748b;
+  --hc-text-tertiary: #94a3b8;
+  --hc-text-muted: #cbd5e1;
+  --hc-bg-overlay: rgba(15, 23, 42, 0.5);
+
+  /* BRAND LEGACY (Maintained for backward compatibility) */
+  --hc-brand-500: #1a709b;
+  --hc-brand-700: #0d3a5c;
+
+  /* GRADIENTS */
+  --hc-gradient-primary: linear-gradient(135deg, #0ea5e9 0%, #0369a1 100%);
+  --hc-gradient-accent: linear-gradient(135deg, #10b981 0%, #059669 100%);
+  --hc-gradient-secondary: linear-gradient(135deg, #a855f7 0%, #7e22ce 100%);
+  --hc-gradient-warm: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+  --hc-brand-gradient: linear-gradient(135deg, #1a709b 0%, #0d3a5c 100%);
+
+  /* SHADOWS */
+  --hc-shadow-xs: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --hc-shadow-sm: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  --hc-shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --hc-shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  --hc-shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  --hc-shadow-2xl: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  --hc-shadow-hover: 0 20px 30px -10px rgba(0, 0, 0, 0.15);
+  --hc-shadow-inset: inset 0 2px 4px 0 rgba(0, 0, 0, 0.05);
+  --hc-shadow: 0 18px 40px rgba(15, 23, 42, 0.08);
+
+  /* SPACING */
+  --hc-space-0: 0;
+  --hc-space-1: 0.25rem;
+  --hc-space-2: 0.5rem;
+  --hc-space-3: 0.75rem;
+  --hc-space-4: 1rem;
+  --hc-space-6: 1.5rem;
+  --hc-space-8: 2rem;
+  --hc-space-12: 3rem;
+  --hc-space-16: 4rem;
+  --hc-space-20: 5rem;
+  --hc-space-24: 6rem;
+  --hc-space-32: 8rem;
+
+  /* BORDER RADIUS */
+  --hc-radius-xs: 0.25rem;
+  --hc-radius-sm: 0.375rem;
+  --hc-radius-md: 0.5rem;
+  --hc-radius-lg: 0.75rem;
+  --hc-radius-xl: 1rem;
+  --hc-radius-2xl: 1.5rem;
+  --hc-radius-3xl: 2rem;
+  --hc-radius-full: 9999px;
+
+  /* TYPOGRAPHY */
+  --hc-font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  --hc-font-mono: "Fira Code", "Monaco", "Courier New", monospace;
+
+  /* FONT SIZES */
+  --hc-text-xs: 0.75rem;
+  --hc-text-sm: 0.875rem;
+  --hc-text-base: 1rem;
+  --hc-text-lg: 1.125rem;
+  --hc-text-xl: 1.25rem;
+  --hc-text-2xl: 1.5rem;
+  --hc-text-3xl: 1.875rem;
+  --hc-text-4xl: 2.25rem;
+
+  /* FONT WEIGHTS */
+  --hc-font-regular: 400;
+  --hc-font-medium: 500;
+  --hc-font-semibold: 600;
+  --hc-font-bold: 700;
+  --hc-font-extra-bold: 800;
+
+  /* TRANSITIONS */
+  --hc-transition-fast: 120ms ease;
+  --hc-transition-base: 200ms ease;
+  --hc-transition-slow: 300ms ease;
+  --hc-transition-slowest: 500ms ease;
+
+  /* RESPONSIVE BREAKPOINT MIXINS */
+  --hc-bp-sm: 576px;
+  --hc-bp-md: 768px;
+  --hc-bp-lg: 992px;
+  --hc-bp-xl: 1200px;
+  --hc-bp-xxl: 1400px;
+
+  /* Z-INDEX SCALE */
+  --hc-z-hide: -1;
+  --hc-z-base: 0;
+  --hc-z-dropdown: 1000;
+  --hc-z-sticky: 1020;
+  --hc-z-fixed: 1030;
+  --hc-z-modal-backdrop: 1040;
+  --hc-z-modal: 1050;
+  --hc-z-popover: 1060;
+  --hc-z-tooltip: 1070;
+}
