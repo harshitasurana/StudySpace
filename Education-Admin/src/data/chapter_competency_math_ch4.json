@@ -1,0 +1,33 @@
+{
+  "dataset_id": "ds_edu_0024",
+  "module": "chapter_competency_math_ch4",
+  "title": "Mathematics Chapter 4 Linear Equations in Two Variables graph representations",
+  "board": "CBSE",
+  "standard": "Standard 10",
+  "version": "2026.1",
+  "last_updated": "2026-10-25",
+  "author": "Harshita Surana",
+  "records_count": 65,
+  "competencies": [
+    {
+      "code": "COMP-024-A",
+      "level": "Foundational",
+      "description": "Mastery of Mathematics Chapter 4 Linear Equations in Two Variables graph representations primary concepts"
+    },
+    {
+      "code": "COMP-024-B",
+      "level": "Intermediate",
+      "description": "Analytical application of Mathematics Chapter 4 Linear Equations in Two Variables graph representations principles"
+    },
+    {
+      "code": "COMP-024-C",
+      "level": "Advanced",
+      "description": "Critical synthesis and problem solving for Mathematics Chapter 4 Linear Equations in Two Variables graph representations"
+    }
+  ],
+  "rubrics": {
+    "excellent": "Demonstrates thorough understanding with >90% precision and clear reasoning",
+    "proficient": "Demonstrates competent application with 75-89% accuracy",
+    "developing": "Requires targeted remedial intervention on foundational principles"
+  }
+}
