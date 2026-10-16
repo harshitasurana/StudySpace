@@ -1,0 +1,159 @@
+services:
+
+  fastapi:
+    image: ${APP_IMAGE:-rag-ai-tutor:dev}
+    container_name: rag-ai-tutor-fastapi-dev
+    restart: unless-stopped
+
+    ports:
+      - "${FASTAPI_PORT:-8009}:8000"
+
+    env_file:
+      - ../env/.env.dev
+
+    environment:
+      INNGEST_API_BASE: http://inngest:8288/v1
+      INNGEST_PRODUCTION: "false"
+      INNGEST_DEV: "http://inngest:8288"
+
+    command:
+      - python
+      - -m
+      - uvicorn
+      - main:app
+      - --host
+      - 0.0.0.0
+      - --port
+      - "8000"
+
+    volumes:
+      - ../uploads:/app/uploads
+      - ../data:/app/data
+
+    networks:
+      - rag-network
+
+
+  inngest:
+    image: rag-ai-tutor-inngest:latest
+    container_name: rag-ai-tutor-inngest-dev
+    restart: unless-stopped
+
+    ports:
+      - "8288:8288"
+
+    command:
+      - inngest
+      - dev
+      - -u
+      - http://fastapi:8000/api/inngest
+      - --no-discovery
+
+    depends_on:
+      fastapi:
+        condition: service_started
+
+    networks:
+      - rag-network
+
+
+  redis:
+    image: redis:7-alpine
+    container_name: rag-ai-tutor-redis-dev
+    restart: unless-stopped
+
+    ports:
+      - "6379:6379"
+
+    volumes:
+      - redis_dev_data:/data
+
+    networks:
+      - rag-network
+
+
+  # Background generation for the 4 non-default mind-map variants (see
+  # core/mindmap_tasks.py), plus slide deck/infographic/quiz/flashcard —
+  # every task of that same SHAPE: one bounded, Ollama-bound generation
+  # per request. Explicit `-Q celery` (celery_app.py's task_routes sends
+  # everything here by default anyway, but a worker with no `-Q` at all
+  # would ALSO silently pick up "heavy" if it existed on the same queue
+  # name by accident — explicit is safer than relying on the default).
+  celery-worker:
+    image: ${APP_IMAGE:-rag-ai-tutor:dev}
+    container_name: rag-ai-tutor-celery-worker-dev
+    restart: unless-stopped
+
+    env_file:
+      - ../env/.env.dev
+
+    command:
+      - python
+      - -m
+      - celery
+      - -A
+      - core.celery_app
+      - worker
+      - --loglevel=info
+      - --concurrency=2
+      - -Q
+      - celery
+
+    volumes:
+      - ../uploads:/app/uploads
+      - ../data:/app/data
+
+    depends_on:
+      redis:
+        condition: service_started
+
+    networks:
+      - rag-network
+
+  # Image ingestion/enrichment — genuinely heavier than everything else
+  # (DocLayout-YOLO + PaddleOCR + a vision call PER PAGE/image, can run
+  # for hours on a real chapter) and routed to its own "heavy" queue (see
+  # celery_app.py's task_routes) so a long-running ingestion/enrichment
+  # job can never again starve a student's quiz/tutor/mind-map request
+  # sitting behind it on a shared queue/worker — confirmed hitting
+  # exactly that starvation live before this split existed.
+  celery-worker-heavy:
+    image: ${APP_IMAGE:-rag-ai-tutor:dev}
+    container_name: rag-ai-tutor-celery-worker-heavy-dev
+    restart: unless-stopped
+
+    env_file:
+      - ../env/.env.dev
+
+    command:
+      - python
+      - -m
+      - celery
+      - -A
+      - core.celery_app
+      - worker
+      - --loglevel=info
+      - --concurrency=1
+      - -Q
+      - heavy
+
+    volumes:
+      - ../uploads:/app/uploads
+      - ../data:/app/data
+
+    depends_on:
+      redis:
+        condition: service_started
+
+    networks:
+      - rag-network
+
+
+networks:
+  rag-network:
+    name: rag-ai-tutor-dev-network
+    driver: bridge
+
+volumes:
+  redis_dev_data:
+

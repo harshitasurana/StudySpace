@@ -1,0 +1,143 @@
+services:
+
+  fastapi:
+    image: ${APP_IMAGE:-rag-ai-tutor:main}
+    container_name: rag-ai-tutor-fastapi-prod
+    restart: always
+
+    expose:
+      - "8000"
+
+    env_file:
+      - ../env/.env.prod
+
+    command:
+      - python
+      - -m
+      - uvicorn
+      - main:app
+      - --host
+      - 0.0.0.0
+      - --port
+      - "8000"
+      - --workers
+      - "2"
+
+    volumes:
+      - prod_uploads:/app/uploads
+      - prod_data:/app/data
+
+    healthcheck:
+      test:
+        - CMD
+        - curl
+        - -f
+        - http://127.0.0.1:8000/docs
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 30s
+
+    networks:
+      - rag-network
+
+
+
+  redis:
+    image: redis:7-alpine
+    container_name: rag-ai-tutor-redis-prod
+    restart: always
+
+    volumes:
+      - prod_redis_data:/data
+
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 10s
+
+    networks:
+      - rag-network
+
+
+  # Background generation for the 4 non-default mind-map variants (see
+  # core/mindmap_tasks.py), plus slide deck/infographic/quiz/flashcard —
+  # every task of that same SHAPE: one bounded, Ollama-bound generation
+  # per request. Explicit `-Q celery` — see docker-compose.dev.yml's
+  # comment on why (and celery_app.py's task_routes for the split this
+  # pairs with).
+  celery-worker:
+    image: ${APP_IMAGE:-rag-ai-tutor:main}
+    container_name: rag-ai-tutor-celery-worker-prod
+    restart: always
+
+    env_file:
+      - ../env/.env.prod
+
+    command:
+      - python
+      - -m
+      - celery
+      - -A
+      - core.celery_app
+      - worker
+      - --loglevel=info
+      - --concurrency=2
+      - -Q
+      - celery
+
+    volumes:
+      - prod_uploads:/app/uploads
+      - prod_data:/app/data
+
+    depends_on:
+      redis:
+        condition: service_healthy
+
+  # Image ingestion/enrichment — routed to its own "heavy" queue so a
+  # long-running job can never starve a student's quiz/tutor/mind-map
+  # request behind it — see docker-compose.dev.yml's fuller comment.
+  celery-worker-heavy:
+    image: ${APP_IMAGE:-rag-ai-tutor:main}
+    container_name: rag-ai-tutor-celery-worker-heavy-prod
+    restart: always
+
+    env_file:
+      - ../env/.env.prod
+
+    command:
+      - python
+      - -m
+      - celery
+      - -A
+      - core.celery_app
+      - worker
+      - --loglevel=info
+      - --concurrency=1
+      - -Q
+      - heavy
+
+    volumes:
+      - prod_uploads:/app/uploads
+      - prod_data:/app/data
+
+    depends_on:
+      redis:
+        condition: service_healthy
+
+    networks:
+      - rag-network
+
+
+volumes:
+  prod_uploads:
+  prod_data:
+  prod_redis_data:
+
+
+networks:
+  rag-network:
+    name: rag-ai-tutor-prod-network
+    driver: bridge
