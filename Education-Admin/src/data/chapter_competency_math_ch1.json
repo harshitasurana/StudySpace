@@ -1,0 +1,33 @@
+{
+  "dataset_id": "ds_edu_0021",
+  "module": "chapter_competency_math_ch1",
+  "title": "Mathematics Chapter 1 Number Systems irrational numbers and real proofs",
+  "board": "CBSE",
+  "standard": "Standard 9",
+  "version": "2026.1",
+  "last_updated": "2026-10-25",
+  "author": "Harshita Surana",
+  "records_count": 50,
+  "competencies": [
+    {
+      "code": "COMP-021-A",
+      "level": "Foundational",
+      "description": "Mastery of Mathematics Chapter 1 Number Systems irrational numbers and real proofs primary concepts"
+    },
+    {
+      "code": "COMP-021-B",
+      "level": "Intermediate",
+      "description": "Analytical application of Mathematics Chapter 1 Number Systems irrational numbers and real proofs principles"
+    },
+    {
+      "code": "COMP-021-C",
+      "level": "Advanced",
+      "description": "Critical synthesis and problem solving for Mathematics Chapter 1 Number Systems irrational numbers and real proofs"
+    }
+  ],
+  "rubrics": {
+    "excellent": "Demonstrates thorough understanding with >90% precision and clear reasoning",
+    "proficient": "Demonstrates competent application with 75-89% accuracy",
+    "developing": "Requires targeted remedial intervention on foundational principles"
+  }
+}
