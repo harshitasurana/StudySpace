@@ -1,0 +1,33 @@
+{
+  "dataset_id": "ds_edu_0035",
+  "module": "student_cohort_grade10_section_a",
+  "title": "Student cohort Class 10-A board preparation readiness indicators",
+  "board": "CBSE",
+  "standard": "Standard 9",
+  "version": "2026.1",
+  "last_updated": "2026-10-25",
+  "author": "Harshita Surana",
+  "records_count": 45,
+  "competencies": [
+    {
+      "code": "COMP-035-A",
+      "level": "Foundational",
+      "description": "Mastery of Student cohort Class 10-A board preparation readiness indicators primary concepts"
+    },
+    {
+      "code": "COMP-035-B",
+      "level": "Intermediate",
+      "description": "Analytical application of Student cohort Class 10-A board preparation readiness indicators principles"
+    },
+    {
+      "code": "COMP-035-C",
+      "level": "Advanced",
+      "description": "Critical synthesis and problem solving for Student cohort Class 10-A board preparation readiness indicators"
+    }
+  ],
+  "rubrics": {
+    "excellent": "Demonstrates thorough understanding with >90% precision and clear reasoning",
+    "proficient": "Demonstrates competent application with 75-89% accuracy",
+    "developing": "Requires targeted remedial intervention on foundational principles"
+  }
+}
