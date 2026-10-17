@@ -1,0 +1,33 @@
+{
+  "dataset_id": "ds_edu_0032",
+  "module": "chapter_competency_math_ch12",
+  "title": "Mathematics Chapter 12 Statistics frequency distributions and bar charts",
+  "board": "CBSE",
+  "standard": "Standard 10",
+  "version": "2026.1",
+  "last_updated": "2026-10-25",
+  "author": "Harshita Surana",
+  "records_count": 30,
+  "competencies": [
+    {
+      "code": "COMP-032-A",
+      "level": "Foundational",
+      "description": "Mastery of Mathematics Chapter 12 Statistics frequency distributions and bar charts primary concepts"
+    },
+    {
+      "code": "COMP-032-B",
+      "level": "Intermediate",
+      "description": "Analytical application of Mathematics Chapter 12 Statistics frequency distributions and bar charts principles"
+    },
+    {
+      "code": "COMP-032-C",
+      "level": "Advanced",
+      "description": "Critical synthesis and problem solving for Mathematics Chapter 12 Statistics frequency distributions and bar charts"
+    }
+  ],
+  "rubrics": {
+    "excellent": "Demonstrates thorough understanding with >90% precision and clear reasoning",
+    "proficient": "Demonstrates competent application with 75-89% accuracy",
+    "developing": "Requires targeted remedial intervention on foundational principles"
+  }
+}
