@@ -1,0 +1,1654 @@
+{
+  "subject": "English",
+  "top_k": 3,
+  "generator_models": [
+    "llama3:8b",
+    "gemma3:4b",
+    "qwen2.5vl:7b"
+  ],
+  "judge_model": "qwen3:8b",
+  "questions_completed": 67,
+  "questions_total": 239,
+  "summary": {
+    "llama3:8b": {
+      "counts": {
+        "CORRECT": 57,
+        "PARTIAL": 2,
+        "INCORRECT": 8,
+        "UNPARSEABLE": 0,
+        "ERROR": 0
+      },
+      "accuracy": 0.8656716417910447
+    },
+    "gemma3:4b": {
+      "counts": {
+        "CORRECT": 53,
+        "PARTIAL": 4,
+        "INCORRECT": 10,
+        "UNPARSEABLE": 0,
+        "ERROR": 0
+      },
+      "accuracy": 0.8208955223880597
+    },
+    "qwen2.5vl:7b": {
+      "counts": {
+        "CORRECT": 52,
+        "PARTIAL": 2,
+        "INCORRECT": 13,
+        "UNPARSEABLE": 0,
+        "ERROR": 0
+      },
+      "accuracy": 0.7910447761194029
+    }
+  },
+  "per_question": [
+    {
+      "id": "bharat_01",
+      "question": "Who is the poet of the poem 'Bharat Our Land'?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "The poet of the poem \"Bharat Our Land\" is Subramania Bharati.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer correctly identifies Subramania Bharati as the poet of \"Bharat Our Land,\" as explicitly stated in the source text.",
+          "seconds": 45.9
+        },
+        "gemma3:4b": {
+          "answer": "Subramania Bharati",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer correctly identifies Subramania Bharati as the poet of the poem 'Bharat Our Land', as explicitly stated in the source text.",
+          "seconds": 138.8
+        },
+        "qwen2.5vl:7b": {
+          "answer": "Subramania Bharati",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer correctly identifies Subramania Bharati as the poet of the poem 'Bharat Our Land', as explicitly stated in the ground-truth source text.",
+          "seconds": 92.0
+        }
+      }
+    },
+    {
+      "id": "bharat_02",
+      "question": "According to the final stanza of the poem, where has Brahma-knowledge taken root and who preached his dhamma there?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to the final stanza of the poem, Brahma-knowledge has taken root \"Here\" and the Buddha preached his dhamma there.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's final stanza, which states that Brahma-knowledge has taken root \"Here\" and the Buddha preached his dhamma there.",
+          "seconds": 88.6
+        },
+        "gemma3:4b": {
+          "answer": "According to the final stanza, Brahma-knowledge has taken root here and the Buddha preached his dhamma there.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's assertion that Brahma-knowledge took root and the Buddha preached his dhamma in Bharat.",
+          "seconds": 100.7
+        },
+        "qwen2.5vl:7b": {
+          "answer": "According to the final stanza of the poem, Brahma-knowledge has taken root in Bharat and the Buddha preached his dhamma there.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's statement about Brahma-knowledge taking root in Bharat and the Buddha preaching his dhamma there.",
+          "seconds": 125.0
+        }
+      }
+    },
+    {
+      "id": "bharat_03",
+      "question": "According to the poem, what does the poet say about the Himavant (the Himalayas)?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to the poem, the Himavant (the Himalayas) is not mentioned explicitly.",
+          "verdict": "INCORRECT",
+          "judge_raw": "INCORRECT  \nThe source text explicitly mentions the Himavant in the first line.",
+          "seconds": 129.6
+        },
+        "gemma3:4b": {
+          "answer": "The poet describes Himavant as mighty and unparalleled.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's description of Himavant as \"mighty\" and \"unparalleled.\"",
+          "seconds": 167.8
+        },
+        "qwen2.5vl:7b": {
+          "answer": "The Himalayas are depicted as generous and graceful.",
+          "verdict": "INCORRECT",
+          "judge_raw": "INCORRECT  \nThe student incorrectly attributes generosity and grace to the Himavant, while the source text describes the Ganga as generous and does not mention grace in relation to the Himavant.",
+          "seconds": 132.1
+        }
+      }
+    },
+    {
+      "id": "bharat_04",
+      "question": "According to the poem, how is the Ganga river described?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to the poem, the Ganga river is described as \"generous\".",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer correctly identifies \"generous\" as the description of the Ganga river from the source text.",
+          "seconds": 137.7
+        },
+        "gemma3:4b": {
+          "answer": "The Ganga river is described as generous.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe source text explicitly describes the Ganga as \"generous,\" matching the student's answer.",
+          "seconds": 122.4
+        },
+        "qwen2.5vl:7b": {
+          "answer": "The Ganga river is described as graceful.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer correctly identifies \"grace\" as a description of the Ganga, directly supported by the source text's line \"which other river can match her grace?\"",
+          "seconds": 112.8
+        }
+      }
+    },
+    {
+      "id": "bharat_05",
+      "question": "According to the poem, what does the poet say about the Upanishads?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to the poem, the poet implies that the Upanishads are \"unmatched\" in their wisdom and spiritual depth.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's emphasis on the Upanishads being unmatched in wisdom and spiritual depth.",
+          "seconds": 112.6
+        },
+        "gemma3:4b": {
+          "answer": "The poet implies that the Upanishads are unmatched in their wisdom and spiritual depth.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's emphasis on the Upanishads being unmatched in wisdom and spiritual depth.",
+          "seconds": 130.4
+        },
+        "qwen2.5vl:7b": {
+          "answer": "The poet is implying that the Upanishads are abundant in their wisdom and spiritual depth.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer correctly reflects the source text's emphasis on the Upanishads being sacred and unparalleled in wisdom.",
+          "seconds": 112.0
+        }
+      }
+    },
+    {
+      "id": "bharat_06",
+      "question": "According to the closing lines of the poem, what has been heard in this land, and what is found here?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to the closing lines of the poem, the divinest music has been heard here, and here all auspicious things are found.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer directly quotes the exact closing lines from the source text, accurately reflecting the content.",
+          "seconds": 145.2
+        },
+        "gemma3:4b": {
+          "answer": "Divinest music has been heard here, and here all auspicious things are found.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer directly quotes the exact lines from the source text's closing lines, accurately addressing both parts of the question.",
+          "seconds": 145.1
+        },
+        "qwen2.5vl:7b": {
+          "answer": "The divinest music has been heard here, and here all auspicious things are found.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer directly quotes the exact closing lines from the source text, accurately reflecting both what has been heard and what is found.",
+          "seconds": 233.6
+        }
+      }
+    },
+    {
+      "id": "bharat_07",
+      "question": "What example does the chapter give to illustrate allusion, and what literary device does it define it as?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "The chapter gives no specific example to illustrate allusion. It only defines allusion as a literary device where a writer makes an indirect reference to a well-known person, place, event, literary work, or cultural element without explicitly mentioning it.",
+          "verdict": "INCORRECT",
+          "judge_raw": "INCORRECT  \nThe source text explicitly provides an example of allusion (\"real Einstein\") which the student's answer incorrectly states does not exist.",
+          "seconds": 257.6
+        },
+        "gemma3:4b": {
+          "answer": "The chapter gives the example “My luggage weighs a tonne.” to illustrate allusion, and defines it as a literary device.",
+          "verdict": "INCORRECT",
+          "judge_raw": "INCORRECT  \nThe source text's example is about Einstein, not luggage, so the student's example is unsupported.",
+          "seconds": 118.5
+        },
+        "qwen2.5vl:7b": {
+          "answer": "The chapter gives the following example to illustrate allusion: \"She was so happy that her smile was a mile wide.\" It defines this as an allusion.",
+          "verdict": "INCORRECT",
+          "judge_raw": "INCORRECT  \nThe student's answer provides an example not mentioned in the source text and incorrectly identifies the literary device, as the source text defines allusion through the Einstein example, not hyperbole.",
+          "seconds": 88.0
+        }
+      }
+    },
+    {
+      "id": "bharat_08",
+      "question": "How does the chapter define an 'ode', and why is 'Bharat Our Land' considered an example of one?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to the chapter, an ode is a lyrical poem that expresses deep admiration, praise, or reverence for a person, place, object, or idea. It is often written in an elevated and formal style, celebrating the subject with enthusiasm and emotion. An ode's language is often grand and expressive, and it seeks to highlight the extraordinary qualities of its subject.\n\nThe chapter defines 'Bharat Our Land' as an ode because it presents examples of the poem's language and style that correspond to an ode. Specifically, the poem expresses deep admiration and praise for India, using grand and expressive language to highlight its extraordinary qualities.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's definition of an ode and correctly identifies \"Bharat Our Land\" as an example based on its use of elevated language and admiration for India.",
+          "seconds": 162.7
+        },
+        "gemma3:4b": {
+          "answer": "According to the provided text, an ode is a “lyrical poem that expresses deep admiration, praise, or reverence for a person, place, object, or idea.” ‘Bharat Our Land’ is considered an ode because it “celebrating the subject with enthusiasm and emotion” and uses “grand and expressive language” to highlight the extraordinary qualities of India.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's definition of an ode and correctly identifies 'Bharat Our Land' as an ode due to its expressive language and admiration for India.",
+          "seconds": 127.9
+        },
+        "qwen2.5vl:7b": {
+          "answer": "The chapter defines an 'ode' as a lyrical poem that expresses deep admiration, praise, or reverence for a person, place, object, or idea. It is often written in an elevated and formal style, celebrating the subject with enthusiasm and emotion. An ode's language is often grand and expressive, and it seeks to highlight the extraordinary qualities of its subject.\n\n'Bharat Our Land' is considered an example of an ode because it expresses deep admiration and reverence for India, using grand and expressive language to highlight India's extraordinary qualities. The poem's elevated and formal style, along with its use of hyperbole and allusion, further supports its classification as an ode.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's definition of an ode and correctly identifies \"Bharat Our Land\" as an example by citing its admiration for India, elevated style, and use of literary devices like hyperbole and allusion.",
+          "seconds": 132.4
+        }
+      }
+    },
+    {
+      "id": "bharat_09",
+      "question": "According to the symbolism matching exercise, what does the Ganga symbolise in the poem?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to the symbolism matching exercise, the Ganga symbolises \"grace\" in the poem.",
+          "verdict": "INCORRECT",
+          "judge_raw": "INCORRECT  \nThe source text explicitly lists \"purity and generosity\" as the symbol for the Ganga, not \"grace.\"",
+          "seconds": 145.8
+        },
+        "gemma3:4b": {
+          "answer": "The generous Ganga is ours - which other river can match her grace?",
+          "verdict": "PARTIAL",
+          "judge_raw": "PARTIAL  \nThe student's answer mentions \"generous,\" which aligns with the correct symbol (purity and generosity) but omits \"purity\" and fails to directly address the symbolism question as per the source text's structure.",
+          "seconds": 154.3
+        },
+        "qwen2.5vl:7b": {
+          "answer": "The Ganga symbolises spiritual knowledge associated with self-realisation and ultimate truth.",
+          "verdict": "INCORRECT",
+          "judge_raw": "INCORRECT  \nThe source text's symbolism matching exercise explicitly pairs Ganga with \"purity and generosity\" (option iii), not spiritual knowledge or self-realization.",
+          "seconds": 181.0
+        }
+      }
+    },
+    {
+      "id": "bharat_10",
+      "question": "According to the symbolism matching exercise, what does the Himavant symbolise in the poem?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to the symbolism matching exercise, the Himavant symbolises the \"ancient Indian scriptures that form the philosophical core and symbolise deep wisdom and enlightenment\".",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer correctly identifies that Himavant symbolizes \"knowledge and enlightenment,\" which aligns with the source text's matching of Himavant to (i) \"knowledge and enlightenment,\" even though the student's phrasing adds elaboration not explicitly in the source.",
+          "seconds": 245.4
+        },
+        "gemma3:4b": {
+          "answer": "The Himavant symbolises India’s mighty mountains and is unmatched.",
+          "verdict": "INCORRECT",
+          "judge_raw": "INCORRECT  \nThe source text explicitly states that Himavant symbolizes \"strength and permanence,\" not India’s mountains or unmatched status.",
+          "seconds": 117.5
+        },
+        "qwen2.5vl:7b": {
+          "answer": "The Himavant symbolises the mighty and powerful nature of the Himalayas.",
+          "verdict": "INCORRECT",
+          "judge_raw": "INCORRECT  \nThe source text explicitly states that Himavant symbolizes \"strength and permanence,\" not the physical nature of the Himalayas.",
+          "seconds": 137.0
+        }
+      }
+    },
+    {
+      "id": "bharat_11",
+      "question": "What geographical features and Indian examples are listed for the interdisciplinary project on India's major geographical features (mountains, rivers, deserts, valleys, islands, plateaus)?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to the Learning Beyond the Text section, the geographical features and Indian examples listed for the interdisciplinary project on India's major geographical features are:\n\n* Mountains: Himalayas, Western Ghats, etc.\n* Rivers: Ganga, Yamuna, Krishna, Kaveri, Godavari, etc.\n* Deserts: Thar Desert, Rann of Kutch, etc.\n* Valleys: Kangra Valley, Nubra Valley, etc.\n* Islands: Andaman and Nicobar Islands, Lakshadweep, etc.\n* Plateaus: Deccan, Malwa, Meghalaya, etc.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately lists all the specified geographical features and corresponding Indian examples as outlined in the source text.",
+          "seconds": 118.1
+        },
+        "gemma3:4b": {
+          "answer": "Himalayas, Western Ghats, Ganga, Yamuna, Krishna, Kaveri, Godavari, Thar Desert, Rann of Kutch, Kangra Valley, Nubra Valley, Andaman and Nicobar Islands, Lakshadweep, Deccan, Malwa, Meghalaya.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately lists all the required geographical features and corresponding Indian examples as specified in the source text.",
+          "seconds": 106.9
+        },
+        "qwen2.5vl:7b": {
+          "answer": "The interdisciplinary project on India's major geographical features includes the following examples:\n\n- **Mountains**: Himalayas, Western Ghats\n- **Rivers**: Ganga, Yamuna, Krishna, Kaveri, Godavari\n- **Deserts**: Thar Desert, Rann of Kutch\n- **Valleys**: Kangra Valley, Nubra Valley\n- **Islands**: Andaman and Nicobar Islands, Lakshadweep\n- **Plateaus**: Deccan, Malwa, Meghalaya",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer lists all the exact examples provided in the source text for each geographical feature category.",
+          "seconds": 136.1
+        }
+      }
+    },
+    {
+      "id": "bharat_12",
+      "question": "According to the poem, what does the poet say about the warriors and sages who have lived on this land?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to the poem, the warriors are described as \"peerless\" and the sages are \"honoured as sacred and unmatched\".",
+          "verdict": "PARTIAL",
+          "judge_raw": "PARTIAL  \nThe student's answer partially matches the source text, correctly noting the sages' honor but inaccurately attributing \"peerless\" to warriors instead of the land.",
+          "seconds": 104.0
+        },
+        "gemma3:4b": {
+          "answer": "The poem highlights the contributions of warriors and sages who have enriched the land with their bravery and wisdom.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's mention of warriors and sages contributing to the land's significance through bravery and wisdom.",
+          "seconds": 119.4
+        },
+        "qwen2.5vl:7b": {
+          "answer": "The poet says that the warriors and sages who have lived on this land have enriched the land with their bravery and wisdom.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's mention of warriors and sages contributing to the land's honor through bravery and wisdom.",
+          "seconds": 149.6
+        }
+      }
+    },
+    {
+      "id": "bharat_13",
+      "question": "In the vocabulary exercise on the phrase 'of hoary antiquity', which of the given options (ancient times, recent past, time immemorial) is the odd one out that does not match the underlined word's meaning?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "The odd one out is \"recent past\". The other options - \"ancient times\" and \"time immemorial\" - both convey a sense of great age or long-past times. \"Recent past\" refers to a relatively short period of time that has passed, and does not match the meaning of the underlined word \"hoary antiquity\", which suggests a very old or ancient time.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student correctly identifies \"recent past\" as the odd one out, as \"hoary antiquity\" refers to ancient or extremely old times, making \"ancient times\" and \"time immemorial\" synonymous with it.",
+          "seconds": 79.9
+        },
+        "gemma3:4b": {
+          "answer": "recent past",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe phrase \"hoary antiquity\" refers to something extremely old or ancient, making \"recent past\" the odd one out as it denotes something new or recent.",
+          "seconds": 52.4
+        },
+        "qwen2.5vl:7b": {
+          "answer": "recent past",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe phrase \"hoary antiquity\" refers to something extremely ancient, making \"recent past\" the odd one out as it denotes a time close to the present, conflicting with the meaning of the underlined phrase.",
+          "seconds": 114.1
+        }
+      }
+    },
+    {
+      "id": "bharat_14",
+      "question": "According to the poem, how is the land described using the metaphor 'sunny golden land'?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to the poem, the land (India) is metaphorically described as 'this sunny golden land', suggesting that it is courageous and wise.",
+          "verdict": "INCORRECT",
+          "judge_raw": "INCORRECT  \nThe student incorrectly attributes \"courageous and wise\" to the 'sunny golden land,' whereas the source text links it to \"richness and glory\" (Column 1, item 6).",
+          "seconds": 49.0
+        },
+        "gemma3:4b": {
+          "answer": "According to the poem, the land is described as “this sunny golden land,” suggesting it is courage and wisdom.",
+          "verdict": "INCORRECT",
+          "judge_raw": "INCORRECT  \nThe student incorrectly associates \"sunny golden land\" with courage and wisdom, whereas the source text links it to \"richness and glory\" (as per the metaphor's context and the poem's structure).",
+          "seconds": 98.8
+        },
+        "qwen2.5vl:7b": {
+          "answer": "India is metaphorically described as 'this sunny golden land,' suggesting that it is rich and glorious.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer correctly identifies \"rich and glorious\" as the attributes suggested by the metaphor 'sunny golden land' in the source text.",
+          "seconds": 83.4
+        }
+      }
+    },
+    {
+      "id": "grandmother_01",
+      "question": "Where did the narrator stay with her grandparents when she was about twelve years old?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "Based on the given context, the narrator stayed with her grandparents in the village when she was about twelve years old.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe source text explicitly states the narrator stayed in a village in north Karnataka with her grandparents when she was twelve.",
+          "seconds": 84.3
+        },
+        "gemma3:4b": {
+          "answer": "The narrator stayed with her grandparents in the open terrace of their house.",
+          "verdict": "INCORRECT",
+          "judge_raw": "INCORRECT  \nThe source text only mentions the narrator stayed in a village in north Karnataka with her grandparents, but does not reference an \"open terrace\" as the location.",
+          "seconds": 107.2
+        },
+        "qwen2.5vl:7b": {
+          "answer": "The narrator stayed with her grandparents in their village when she was about twelve years old.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer correctly states the narrator stayed with her grandparents in a village, which matches the source text.",
+          "seconds": 95.9
+        }
+      }
+    },
+    {
+      "id": "grandmother_02",
+      "question": "Who was Triveni, and what were her stories usually about?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to the passage from [स्रोत 1], Triveni was a very popular writer in the Kannada language. Her stories usually dealt with complex psychological problems in the lives of ordinary people and were always very interesting.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's description of Triveni as a popular Kannada writer whose stories focused on complex psychological issues in ordinary lives and were always interesting.",
+          "seconds": 101.2
+        },
+        "gemma3:4b": {
+          "answer": "Triveni was a popular writer in the Kannada language. Her stories usually dealt with complex psychological problems in the lives of ordinary people.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's information about Triveni being a popular Kannada writer and her stories focusing on complex psychological problems in ordinary people's lives.",
+          "seconds": 135.4
+        },
+        "qwen2.5vl:7b": {
+          "answer": "Triveni was a very popular writer in the Kannada language. Her stories usually dealt with complex psychological problems in the lives of ordinary people and were always very interesting.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's description of Triveni as a popular Kannada writer whose stories focused on complex psychological issues in ordinary people's lives.",
+          "seconds": 105.1
+        }
+      }
+    },
+    {
+      "id": "grandmother_03",
+      "question": "What is Triveni's novel 'Kashi Yatre' about?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "Triveni's novel 'Kashi Yatre' is about an old lady's ardent desire to go to Kashi (Varanasi) and her struggle to fulfill it. The novel also tells the story of an orphan girl who falls in love, but the old lady sacrifices her own desire to go to Kashi to fulfill the girl's happiness.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the novel's plot points about the old lady's desire to visit Kashi, her struggle, and her sacrifice for the orphan girl's happiness, as detailed in the source text.",
+          "seconds": 120.9
+        },
+        "gemma3:4b": {
+          "answer": "'Kashi Yatre' is a story about an old lady who desires to go to Kashi (Varanasi) and worship Lord Vishweshwara. It also includes a young orphan girl who falls in love and the old lady giving away her savings for the girl's happiness.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately captures the main plot points of 'Kashi Yatre' as described in the source text, including the old lady's desire to visit Kashi, the orphan girl's love story, and her sacrifice.",
+          "seconds": 154.6
+        },
+        "qwen2.5vl:7b": {
+          "answer": "Kashi Yatre is a novel by Triveni that tells the story of an old lady who has a strong desire to go to Kashi or Varanasi, a belief that is considered the ultimate punya in Hinduism. The novel also includes a subplot about a young orphan girl who falls in love but lacks the money for a wedding. The old lady ultimately decides to give away all her savings to help the orphan girl, prioritizing the girl's happiness over her own desire to worship Lord Vishweshwara at Kashi.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the key plot points and themes from the source text about Triveni's novel \"Kashi Yatre.\"",
+          "seconds": 116.2
+        }
+      }
+    },
+    {
+      "id": "grandmother_04",
+      "question": "What did the narrator call her grandmother, and what does that word mean?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "The narrator called her grandmother \"Avva\", which means \"mother\" in the Kannada language spoken in north Karnataka.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's explicit statement about the narrator calling her grandmother \"Avva\" and its meaning in Kannada.",
+          "seconds": 113.0
+        },
+        "gemma3:4b": {
+          "answer": "The narrator called her grandmother “Avva,” which means “mother” in the Kannada spoken in north Karnataka.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the term \"Avva\" and its meaning as provided in the source text.",
+          "seconds": 88.7
+        },
+        "qwen2.5vl:7b": {
+          "answer": "The narrator called her grandmother \"Avva,\" which means \"mother\" in the Kannada spoken in north Karnataka.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the term \"Avva\" and its meaning as \"mother\" in the specified Kannada dialect from the source text.",
+          "seconds": 99.2
+        }
+      }
+    },
+    {
+      "id": "grandmother_05",
+      "question": "Why did the narrator find her grandmother in tears when she returned from a week-long wedding trip?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to the story, the narrator found her grandmother in tears when she returned from a week-long wedding trip because her grandmother regretted not going to school and was struggling to understand a magazine article about Kashi Yatre that had a picture, but no text. She was unhappy and tearful because she felt there was no way for her to learn to read and write.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the grandmother's emotional state and the reason for her tears, as described in the source text.",
+          "seconds": 110.5
+        },
+        "gemma3:4b": {
+          "answer": "The grandmother was crying because she couldn’t understand a magazine article about the Kashi Yatre, and she had been waiting for the narrator to read it for her.",
+          "verdict": "INCORRECT",
+          "judge_raw": "INCORRECT  \nThe source text does not mention the grandmother crying over a magazine article; instead, it focuses on her determination to learn Kannada and her emotional response to her own struggles with independence.",
+          "seconds": 103.2
+        },
+        "qwen2.5vl:7b": {
+          "answer": "The narrator found her grandmother in tears because the grandmother had been trying to understand a story in a magazine but could not because she could not read. She was disappointed and wished she could have learned to read when she was younger.",
+          "verdict": "INCORRECT",
+          "judge_raw": "INCORRECT  \nThe source text does not mention the grandmother being in tears or struggling to read a magazine; instead, it highlights her determination to learn Kannada and the narrator's role in teaching her.",
+          "seconds": 102.6
+        }
+      }
+    },
+    {
+      "id": "grandmother_06",
+      "question": "According to the grandmother's account of her early life, why did she never go to school?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to the grandmother's account, she never went to school because she never went to school. (Point 5 from the provided context)",
+          "verdict": "INCORRECT",
+          "judge_raw": "INCORRECT  \nThe student's answer is circular and does not provide the actual reasons from the source text, such as societal norms against educating girls and family circumstances.",
+          "seconds": 88.9
+        },
+        "gemma3:4b": {
+          "answer": "According to the grandmother’s account, she never went to school because she had never been to school.",
+          "verdict": "PARTIAL",
+          "judge_raw": "PARTIAL  \nThe student's answer repeats the fact that the grandmother never went to school but fails to provide the specific reason from the source text (societal neglect of girls' education).",
+          "seconds": 97.8
+        },
+        "qwen2.5vl:7b": {
+          "answer": "The grandmother never went to school because she regretted not going to school.",
+          "verdict": "INCORRECT",
+          "judge_raw": "INCORRECT  \nThe student's answer incorrectly attributes the reason for not going to school to regret, while the source text states that societal norms and family circumstances were the actual causes.",
+          "seconds": 94.5
+        }
+      }
+    },
+    {
+      "id": "grandmother_07",
+      "question": "What deadline did the grandmother set for herself to learn to read, and what did she want to be able to do by then?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to the extract, the grandmother set a deadline of Saraswati Puja day during Dassara to learn the Kannada alphabet. By then, she wanted to be able to read a novel on her own.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the grandmother's deadline (Saraswati Puja day during Dassara) and her goal (reading a novel independently) as stated in the source text.",
+          "seconds": 112.1
+        },
+        "gemma3:4b": {
+          "answer": "The grandmother set Saraswati Puja day during Dassara as the deadline, and she wanted to be able to read a novel on her own.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the deadline (Saraswati Puja day during Dassara) and the goal (reading a novel on her own) as stated in the source text.",
+          "seconds": 105.5
+        },
+        "qwen2.5vl:7b": {
+          "answer": "The grandmother set the deadline of Saraswati Puja day during Dassara. She wanted to be able to read a novel on her own by then.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the grandmother's stated deadline (Saraswati Puja day during Dassara) and her goal (reading a novel independently).",
+          "seconds": 102.3
+        }
+      }
+    },
+    {
+      "id": "grandmother_08",
+      "question": "How did the narrator initially react to her grandmother's decision to learn the alphabet at age sixty-two?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "The narrator initially reacted by laughing at her grandmother's decision to learn the alphabet at age sixty-two.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe narrator explicitly laughed at her grandmother's decision, as stated in the source text.",
+          "seconds": 89.6
+        },
+        "gemma3:4b": {
+          "answer": "The narrator initially laughed at her grandmother’s decision to learn the alphabet at the age of sixty-two, making fun of her age, appearance, and work in the kitchen.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe narrator's laughter and mockery of her grandmother's age, appearance, and kitchen work are explicitly described in the source text.",
+          "seconds": 90.7
+        },
+        "qwen2.5vl:7b": {
+          "answer": "The narrator initially laughed at her grandmother's determination to learn the alphabet at the age of sixty-two.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe narrator explicitly laughed at her grandmother's decision, as stated in the source text.",
+          "seconds": 72.2
+        }
+      }
+    },
+    {
+      "id": "grandmother_09",
+      "question": "What did the grandmother say about learning and age, in response to the narrator's teasing?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "The grandmother said, \"For learning there is no age bar.\"",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately quotes the grandmother's exact statement from the source text about learning having no age bar.",
+          "seconds": 69.0
+        },
+        "gemma3:4b": {
+          "answer": "The grandmother said, “I am touching the feet of a teacher, not my granddaughter; a teacher who taught me so well, with so much of affection that I can read any novel confidently in such a short period. Now I am independent. It is my duty to respect a teacher .”",
+          "verdict": "INCORRECT",
+          "judge_raw": "INCORRECT  \nThe student's answer introduces elements (touching feet of a teacher, Kashi Yatre novel) not present in the source text, which only mentions Avva's determination and her response to the narrator's teasing about age.",
+          "seconds": 83.9
+        },
+        "qwen2.5vl:7b": {
+          "answer": "The grandmother said, \"For a good cause if you are determined, you can overcome any obstacle. I will work harder than anybody but I will do it. For learning there is no age bar.\"",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately quotes Avva's response about determination and the absence of an age bar for learning, as stated in the source text.",
+          "seconds": 74.7
+        }
+      }
+    },
+    {
+      "id": "grandmother_10",
+      "question": "What unusual gesture did the grandmother make on Dassara day, and what reason did she give for it?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to the text, the unusual gesture made by the grandmother on Dassara day was that she bent down and touched the narrator's feet. She gave this reason: \"I am touching the feet of a teacher, not my granddaughter; a teacher who taught me so well, with so much of affection that I can read any novel confidently in such a short period. Now I am independent. It is my duty to respect a teacher. Is it not written in our scriptures that a teacher should be respected, irrespective of the gender and age?\"",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the grandmother's gesture of touching the narrator's feet and her reason, which is directly supported by the source text.",
+          "seconds": 166.6
+        },
+        "gemma3:4b": {
+          "answer": "On Dassara day, the grandmother bent down and touched the narrator’s feet. She gave this reason by saying she was respecting a teacher, specifically the narrator, whom she greatly admired and with whom she had achieved independence.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student accurately identifies the grandmother's gesture of touching the narrator's feet and correctly states her reason of respecting the narrator as a teacher who enabled her independence.",
+          "seconds": 136.9
+        },
+        "qwen2.5vl:7b": {
+          "answer": "The grandmother bent down and touched the narrator's feet on Dassara day. She gave this gesture as a mark of respect to the narrator, who had taught her how to read Kannada and had helped her gain independence. She said that it was her duty to respect a teacher, as it is written in their scriptures that a teacher should be respected, irrespective of the gender and age.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the grandmother's gesture of touching the narrator's feet on Dassara day and her reason for doing so, as described in the source text.",
+          "seconds": 148.2
+        }
+      }
+    },
+    {
+      "id": "grandmother_11",
+      "question": "What gift did the grandmother give the narrator on Dassara, and how did the narrator know her grandmother had learned to read?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to the extract, the grandmother gave the narrator a gift of frock material on Dassara. The narrator knew her grandmother had learned to read when she opened the gift and read the title \"Kashi Yatre\" by Triveni and the publisher's name immediately.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text, which states the grandmother gave a frock material and the narrator knew she could read when she read the title and publisher's name of the gift.",
+          "seconds": 131.1
+        },
+        "gemma3:4b": {
+          "answer": "The grandmother gave the narrator a gift of frock material on Dassara. The narrator knew her grandmother had learned to read when she immediately opened the gift and read the title of the book, “Kashi Yatre,” by Triveni.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the gift of frock material and the grandmother's ability to read demonstrated by immediately recognizing the book title.",
+          "seconds": 218.1
+        },
+        "qwen2.5vl:7b": {
+          "answer": "The grandmother gave the narrator a gift of frock material on Dassara. The narrator knew her grandmother had learned to read when she opened the gift and immediately read the title \"Kashi Yatre\" by Triveni and the publisher's name.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's details about the gift and the grandmother's ability to read.",
+          "seconds": 162.0
+        }
+      }
+    },
+    {
+      "id": "grandmother_12",
+      "question": "Who is the author credited for the story 'How I Taught My Grandmother to Read'?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "The author credited for the story 'How I Taught My Grandmother to Read' is Sudha Murty.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe source text explicitly credits Sudha Murty as the author of the story.",
+          "seconds": 143.8
+        },
+        "gemma3:4b": {
+          "answer": "Sudha Murty.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe source text explicitly credits Sudha Murty as the author of the story.",
+          "seconds": 156.4
+        },
+        "qwen2.5vl:7b": {
+          "answer": "Sudha Murty",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe source text explicitly credits Sudha Murty as the author of the story.",
+          "seconds": 144.0
+        }
+      }
+    },
+    {
+      "id": "grandmother_13",
+      "question": "What idiom is explained in the chapter using the sentence 'I knew, then, that my student had passed with flying colours', and what does it mean?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to the given context (संदर्भ), the idiom \"passed with flying colours\" is explained in Chapter 1, Section IV. It means \"outstanding performance\".",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student correctly identifies the idiom \"passed with flying colours\" and its meaning \"outstanding performance,\" which is explicitly stated in the source text.",
+          "seconds": 140.7
+        },
+        "gemma3:4b": {
+          "answer": "The idiom explained is “passed with flying colours”, and it means outstanding performance.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student correctly identifies the idiom \"passed with flying colours\" and its meaning as outstanding performance, as explicitly stated in the source text.",
+          "seconds": 178.6
+        },
+        "qwen2.5vl:7b": {
+          "answer": "The idiom explained in the chapter is \"passed with flying colours\". It means an outstanding performance.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student correctly identified the idiom \"passed with flying colours\" and its meaning as outstanding performance, which is explicitly stated in the source text.",
+          "seconds": 158.6
+        }
+      }
+    },
+    {
+      "id": "grandmother_14",
+      "question": "What career did the narrator go on to have, despite being her grandmother's first and only student?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "The narrator, Sudha Murty, did not reveal her career in the given extract. However, based on the information provided, it can be inferred that she went on to become a teacher, as she is referred to as her grandmother's \"teacher\" and is able to teach her grandmother to read and write.",
+          "verdict": "PARTIAL",
+          "judge_raw": "PARTIAL  \nThe student correctly identifies the narrator as a teacher but incorrectly states that the career wasn't revealed in the extract, as the source text explicitly mentions her becoming a Computer Science teacher.",
+          "seconds": 143.3
+        },
+        "gemma3:4b": {
+          "answer": "The provided text does not state what career the narrator went on to have. It only describes her role as a teacher to her grandmother.",
+          "verdict": "INCORRECT",
+          "judge_raw": "INCORRECT  \nThe source text explicitly states the narrator became a Computer Science teacher, which the student's answer ignores.",
+          "seconds": 165.8
+        },
+        "qwen2.5vl:7b": {
+          "answer": "The narrator went on to become a teacher, as indicated by the fact that she taught her grandmother how to read and write Kannada.",
+          "verdict": "INCORRECT",
+          "judge_raw": "INCORRECT  \nThe student's answer incorrectly reverses the roles, as the narrator became the teacher, not the student, and the source text specifies her career as a Computer Science teacher.",
+          "seconds": 5449.5
+        }
+      }
+    },
+    {
+      "id": "grandmother_15",
+      "question": "What did the grandmother do every day while learning that showed she was a 'wonderful student'?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "The extract doesn't mention what the grandmother did every day while learning, nor does it describe her as a \"wonderful student\". The story only mentions her determination to learn the Kannada alphabet at the age of 62 and her progress in reading a novel confidently in a short period.",
+          "verdict": "INCORRECT",
+          "judge_raw": "INCORRECT  \nThe source text explicitly states that Avva was a \"wonderful student\" and describes her daily efforts of reading, repeating, writing, and reciting.",
+          "seconds": 92.6
+        },
+        "gemma3:4b": {
+          "answer": "The grandmother worked very hard and set a deadline for herself (Saraswati Puja day during Dassara) to be able to read a novel on her own.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe answer correctly identifies the grandmother's hard work and deadline-setting as key aspects of her being a 'wonderful student,' both of which are explicitly mentioned in the source text.",
+          "seconds": 204.9
+        },
+        "qwen2.5vl:7b": {
+          "answer": "The grandmother did not reply when the narrator asked if she was alright because she might have been too emotional to respond.",
+          "verdict": "INCORRECT",
+          "judge_raw": "INCORRECT  \nThe student's answer introduces a scenario not present in the source text, which focuses on Avva's daily learning efforts rather than her emotional response to a question.",
+          "seconds": 110.6
+        }
+      }
+    },
+    {
+      "id": "grandmother_16",
+      "question": "What did the grandmother do at the temple courtyard after hearing the next episode of Kashi Yatre, according to the story?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to the story, after hearing the next episode of Kashi Yatre, the grandmother would join her friends at the temple courtyard where children, including the narrator, would gather to play hide and seek.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the grandmother's action of joining her friends at the temple courtyard and the children gathering to play hide and seek, as stated in the source text.",
+          "seconds": 115.1
+        },
+        "gemma3:4b": {
+          "answer": "She would join her friends at the temple courtyard where the narrator and other children would also gather to play hide and seek.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's statement about the grandmother joining her friends at the temple courtyard where children, including the narrator, played hide and seek.",
+          "seconds": 144.5
+        },
+        "qwen2.5vl:7b": {
+          "answer": "The grandmother would join her friends at the temple courtyard where they would gather to play hide and seek.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately captures the grandmother joining her friends at the temple courtyard, which aligns with the source text, even though it omits the children's presence.",
+          "seconds": 112.6
+        }
+      }
+    },
+    {
+      "id": "grandmother_17",
+      "question": "How did the grandmother identify with the protagonist of the novel Kashi Yatre, according to the story?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to the story, the grandmother identified with the protagonist of the novel Kashi Yatre because she never went to Kashi (Varanasi) herself, just like the protagonist, and felt a strong connection with the story.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's key points about the grandmother's identification with the protagonist due to her never visiting Kashi.",
+          "seconds": 139.3
+        },
+        "gemma3:4b": {
+          "answer": "The grandmother identified herself with the novel’s protagonist, an old lady who desired to go to Kashi.",
+          "verdict": "PARTIAL",
+          "judge_raw": "PARTIAL  \nThe answer correctly states the grandmother identified with the protagonist who desired to go to Kashi but adds the detail about the protagonist being an old lady, which is not explicitly mentioned in the source text.",
+          "seconds": 196.1
+        },
+        "qwen2.5vl:7b": {
+          "answer": "The grandmother identified with the protagonist of the novel Kashi Yatre because she never went to Kashi and shared the protagonist's desire to go there.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's mention of the grandmother never going to Kashi and identifying with the protagonist, though it slightly simplifies the reasoning.",
+          "seconds": 127.1
+        }
+      }
+    },
+    {
+      "id": "grandmother_18",
+      "question": "What is a binomial, according to the vocabulary section of the chapter, and which binomial expression from the text is used as an example?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to the vocabulary section of the chapter, a binomial is \"expressions consisting of two words, usually linked by a conjunction like 'and' or 'or', that are commonly used together in a fixed order.\"\n\nThe example of a binomial expression from the text is \"odds and ends\".",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the definition of a binomial from the source text and correctly identifies \"odds and ends\" as the example provided.",
+          "seconds": 112.8
+        },
+        "gemma3:4b": {
+          "answer": "According to the vocabulary section, a binomial is an expression consisting of two words, usually linked by a conjunction like ‘and’ or ‘or’. The binomial expression used as an example is “odds and ends”.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student correctly defines a binomial as an expression with two words linked by a conjunction and cites \"odds and ends\" as an example from the source text.",
+          "seconds": 147.8
+        },
+        "qwen2.5vl:7b": {
+          "answer": "A binomial is an expression consisting of two words, usually linked by a conjunction like 'and' or 'or', that are commonly used together in a fixed order. The example given in the text is 'odds and ends'.",
+          "verdict": "INCORRECT",
+          "judge_raw": "INCORRECT  \nThe student incorrectly cites \"odds and ends\" as the example from the text, but the text explicitly states \"hide and seek\" as the binomial used in the text.",
+          "seconds": 125.2
+        }
+      }
+    },
+    {
+      "id": "grandmother_19",
+      "question": "According to the 'Do you know?' section, what is the role of the National Literacy Mission Authority (NLMA) in India?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to the 'Do you know?' section, the National Literacy Mission Authority (NLMA) is responsible to design, develop, and implement the Adult Education Programme in India.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's statement about NLMA's role in designing, developing, and implementing the Adult Education Programme.",
+          "seconds": 68.9
+        },
+        "gemma3:4b": {
+          "answer": "The National Literacy Mission Authority (NLMA) is responsible to design, develop, and implement the Adult Education Programme in India.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's statement about NLMA's role in designing, developing, and implementing the Adult Education Programme in India.",
+          "seconds": 79.3
+        },
+        "qwen2.5vl:7b": {
+          "answer": "The National Literacy Mission Authority (NLMA) is responsible for designing, developing, and implementing the Adult Education Programme in India.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's statement about NLMA's role in designing, developing, and implementing the Adult Education Programme.",
+          "seconds": 64.0
+        }
+      }
+    },
+    {
+      "id": "potmaker_01",
+      "question": "Who is Sentila, and what does she dream of becoming, contrary to her mother's wishes?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "Sentila is a little girl who dreams of becoming a pot maker like her mother and grandmother, contrary to her mother's wishes who wants her to become a weaver.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe answer accurately states Sentila's dream of becoming a pot maker and contrasts it with her mother's wish for her to become a weaver, as explicitly described in the source text.",
+          "seconds": 80.1
+        },
+        "gemma3:4b": {
+          "answer": "Sentila is a young girl who dreams of becoming a pot maker like her mother and grandmother, despite her mother, Arenla, wanting her to become a weaver.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe answer accurately states Sentila's dream of becoming a pot maker and her mother's wish for her to be a weaver, aligning with the source text.",
+          "seconds": 93.7
+        },
+        "qwen2.5vl:7b": {
+          "answer": "Sentila is a young girl who dreams of becoming a pot maker like her mother and grandmother, despite her mother's wishes for her to become a weaver.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe answer accurately reflects Sentila's aspiration to become a pot maker, contrasting with her mother's desire for her to become a weaver, as stated in the source text.",
+          "seconds": 96.8
+        }
+      }
+    },
+    {
+      "id": "potmaker_02",
+      "question": "According to Arenla's complaint overheard by Sentila, why did she not want to teach her daughter pot making?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to Arenla's complaint, she didn't want to teach Sentila pot making because it had brought no joy to her and only a pittance for her troubles. She also complained about the physical labor involved in making pots, such as carrying heavy loads and pounding clay, which left her exhausted.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student accurately reflects Arenla's stated reasons for not teaching pot making, including the lack of joy, low income, and physical labor, as detailed in the source text.",
+          "seconds": 135.0
+        },
+        "gemma3:4b": {
+          "answer": "According to Arenla’s complaint, she didn’t want to teach her daughter pot making because it brought her no joy, only a pittance, and was a tiring job that involved a long and arduous journey to the clay source.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe answer accurately reflects Arenla's stated reasons from the source text: lack of joy, minimal income, and the physically demanding, time-consuming nature of pot making.",
+          "seconds": 113.9
+        },
+        "qwen2.5vl:7b": {
+          "answer": "Arenla did not want to teach her daughter pot making because she found it to be a tiring job and earned very little money from it.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer correctly identifies the reasons from the source text: the physical labor (tiring) and low income (pitance), which Arenla cited as reasons not to teach her daughter pot making.",
+          "seconds": 193.4
+        }
+      }
+    },
+    {
+      "id": "potmaker_03",
+      "question": "How far is the riverbank where the clay for pot making is found, according to Arenla?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to the text, the riverbank where the grey and red clay for pot making is found is sixteen kilometres from where Arenla lives.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's statement that the riverbank is sixteen kilometres from Arenla's location.",
+          "seconds": 85.6
+        },
+        "gemma3:4b": {
+          "answer": "The riverbank is sixteen kilometres from here.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer directly quotes the exact distance mentioned in the source text by Arenla.",
+          "seconds": 88.6
+        },
+        "qwen2.5vl:7b": {
+          "answer": "The riverbank where the clay for pot making is found is sixteen kilometres from the village.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe source text explicitly states the riverbank is sixteen kilometres from the village, matching the student's answer.",
+          "seconds": 55.8
+        }
+      }
+    },
+    {
+      "id": "potmaker_04",
+      "question": "What happened when the village council summoned Sentila's father, Mesoba, to explain Arenla's refusal to teach pottery to Sentila?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "When the village council summoned Sentila's father, Mesoba, to explain Arenla's refusal to teach pottery to Sentila, he replied that Arenla had never said she wouldn't teach Sentila, but wanted her to grow stronger after her illness. He assured the council that Sentila would soon make the best pots in the village. The council then decided to let Mesoba go, cautioning him to remind Arenla that it was her duty to teach her daughter the skill that was handed down from generation to generation.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects Mesoba's explanation and the council's decision as stated in the source text.",
+          "seconds": 56.8
+        },
+        "gemma3:4b": {
+          "answer": "The village council summoned Mesoba and asked him to explain Arenla’s refusal to teach her daughter pottery. They then decided to let him go after listening to his explanation, cautioning him to remind Arenla of her duty to pass on the skill.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the key events from the source text: the summoning of Mesoba, the explanation, and the elders' caution about Arenla's duty to teach.",
+          "seconds": 59.8
+        },
+        "qwen2.5vl:7b": {
+          "answer": "The village council summoned Mesoba to explain Arenla's refusal to teach pottery to Sentila. Mesoba replied in a humble tone, explaining that Arenla had not said she would not teach Sentila pottery, but only that she wanted Sentila to grow stronger after her illness. The elders decided to let Mesoba go, cautioning him to remind Arenla of her duty to teach the skill to her daughter.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the key events from the source text, including Mesoba's summoning, his explanation about Arenla's reasons, and the elders' caution about her duty to teach.",
+          "seconds": 133.5
+        }
+      }
+    },
+    {
+      "id": "potmaker_05",
+      "question": "Who is Onula, and how does she secretly help Sentila in the story?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "Onula is a kind, middle-aged widow who supervises the girls' dormitories where Sentila stays. She is described as a kind and skilled potter who sees Sentila's struggles and decides to secretly help her. She observes Sentila's attempts to make a pot and corrects her mistakes, teaching her the art of pot-making. She guides Sentila in the process, making her realize the importance of relaxation and coordination while working with the clay.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects Onula's role as a supervising widow who secretly observes and guides Sentila in pot-making, aligning with the source text's details.",
+          "seconds": 77.7
+        },
+        "gemma3:4b": {
+          "answer": "Onula is a kind, middle-aged widow who is called ‘Aunty’ by the girls. She secretly helps Sentila by observing her efforts to make pots and then teaching her how to make a perfect pot, after noticing Sentila was too tense.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately identifies Onula as a kind, middle-aged widow called 'Aunty' and correctly states she helps Sentila by observing her efforts and teaching her pot-making techniques, as supported by the source text.",
+          "seconds": 70.9
+        },
+        "qwen2.5vl:7b": {
+          "answer": "Onula is a kind, middle-aged widow who helps Sentila by secretly observing her and teaching her the art of pot making. She watches Sentila taking out clay and implements from her basket and later teaches her how to make a perfect pot.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects that Onula secretly observes Sentila and guides her in pot-making, as described in the source text.",
+          "seconds": 82.7
+        }
+      }
+    },
+    {
+      "id": "potmaker_06",
+      "question": "What mistake did Onula point out even after Sentila successfully made a beautiful pot on her own?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to the text, even after Sentila successfully made a beautiful pot, Onula pointed out that \"The mouth of the pot is all wrong.\"",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe text explicitly states that Onula pointed out the mouth of the pot was wrong after Sentila made her first beautiful pot.",
+          "seconds": 47.4
+        },
+        "gemma3:4b": {
+          "answer": "The mouth of the pot was all wrong.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe source text explicitly states that Onula pointed out the mouth of the pot was incorrect after Sentila initially made a beautiful pot.",
+          "seconds": 71.8
+        },
+        "qwen2.5vl:7b": {
+          "answer": "The mouth of the pot is all wrong.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe source text explicitly states that Onula pointed out the mouth of the pot was wrong after Sentila made a beautiful pot.",
+          "seconds": 73.8
+        }
+      }
+    },
+    {
+      "id": "potmaker_07",
+      "question": "What happened to Arenla on the day Sentila made a full batch of pots nearly matching her mother's tally?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to the story, Arenla died on the day Sentila made a full batch of pots nearly matching her mother's tally. Sentila found her mother lying on the floor, not breathing, and rushed to the common area to get help.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student correctly states that Arenla (Sentila's mother) died on the day Sentila made the pots, as the source text describes her finding her mother unresponsive and later confirming her death.",
+          "seconds": 100.1
+        },
+        "gemma3:4b": {
+          "answer": "Arenla was found lying on the floor, not breathing.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the event in the source text where Sentila found Arenla lying on the floor not breathing on the day she made the pots.",
+          "seconds": 68.0
+        },
+        "qwen2.5vl:7b": {
+          "answer": "Arenla was found lying on the floor, not breathing.",
+          "verdict": "INCORRECT",
+          "judge_raw": "INCORRECT  \nThe student's answer incorrectly identifies Arenla as the one found lying on the floor, whereas the source text states that Sentila's mother (not Arenla) was the one who died.",
+          "seconds": 69.2
+        }
+      }
+    },
+    {
+      "id": "potmaker_08",
+      "question": "What did Sentila cry out to her mother's body as it was being carried out of the house?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "Sentila cried out to her mother's body, \"Mother, I did not wish it to happen this way; it simply came to me. Please forgive me.\"",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer exactly matches the quoted dialogue from the source text where Sentila speaks to her mother's body.",
+          "seconds": 59.3
+        },
+        "gemma3:4b": {
+          "answer": "Sentila cried out, “Mother, I did not wish it to happen this way; it simply came to me.”",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately captures the exact words Sentila shouted to her mother's body as it was being carried out, matching the source text directly.",
+          "seconds": 81.0
+        },
+        "qwen2.5vl:7b": {
+          "answer": "\"Mother, I did not wish it to happen this way; it simply came to me. Please forgive me.\"",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer directly quotes the exact words Sentila shouted to her mother's body as it was being carried out, as stated in the source text.",
+          "seconds": 67.2
+        }
+      }
+    },
+    {
+      "id": "potmaker_09",
+      "question": "What did Onula discover in the work shed after Arenla's death, and what did it lead her to believe?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "Onula discovered two neat rows of newly-made pots standing side by side in the work shed after Arenla's death. This led her to believe that it was not the handiwork of one person alone, implying that Sentila was involved in the pot-making process.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student accurately identifies Onula's discovery of two rows of pots and her belief that it wasn't one person's work, which is directly supported by the source text.",
+          "seconds": 60.9
+        },
+        "gemma3:4b": {
+          "answer": "Onula discovered two neat rows of newly-made pots. This led her to believe that it was the work of two people.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects Onula's discovery of two rows of pots and her conclusion that it wasn't the work of a single person.",
+          "seconds": 101.2
+        },
+        "qwen2.5vl:7b": {
+          "answer": "Onula discovered two neat rows of newly-made pots in the work shed after Arenla's death. This led her to believe that it was the work of two people.",
+          "verdict": "PARTIAL",
+          "judge_raw": "PARTIAL  \nThe student correctly identifies the two rows of pots but the source text only states Onula believed it wasn't the work of one person, not explicitly that it was two people.",
+          "seconds": 56.0
+        }
+      }
+    },
+    {
+      "id": "potmaker_10",
+      "question": "Who is the author credited for the story 'The Pot Maker'?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "The author credited for the story 'The Pot Maker' is Temsula.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe source text includes \"Temsula\" at the end, which is explicitly cited as the author of the story.",
+          "seconds": 82.5
+        },
+        "gemma3:4b": {
+          "answer": "The author is not explicitly credited in the provided sources. The story is referred to as “The Pot Maker”.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe source text does not mention the author's name, so the student's answer is factually accurate.",
+          "seconds": 111.5
+        },
+        "qwen2.5vl:7b": {
+          "answer": "Temsula",
+          "verdict": "INCORRECT",
+          "judge_raw": "INCORRECT  \nThe source text does not explicitly state that Temsula is the author; it appears to be a character or part of the story's content, not the author's name.",
+          "seconds": 75.6
+        }
+      }
+    },
+    {
+      "id": "potmaker_11",
+      "question": "According to the chapter, what happens if a kiln is over-fired or under-fired during pot making?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to the chapter, if a kiln is over-fired or under-fired during pot making, the entire batch would be ruined.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's statement that over-firing or under-firing a kiln would ruin the entire batch.",
+          "seconds": 59.2
+        },
+        "gemma3:4b": {
+          "answer": "According to the chapter, if a kiln is over-fired or under-fired during pot making, the entire batch will ruin.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's statement that over-firing or under-firing a kiln would ruin the entire batch.",
+          "seconds": 63.9
+        },
+        "qwen2.5vl:7b": {
+          "answer": "The entire batch would be ruined.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer directly matches the source text's statement that over-firing or under-firing would ruin the entire batch.",
+          "seconds": 60.3
+        }
+      }
+    },
+    {
+      "id": "potmaker_12",
+      "question": "Who is the narrator's shoemaker in the story 'Quality' by John Galsworthy, and where was his shop located?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "The narrator's shoemaker in the story 'Quality' by John Galsworthy is Gessler, and his shop was located in a small by-street in a fashionable part of London.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe answer correctly identifies Gessler as the shoemaker and notes the shop's location in a small by-street in a fashionable London area, as stated in the source text.",
+          "seconds": 60.7
+        },
+        "gemma3:4b": {
+          "answer": "The narrator's shoemaker is Mr. Gessler, and his shop was located in a small by-street in a fashionable part of London.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student correctly identifies Mr. Gessler as the narrator's shoemaker and accurately states the shop's location in a small by-street in a fashionable part of London, as explicitly mentioned in the source text.",
+          "seconds": 307.7
+        },
+        "qwen2.5vl:7b": {
+          "answer": "The narrator's shoemaker in the story 'Quality' by John Galsworthy is Mr. Gessler. His shop was located in a small by-street in a fashionable part of London.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student correctly identifies Mr. Gessler as the narrator's shoemaker and accurately states the shop's location in a small by-street in a fashionable part of London, as supported by the source text.",
+          "seconds": 61.8
+        }
+      }
+    },
+    {
+      "id": "potmaker_13",
+      "question": "According to 'Quality', what did Mr Gessler say when asked if making boots was hard to do?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to the story 'Quality', when asked if making boots was hard to do, Mr Gessler replied, \"It is an ardt!\" (quoted in the story).",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately quotes Mr. Gessler's response \"It is an ardt!\" as stated in the source text.",
+          "seconds": 113.4
+        },
+        "gemma3:4b": {
+          "answer": "According to 'Quality', Mr Gessler responded, “It is an ardt!” (meaning “It is an art!”) when asked if making boots was hard to do.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the direct quote from the source text and correctly explains the meaning of \"Id is an ardt!\" as \"It is an art!\"",
+          "seconds": 41.2
+        },
+        "qwen2.5vl:7b": {
+          "answer": "\"It is an art!\"",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer \"It is an art!\" accurately reflects Mr. Gessler's response as quoted in the source text.",
+          "seconds": 56.6
+        }
+      }
+    },
+    {
+      "id": "potmaker_14",
+      "question": "In 'Quality', what happened to Mr Gessler's elder brother between the narrator's visits to the shop?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to the story, Mr Gessler's elder brother died between the narrator's visits to the shop. This is revealed in the last paragraph of the story, where the narrator says, \"This time it appeared to be his elder brother, handling a piece of leather.\" Mr. Gessler then says, \"I am breddy well, but my elder brudder is dead.\"",
+          "verdict": "INCORRECT",
+          "judge_raw": "INCORRECT  \nThe student incorrectly states the brother's death is mentioned in the last paragraph, but the source text reveals it during the first visit, not the second.",
+          "seconds": 61.8
+        },
+        "gemma3:4b": {
+          "answer": "Mr Gessler’s elder brother was dead.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe source text explicitly states that Mr. Gessler's elder brother died, which directly supports the student's answer.",
+          "seconds": 50.0
+        },
+        "qwen2.5vl:7b": {
+          "answer": "Mr Gessler's elder brother died between the narrator's visits to the shop.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe source text explicitly states that Mr Gessler's elder brother died between the narrator's visits, as he mentions his brother's death and the cause linked to his thinning hair.",
+          "seconds": 51.8
+        }
+      }
+    },
+    {
+      "id": "potmaker_15",
+      "question": "In 'Quality', what reason does the young man in the shop give for Mr Gessler's death when the narrator returns to find the shop taken over?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to the story, the young man in the shop says that Mr. Gessler starved himself to death. He says, \"Ah! poor old man starved himself. Slow starvation, the doctor called it! You see he went to work in such a way! Would keep the shop on; wouldn’t have a soul touch his boots except himself. When he got an order, it took him such a time. People won’t wait. He lost everybody. And there he’d sit, going on and on.\"",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the young man's explanation that Mr. Gessler starved himself to death due to his obsessive work habits and neglect of personal needs, as stated in the source text.",
+          "seconds": 60.6
+        },
+        "gemma3:4b": {
+          "answer": "The young man says, “Poor old man starved himself.”",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the young man's direct statement about Mr. Gessler's death being due to starvation.",
+          "seconds": 89.7
+        },
+        "qwen2.5vl:7b": {
+          "answer": "The young man in the shop says that Mr Gessler died of starvation.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the young man's statement that Mr Gessler died of starvation, as explicitly stated in the source text.",
+          "seconds": 70.3
+        }
+      }
+    },
+    {
+      "id": "potmaker_16",
+      "question": "According to 'Quality', why did the narrator order many pairs of boots from Mr Gessler after hearing him speak bitterly about the conditions and hardships of his trade?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to 'Quality', the narrator ordered many pairs of boots from Mr Gessler after hearing him speak bitterly about the conditions and hardships of his trade because Mr Gessler's face and voice made a deep impression on him, and he felt sorry for the old man's struggles.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer correctly identifies that the narrator's emotional reaction to Gessler's bitter speech and his appearance led to ordering boots, aligning with the text's description of the deep impression made by Gessler's face and voice.",
+          "seconds": 91.9
+        },
+        "gemma3:4b": {
+          "answer": "The narrator ordered many pairs of boots after hearing Gessler speak bitterly because the boots lasted longer than ever and he was impressed by Gessler's dedication to his craft, as evidenced by his meticulousness and unwillingness to accept poorly made goods.",
+          "verdict": "PARTIAL",
+          "judge_raw": "PARTIAL  \nThe student's answer partially correctly identifies Gessler's integrity and meticulousness but misattributes the reason for ordering the boots, as the text emphasizes the emotional impact of Gessler's bitterness and his refusal to accept inferior goods, not the boots' longevity.",
+          "seconds": 62.8
+        },
+        "qwen2.5vl:7b": {
+          "answer": "The narrator ordered many pairs of boots from Mr Gessler after hearing him speak bitterly about the conditions and hardships of his trade because Mr Gessler's words made a deep impression on him, and he felt sorry for the struggles and hardships that Mr Gessler was going through.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe narrator's action is directly tied to the deep impression made by Gessler's words and his evident struggle, which aligns with the text's emphasis on the emotional impact rather than explicit sympathy.",
+          "seconds": 72.0
+        }
+      }
+    },
+    {
+      "id": "potmaker_17",
+      "question": "According to the Learning Beyond the Text section, what are some notable regional styles of Indian pottery mentioned in the chapter?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to the Learning Beyond the Text section, some notable regional styles of Indian pottery mentioned in the chapter are:\n\n1. Khurja pottery from Uttar Pradesh\n2. Blue pottery from Jaipur\n3. Terracotta from West Bengal\n4. Andretta pottery from Himachal Pradesh\n5. Karigari pottery from Tamil Nadu\n6. Longpi Black pottery from Manipur",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately lists all the notable regional styles of Indian pottery mentioned in the source text.",
+          "seconds": 56.3
+        },
+        "gemma3:4b": {
+          "answer": "According to the Learning Beyond the Text section, some notable regional styles of Indian pottery mentioned are: Khurja pottery from Uttar Pradesh, Blue pottery from Jaipur, Terracotta from West Bengal, Andretta pottery from Himachal Pradesh, Karigari pottery from Tamil Nadu, and Longpi Black pottery from Manipur.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately lists all the notable regional styles of Indian pottery mentioned in the source text.",
+          "seconds": 54.9
+        },
+        "qwen2.5vl:7b": {
+          "answer": "1. Khurja pottery from Uttar Pradesh\n2. Blue pottery from Jaipur\n3. Terracotta from West Bengal\n4. Andretta pottery from Himachal Pradesh\n5. Karigari pottery from Tamil Nadu\n6. Longpi Black pottery from Manipur",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately lists all the notable regional styles of Indian pottery mentioned in the source text, correctly matching each style with its respective region.",
+          "seconds": 60.4
+        }
+      }
+    },
+    {
+      "id": "potmaker_18",
+      "question": "According to 'Quality', what did the narrator's boots from Mr Gessler have that made it unnecessary to visit him very often?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to 'Quality', the narrator's boots from Mr Gessler had something beyond the temporary, some essence of the boot stitched into them, which made it unnecessary to visit him very often.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer correctly captures the essence of the boots' superior craftsmanship and durability, which is implied in the source text where the narrator's boots lasted long and required minimal visits.",
+          "seconds": 54.8
+        },
+        "gemma3:4b": {
+          "answer": "According to 'Quality', the narrator's boots lasted “terribly, having something beyond the temporary, some essence of the boot stitched into them.”",
+          "verdict": "INCORRECT",
+          "judge_raw": "INCORRECT  \nThe source text does not mention the boots lasting \"terribly\" or having an \"essence of the boot stitched into them\"; instead, it focuses on the boots creaking and Gessler's response to that issue.",
+          "seconds": 57.6
+        },
+        "qwen2.5vl:7b": {
+          "answer": "The narrator's boots from Mr Gessler lasted terribly, having something beyond the temporary, some essence of the boot stitched into them.",
+          "verdict": "PARTIAL",
+          "judge_raw": "PARTIAL  \nThe answer mentions the boots' durability but inaccurately states they \"lasted terribly\" and introduces the concept of an \"essence stitched into them,\" which is not explicitly stated in the source text.",
+          "seconds": 61.0
+        }
+      }
+    },
+    {
+      "id": "giftsgrace_01",
+      "question": "Who is the poet credited for the poem 'I hear Bharat celebrating...' in 'Gifts of Grace - Honouring our Vocations'?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "The poet credited for the poem \"I hear Bharat celebrating...\" in \"Gifts of Grace - Honouring our Vocations\" is not specified in the provided references.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe source text explicitly attributes the poem to \"Anonymous,\" so the student's answer correctly notes that the poet is not specified.",
+          "seconds": 69.9
+        },
+        "gemma3:4b": {
+          "answer": "The poet is attributed with the line ‘I hear Bharat celebrating, the varied vocations I hear!’",
+          "verdict": "INCORRECT",
+          "judge_raw": "INCORRECT  \nThe student's answer incorrectly identifies the line rather than stating the poet's name, which is explicitly given as \"Anonymous\" in the source text.",
+          "seconds": 86.3
+        },
+        "qwen2.5vl:7b": {
+          "answer": "The poet credited for the poem 'I hear Bharat celebrating...' in 'Gifts of Grace - Honouring our Vocations' is not provided in the given context. The context only provides information about the poem and does not mention the poet's name.",
+          "verdict": "INCORRECT",
+          "judge_raw": "INCORRECT  \nThe source text explicitly states the poet as \"Anonymous,\" but the student's answer claims the poet is not mentioned.",
+          "seconds": 81.1
+        }
+      }
+    },
+    {
+      "id": "giftsgrace_02",
+      "question": "According to the poem, how are carpenters described, and what quality is associated with their craft?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to the poem, carpenters are described as \"celebrating\" and \"create anything out of wood with mathematical precision\". This suggests that carpenters are admired for their precision and skill in their craft.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student accurately identifies the descriptions of carpenters as \"celebrating\" and \"create anything out of wood with mathematical precision,\" directly reflecting the source text.",
+          "seconds": 86.7
+        },
+        "gemma3:4b": {
+          "answer": "The carpenters in the poem are admired for their work with mathematical precision, creating anything out of wood.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's description of carpenters creating anything from wood with mathematical precision.",
+          "seconds": 72.9
+        },
+        "qwen2.5vl:7b": {
+          "answer": "Carpenters are described as celebrating; they create anything out of wood with mathematical precision. The quality associated with their craft is mathematical precision.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's description of carpenters as celebrating and their craft's association with mathematical precision.",
+          "seconds": 59.9
+        }
+      }
+    },
+    {
+      "id": "giftsgrace_03",
+      "question": "According to the poem, what do the electricians do, and what is said about the artisans with lutes?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to the poem, the electricians \"humming; they get ready for work, work with cables and wires to brighten our lives.\" As for the artisans with lutes, it is said that they \"each hailing varied emotions and celebrating dreams, echoing in the streets.\"",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately quotes and reflects the source text's descriptions of both electricians and artisans with lutes.",
+          "seconds": 68.1
+        },
+        "gemma3:4b": {
+          "answer": "According to the poem, the electricians get ready for work with cables and wires to brighten our lives, and the artisans with lutes hail varied emotions and celebrate dreams, echoing in the streets.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects both the electricians' actions and the artisans with lutes' descriptions from the source text.",
+          "seconds": 87.1
+        },
+        "qwen2.5vl:7b": {
+          "answer": "The electricians are said to be humming and getting ready for work, working with cables and wires to brighten our lives. The artisans with lutes are said to be hailing varied emotions and celebrating dreams, echoing in the streets.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the details about electricians and artisans with lutes from the source text.",
+          "seconds": 78.2
+        }
+      }
+    },
+    {
+      "id": "giftsgrace_04",
+      "question": "According to the poem, what do boatmen do when they return from the sea?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to the poem, when the boatmen return from the sea, they gather their nets from the shore, sail, and sing while at work, and then return to tell the tales of life at sea.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's description of boatmen gathering nets, sailing, singing while working, and returning to share sea tales.",
+          "seconds": 94.8
+        },
+        "gemma3:4b": {
+          "answer": "Boatmen gather their nets from the shore, sail, and sing while at work, returning to tell tales of life at sea.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the boatmen's actions described in the source text: gathering nets, sailing, singing while working, and returning to share sea tales.",
+          "seconds": 225.8
+        },
+        "qwen2.5vl:7b": {
+          "answer": "The boatmen gather their nets from the shore, sail, and sing while at work, and then return to tell the tales of life at sea.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the boatmen's actions described in the source text.",
+          "seconds": 85.0
+        }
+      }
+    },
+    {
+      "id": "giftsgrace_05",
+      "question": "According to the poem, how does it describe shoemakers and the quality of shoes?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to the poem, shoemakers affirm the quality of their work, stating \"for the feet that walk, dance, run, jump, return home.\" This suggests that the quality of shoes helps with mobility and movement, allowing people to engage in various activities.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student accurately quotes the source text about shoemakers affirming their work's quality and correctly interprets the reference to feet's activities as relating to the shoes' role in mobility.",
+          "seconds": 71.3
+        },
+        "gemma3:4b": {
+          "answer": "The poem describes shoemakers as “affirming the quality of their work, for the feet that walk, dance, run, jump, return home.”",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately quotes and reflects the source text's description of shoemakers affirming their work's quality through the feet's activities.",
+          "seconds": 119.5
+        },
+        "qwen2.5vl:7b": {
+          "answer": "The poem describes shoemakers as affirming the quality of their work, which suggests that they are confident and proud of the quality of their craftsmanship. The quality shoes help with the feet that walk, dance, run, jump, and return home.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student accurately captures the poem's description of shoemakers affirming their work's quality and ties it to the feet's activities, aligning with the source text.",
+          "seconds": 148.0
+        }
+      }
+    },
+    {
+      "id": "giftsgrace_06",
+      "question": "What is the significance of the line 'The voice of their vocation is the voice of their identity' according to the poem?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to the poem, the significance of the line \"The voice of their vocation is the voice of their identity\" is that it highlights the idea that every person's profession or vocation is an integral part of who they are and what makes them unique. It emphasizes that each person's work is not just a job, but a reflection of their individuality and what defines them.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the poem's theme that vocational expression is integral to individual identity, aligning with the source text's emphasis on vocation as a defining aspect of self.",
+          "seconds": 3100.6
+        },
+        "gemma3:4b": {
+          "answer": "According to the poem, the line “The voice of their vocation is the voice of their identity” signifies that each worker’s profession defines who they are.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the poem's message that a person's profession (vocation) is integral to their sense of identity, as emphasized in the source text.",
+          "seconds": 98.8
+        },
+        "qwen2.5vl:7b": {
+          "answer": "The line 'The voice of their vocation is the voice of their identity' signifies that the work one does is not just a job but a reflection of their personal identity and essence. It suggests that each vocation is a unique expression of the individual's character and skills, and that through their work, they are able to express their true selves. This line emphasizes the importance of one's vocation in defining and affirming their identity.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the poem's message that vocational work is deeply tied to personal identity, as illustrated by the examples of boatmen, shoemakers, and others celebrating their unique roles.",
+          "seconds": 131.0
+        }
+      }
+    },
+    {
+      "id": "giftsgrace_07",
+      "question": "According to the chapter's critical reflection exercise, what does 'affirm' mean in the extract describing shoemakers?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to the given context, the correct answer is:\n\n(ii) to declare with confidence\n\nThe extract states: \"The shoemakers affirming the quality of their work, for the feet that walk, dance, run, jump, return home.\"",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student correctly identifies \"affirm\" as \"to declare with confidence,\" which aligns with the context of shoemakers confidently asserting their work's quality.",
+          "seconds": 93.5
+        },
+        "gemma3:4b": {
+          "answer": "‘Affirm’ refers to ‘declare with confidence’.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe source text's options include \"declare with confidence\" (ii), which aligns with the context of workers celebrating their unique contributions, supporting the student's answer.",
+          "seconds": 61.0
+        },
+        "qwen2.5vl:7b": {
+          "answer": "(ii) to declare with confidence",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe source text's context of workers celebrating their work aligns with \"declare with confidence\" as the meaning of \"affirm\" in the extract.",
+          "seconds": 101.1
+        }
+      }
+    },
+    {
+      "id": "giftsgrace_08",
+      "question": "According to the vocabulary matching exercise, what is a sericulturist and what is a horticulturist?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to the vocabulary matching exercise, a sericulturist is a producer of raw silk (question 3). A horticulturist is a person who studies or grows garden plants (question 1).",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student correctly matched \"sericulturist\" as a producer of raw silk and \"horticulturist\" as someone who studies or grows garden plants, aligning with the source text's definitions.",
+          "seconds": 106.6
+        },
+        "gemma3:4b": {
+          "answer": "एक sericulturist एक कच्चा रेशम बनाने वाला है। एक horticulturist एक ऐसा व्यक्ति है जो बगीचे के पौधों का अध्ययन या खेती करता है।",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately matches the definitions from the source text for both sericulturist and horticulturist.",
+          "seconds": 79.6
+        },
+        "qwen2.5vl:7b": {
+          "answer": "1. A person who studies or grows garden plants: horticulturist\n2. A trained female community health worker: ASHA worker\n3. A producer of raw silk: sericulturist\n4. A person whose job is making or selling sweets and chocolates: confectioner\n5. A metalworker who specialises in working with precious metals: goldsmith\n6. A person who fuses materials together: welder",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nAll answers correctly match the descriptions in the source text.",
+          "seconds": 85.5
+        }
+      }
+    },
+    {
+      "id": "giftsgrace_09",
+      "question": "What does the chapter explain ASHA (Accredited Social Health Activist) workers to be, and under which government mission do they work?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to the given context, ASHA (Accredited Social Health Activist) workers are a group of community health workers employed by the Ministry of Health and Family Welfare (MoHFW) as a part of India's National Rural Health Mission (NRHM).",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the information provided in the source text about ASHA workers and their association with the National Rural Health Mission under the Ministry of Health and Family Welfare.",
+          "seconds": 74.9
+        },
+        "gemma3:4b": {
+          "answer": "ASHA workers are trained female community health workers employed by the Ministry of Health and Family Welfare (MoHFW) as a part of India’s National Rural Health Mission (NRHM).",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's definition of ASHA workers and their association with the National Rural Health Mission.",
+          "seconds": 67.6
+        },
+        "qwen2.5vl:7b": {
+          "answer": "ASHA workers are community health workers employed by the Ministry of Health and Family Welfare (MoHFW) as a part of India’s National Rural Health Mission (NRHM).",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's definition of ASHA workers and their association with the National Rural Health Mission under the Ministry of Health and Family Welfare.",
+          "seconds": 96.0
+        }
+      }
+    },
+    {
+      "id": "giftsgrace_10",
+      "question": "Who wrote the poem 'The Lamplighter', given as additional reading in the chapter?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "The poem \"The Lamplighter\" is not attributed to a specific author in the given context.",
+          "verdict": "INCORRECT",
+          "judge_raw": "INCORRECT  \nThe source text explicitly attributes the poem \"The Lamplighter\" to R.L. Stevenson.",
+          "seconds": 69.3
+        },
+        "gemma3:4b": {
+          "answer": "The poem 'The Lamplighter' was given as additional reading in the chapter.",
+          "verdict": "INCORRECT",
+          "judge_raw": "INCORRECT  \nThe student's answer confirms the poem's inclusion in the chapter but fails to identify the author, R.L. Stevenson, explicitly stated in the source text.",
+          "seconds": 69.5
+        },
+        "qwen2.5vl:7b": {
+          "answer": "The Lamplighter",
+          "verdict": "INCORRECT",
+          "judge_raw": "INCORRECT  \nThe student's answer only provides the title of the poem but does not identify the author, who is explicitly stated as R.L. Stevenson in the source text.",
+          "seconds": 89.4
+        }
+      }
+    },
+    {
+      "id": "giftsgrace_11",
+      "question": "According to the poem 'The Lamplighter', what vocation does the child speaker say they will choose when they are older, and why?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to the poem 'The Lamplighter', the child speaker says they will choose to be a lamplighter when they are older. They express their desire to go round at night and light the lamps with Leerie, saying \"O Leerie, I'll go round at night and light the lamps with you!\"",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately identifies the child speaker's chosen vocation as a lamplighter and correctly cites the reason from the poem.",
+          "seconds": 90.9
+        },
+        "gemma3:4b": {
+          "answer": "The child speaker says they will go round at night and light the lamps with Leerie when they are stronger and can choose what they’re to do.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the child speaker's stated vocation (lighting lamps with Leerie) and the condition (when stronger and able to choose).",
+          "seconds": 1648.3
+        },
+        "qwen2.5vl:7b": {
+          "answer": "The child speaker says they will choose to go round at night and light the lamps with Leerie when they are older.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately identifies the vocation (being a lamplighter) as stated in the poem, aligning with the child speaker's explicit declaration.",
+          "seconds": 70.1
+        }
+      }
+    },
+    {
+      "id": "giftsgrace_12",
+      "question": "According to the poem 'The Lamplighter', what tools does Leerie carry as he comes up the street every evening?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to the poem, Leerie carries a lantern and a ladder as he comes up the street every evening.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the poem's explicit mention of Leerie carrying a lantern and a ladder.",
+          "seconds": 105.8
+        },
+        "gemma3:4b": {
+          "answer": "With lantern and with ladder.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer directly quotes the relevant lines from the poem, accurately identifying the lantern and ladder as Leerie's tools.",
+          "seconds": 60.6
+        },
+        "qwen2.5vl:7b": {
+          "answer": "Leerie carries a lantern and a ladder.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the tools mentioned in the poem: \"lantern and ladder.\"",
+          "seconds": 43.5
+        }
+      }
+    },
+    {
+      "id": "giftsgrace_13",
+      "question": "What is a Haiku, according to the definition given in the chapter?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to the definition given in the chapter, a Haiku is a traditional Japanese poetry form that is a very short poem consisting of 17 syllable verses divided into three lines, with five syllables in the first, seven syllables in the second, and five syllables in the third.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the 5-7-5 syllable structure and traditional Japanese origin described in the source text.",
+          "seconds": 83.9
+        },
+        "gemma3:4b": {
+          "answer": "Haiku is a traditional Japanese poetry form consisting of 17 syllable verses divided into three lines, with five syllables in the first, seven syllables in the second, and five syllables in the third.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately describes the structure of a Haiku as defined in the source text, specifying 17 syllables divided into three lines with 5-7-5 syllable counts.",
+          "seconds": 65.6
+        },
+        "qwen2.5vl:7b": {
+          "answer": "A Haiku is a traditional Japanese poetry form consisting of 17 syllable verses divided into three lines, with five syllables in the first line, seven syllables in the second line, and five syllables in the third line.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the definition of a Haiku provided in the source text, which specifies 17 syllables divided into three lines with a 5-7-5 structure.",
+          "seconds": 251.5
+        }
+      }
+    },
+    {
+      "id": "giftsgrace_14",
+      "question": "According to the riddles in the chapter, which vocation is described by the clue 'From wheel to kiln, my skill is born, step by step, an art takes form'?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to the riddle, the vocation described is a Potter or a Ceramic Artist.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer correctly identifies the vocation as a potter or ceramic artist, aligning with the second riddle's description of using a wheel and kiln.",
+          "seconds": 64.9
+        },
+        "gemma3:4b": {
+          "answer": "एक potter (मिट्टी के बर्तन बनाने वाला)।",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer matches the second riddle's clue about pottery creation, aligning with the source text's intended answer.",
+          "seconds": 63.3
+        },
+        "qwen2.5vl:7b": {
+          "answer": "Potter",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe riddle's clues about a wheel and kiln directly reference the potter's craft, aligning with the student's answer.",
+          "seconds": 67.7
+        }
+      }
+    },
+    {
+      "id": "giftsgrace_15",
+      "question": "According to the riddles in the chapter, which vocation is described by 'I lay foundations, brick by brick, to build a house, it's me you pick'?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to the riddle, the vocation described is that of a Builder or a Construction Worker.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer correctly identifies the vocation described in the third riddle as a builder or construction worker, matching the source text's wording and clues.",
+          "seconds": 74.1
+        },
+        "gemma3:4b": {
+          "answer": "A builder.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe riddle explicitly describes building a house brick by brick, which directly matches the role of a builder.",
+          "seconds": 60.3
+        },
+        "qwen2.5vl:7b": {
+          "answer": "Builder",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer \"Builder\" directly matches the third riddle in the source text, which explicitly describes laying foundations to build a house.",
+          "seconds": 73.8
+        }
+      }
+    },
+    {
+      "id": "giftsgrace_16",
+      "question": "What event does the Writing Task ask students to create a poster for, and on what date is it to be held?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "The Writing Task asks students to create a poster for a \"Career Mela\", and it is to be held on 25 February.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student correctly identifies the event as \"Career Mela\" and the date as 25 February, both explicitly stated in the source text.",
+          "seconds": 81.8
+        },
+        "gemma3:4b": {
+          "answer": "The Writing Task asks students to create a poster for a ‘Career Mela’ which spreads awareness about various careers. It is to be held on 25 February.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately identifies the event as the 'Career Mela' and correctly states the date as 25 February, both of which are explicitly mentioned in the source text.",
+          "seconds": 2905.4
+        },
+        "qwen2.5vl:7b": {
+          "answer": "The Writing Task asks students to create a poster for a 'Career Mela', and it is to be held on 25 February.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student correctly identifies the event as a 'Career Mela' and the date as 25 February, both explicitly stated in the source text.",
+          "seconds": 77.6
+        }
+      }
+    }
+  ]
+}
