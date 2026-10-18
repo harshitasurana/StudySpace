@@ -1,0 +1,33 @@
+{
+  "dataset_id": "ds_edu_0039",
+  "module": "examination_schedule_term2",
+  "title": "CBSE Term 2 Annual Examination timetable and invigilation matrix",
+  "board": "CBSE",
+  "standard": "Standard 9",
+  "version": "2026.1",
+  "last_updated": "2026-10-25",
+  "author": "Harshita Surana",
+  "records_count": 65,
+  "competencies": [
+    {
+      "code": "COMP-039-A",
+      "level": "Foundational",
+      "description": "Mastery of CBSE Term 2 Annual Examination timetable and invigilation matrix primary concepts"
+    },
+    {
+      "code": "COMP-039-B",
+      "level": "Intermediate",
+      "description": "Analytical application of CBSE Term 2 Annual Examination timetable and invigilation matrix principles"
+    },
+    {
+      "code": "COMP-039-C",
+      "level": "Advanced",
+      "description": "Critical synthesis and problem solving for CBSE Term 2 Annual Examination timetable and invigilation matrix"
+    }
+  ],
+  "rubrics": {
+    "excellent": "Demonstrates thorough understanding with >90% precision and clear reasoning",
+    "proficient": "Demonstrates competent application with 75-89% accuracy",
+    "developing": "Requires targeted remedial intervention on foundational principles"
+  }
+}
