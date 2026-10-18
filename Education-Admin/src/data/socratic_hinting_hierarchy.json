@@ -1,0 +1,33 @@
+{
+  "dataset_id": "ds_edu_0043",
+  "module": "socratic_hinting_hierarchy",
+  "title": "Socratic tutoring multi-level hint hierarchy (Conceptual, Guiding, Direct)",
+  "board": "CBSE",
+  "standard": "Standard 9",
+  "version": "2026.1",
+  "last_updated": "2026-10-25",
+  "author": "Harshita Surana",
+  "records_count": 85,
+  "competencies": [
+    {
+      "code": "COMP-043-A",
+      "level": "Foundational",
+      "description": "Mastery of Socratic tutoring multi-level hint hierarchy (Conceptual, Guiding, Direct) primary concepts"
+    },
+    {
+      "code": "COMP-043-B",
+      "level": "Intermediate",
+      "description": "Analytical application of Socratic tutoring multi-level hint hierarchy (Conceptual, Guiding, Direct) principles"
+    },
+    {
+      "code": "COMP-043-C",
+      "level": "Advanced",
+      "description": "Critical synthesis and problem solving for Socratic tutoring multi-level hint hierarchy (Conceptual, Guiding, Direct)"
+    }
+  ],
+  "rubrics": {
+    "excellent": "Demonstrates thorough understanding with >90% precision and clear reasoning",
+    "proficient": "Demonstrates competent application with 75-89% accuracy",
+    "developing": "Requires targeted remedial intervention on foundational principles"
+  }
+}
