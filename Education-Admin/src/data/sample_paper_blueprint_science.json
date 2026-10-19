@@ -1,0 +1,33 @@
+{
+  "dataset_id": "ds_edu_0047",
+  "module": "sample_paper_blueprint_science",
+  "title": "CBSE Class 9 Science sample paper design and section-wise marks allocation",
+  "board": "CBSE",
+  "standard": "Standard 9",
+  "version": "2026.1",
+  "last_updated": "2026-10-25",
+  "author": "Harshita Surana",
+  "records_count": 30,
+  "competencies": [
+    {
+      "code": "COMP-047-A",
+      "level": "Foundational",
+      "description": "Mastery of CBSE Class 9 Science sample paper design and section-wise marks allocation primary concepts"
+    },
+    {
+      "code": "COMP-047-B",
+      "level": "Intermediate",
+      "description": "Analytical application of CBSE Class 9 Science sample paper design and section-wise marks allocation principles"
+    },
+    {
+      "code": "COMP-047-C",
+      "level": "Advanced",
+      "description": "Critical synthesis and problem solving for CBSE Class 9 Science sample paper design and section-wise marks allocation"
+    }
+  ],
+  "rubrics": {
+    "excellent": "Demonstrates thorough understanding with >90% precision and clear reasoning",
+    "proficient": "Demonstrates competent application with 75-89% accuracy",
+    "developing": "Requires targeted remedial intervention on foundational principles"
+  }
+}
