@@ -1,0 +1,33 @@
+{
+  "dataset_id": "ds_edu_0060",
+  "module": "formula_sheet_chemistry_grade9",
+  "title": "Class 9 Chemistry mole concept and chemical formula reference sheet",
+  "board": "CBSE",
+  "standard": "Standard 10",
+  "version": "2026.1",
+  "last_updated": "2026-10-25",
+  "author": "Harshita Surana",
+  "records_count": 95,
+  "competencies": [
+    {
+      "code": "COMP-060-A",
+      "level": "Foundational",
+      "description": "Mastery of Class 9 Chemistry mole concept and chemical formula reference sheet primary concepts"
+    },
+    {
+      "code": "COMP-060-B",
+      "level": "Intermediate",
+      "description": "Analytical application of Class 9 Chemistry mole concept and chemical formula reference sheet principles"
+    },
+    {
+      "code": "COMP-060-C",
+      "level": "Advanced",
+      "description": "Critical synthesis and problem solving for Class 9 Chemistry mole concept and chemical formula reference sheet"
+    }
+  ],
+  "rubrics": {
+    "excellent": "Demonstrates thorough understanding with >90% precision and clear reasoning",
+    "proficient": "Demonstrates competent application with 75-89% accuracy",
+    "developing": "Requires targeted remedial intervention on foundational principles"
+  }
+}
