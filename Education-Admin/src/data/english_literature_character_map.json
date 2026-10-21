@@ -1,0 +1,33 @@
+{
+  "dataset_id": "ds_edu_0066",
+  "module": "english_literature_character_map",
+  "title": "Class 9 English Beehive and Moments character relationship map",
+  "board": "CBSE",
+  "standard": "Standard 10",
+  "version": "2026.1",
+  "last_updated": "2026-10-25",
+  "author": "Harshita Surana",
+  "records_count": 50,
+  "competencies": [
+    {
+      "code": "COMP-066-A",
+      "level": "Foundational",
+      "description": "Mastery of Class 9 English Beehive and Moments character relationship map primary concepts"
+    },
+    {
+      "code": "COMP-066-B",
+      "level": "Intermediate",
+      "description": "Analytical application of Class 9 English Beehive and Moments character relationship map principles"
+    },
+    {
+      "code": "COMP-066-C",
+      "level": "Advanced",
+      "description": "Critical synthesis and problem solving for Class 9 English Beehive and Moments character relationship map"
+    }
+  ],
+  "rubrics": {
+    "excellent": "Demonstrates thorough understanding with >90% precision and clear reasoning",
+    "proficient": "Demonstrates competent application with 75-89% accuracy",
+    "developing": "Requires targeted remedial intervention on foundational principles"
+  }
+}
