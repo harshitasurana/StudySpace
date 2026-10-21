@@ -1,0 +1,33 @@
+{
+  "dataset_id": "ds_edu_0068",
+  "module": "vocabulary_word_bank_grade9",
+  "title": "Class 9 English high-frequency academic vocabulary and root word dataset",
+  "board": "CBSE",
+  "standard": "Standard 10",
+  "version": "2026.1",
+  "last_updated": "2026-10-25",
+  "author": "Harshita Surana",
+  "records_count": 60,
+  "competencies": [
+    {
+      "code": "COMP-068-A",
+      "level": "Foundational",
+      "description": "Mastery of Class 9 English high-frequency academic vocabulary and root word dataset primary concepts"
+    },
+    {
+      "code": "COMP-068-B",
+      "level": "Intermediate",
+      "description": "Analytical application of Class 9 English high-frequency academic vocabulary and root word dataset principles"
+    },
+    {
+      "code": "COMP-068-C",
+      "level": "Advanced",
+      "description": "Critical synthesis and problem solving for Class 9 English high-frequency academic vocabulary and root word dataset"
+    }
+  ],
+  "rubrics": {
+    "excellent": "Demonstrates thorough understanding with >90% precision and clear reasoning",
+    "proficient": "Demonstrates competent application with 75-89% accuracy",
+    "developing": "Requires targeted remedial intervention on foundational principles"
+  }
+}
