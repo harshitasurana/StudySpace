@@ -1,0 +1,33 @@
+{
+  "dataset_id": "ds_edu_0075",
+  "module": "exam_anxiety_intervention_tips",
+  "title": "Student well-being and test stress reduction advisory tips schema",
+  "board": "CBSE",
+  "standard": "Standard 9",
+  "version": "2026.1",
+  "last_updated": "2026-10-25",
+  "author": "Harshita Surana",
+  "records_count": 95,
+  "competencies": [
+    {
+      "code": "COMP-075-A",
+      "level": "Foundational",
+      "description": "Mastery of Student well-being and test stress reduction advisory tips schema primary concepts"
+    },
+    {
+      "code": "COMP-075-B",
+      "level": "Intermediate",
+      "description": "Analytical application of Student well-being and test stress reduction advisory tips schema principles"
+    },
+    {
+      "code": "COMP-075-C",
+      "level": "Advanced",
+      "description": "Critical synthesis and problem solving for Student well-being and test stress reduction advisory tips schema"
+    }
+  ],
+  "rubrics": {
+    "excellent": "Demonstrates thorough understanding with >90% precision and clear reasoning",
+    "proficient": "Demonstrates competent application with 75-89% accuracy",
+    "developing": "Requires targeted remedial intervention on foundational principles"
+  }
+}
