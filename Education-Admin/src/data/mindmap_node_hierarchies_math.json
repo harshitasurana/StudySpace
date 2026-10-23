@@ -1,0 +1,33 @@
+{
+  "dataset_id": "ds_edu_0085",
+  "module": "mindmap_node_hierarchies_math",
+  "title": "Mathematics concept progression mindmap hierarchy dataset",
+  "board": "CBSE",
+  "standard": "Standard 9",
+  "version": "2026.1",
+  "last_updated": "2026-10-25",
+  "author": "Harshita Surana",
+  "records_count": 70,
+  "competencies": [
+    {
+      "code": "COMP-085-A",
+      "level": "Foundational",
+      "description": "Mastery of Mathematics concept progression mindmap hierarchy dataset primary concepts"
+    },
+    {
+      "code": "COMP-085-B",
+      "level": "Intermediate",
+      "description": "Analytical application of Mathematics concept progression mindmap hierarchy dataset principles"
+    },
+    {
+      "code": "COMP-085-C",
+      "level": "Advanced",
+      "description": "Critical synthesis and problem solving for Mathematics concept progression mindmap hierarchy dataset"
+    }
+  ],
+  "rubrics": {
+    "excellent": "Demonstrates thorough understanding with >90% precision and clear reasoning",
+    "proficient": "Demonstrates competent application with 75-89% accuracy",
+    "developing": "Requires targeted remedial intervention on foundational principles"
+  }
+}
