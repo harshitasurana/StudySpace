@@ -1,0 +1,33 @@
+{
+  "dataset_id": "ds_edu_0084",
+  "module": "mindmap_node_hierarchies_sci",
+  "title": "Science hierarchical mindmap node and concept relationship tree",
+  "board": "CBSE",
+  "standard": "Standard 10",
+  "version": "2026.1",
+  "last_updated": "2026-10-25",
+  "author": "Harshita Surana",
+  "records_count": 65,
+  "competencies": [
+    {
+      "code": "COMP-084-A",
+      "level": "Foundational",
+      "description": "Mastery of Science hierarchical mindmap node and concept relationship tree primary concepts"
+    },
+    {
+      "code": "COMP-084-B",
+      "level": "Intermediate",
+      "description": "Analytical application of Science hierarchical mindmap node and concept relationship tree principles"
+    },
+    {
+      "code": "COMP-084-C",
+      "level": "Advanced",
+      "description": "Critical synthesis and problem solving for Science hierarchical mindmap node and concept relationship tree"
+    }
+  ],
+  "rubrics": {
+    "excellent": "Demonstrates thorough understanding with >90% precision and clear reasoning",
+    "proficient": "Demonstrates competent application with 75-89% accuracy",
+    "developing": "Requires targeted remedial intervention on foundational principles"
+  }
+}
