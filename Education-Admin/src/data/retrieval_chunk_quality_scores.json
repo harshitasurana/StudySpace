@@ -1,0 +1,33 @@
+{
+  "dataset_id": "ds_edu_0088",
+  "module": "retrieval_chunk_quality_scores",
+  "title": "Precomputed chunk readability, technical density, and coherence scores",
+  "board": "CBSE",
+  "standard": "Standard 10",
+  "version": "2026.1",
+  "last_updated": "2026-10-25",
+  "author": "Harshita Surana",
+  "records_count": 85,
+  "competencies": [
+    {
+      "code": "COMP-088-A",
+      "level": "Foundational",
+      "description": "Mastery of Precomputed chunk readability, technical density, and coherence scores primary concepts"
+    },
+    {
+      "code": "COMP-088-B",
+      "level": "Intermediate",
+      "description": "Analytical application of Precomputed chunk readability, technical density, and coherence scores principles"
+    },
+    {
+      "code": "COMP-088-C",
+      "level": "Advanced",
+      "description": "Critical synthesis and problem solving for Precomputed chunk readability, technical density, and coherence scores"
+    }
+  ],
+  "rubrics": {
+    "excellent": "Demonstrates thorough understanding with >90% precision and clear reasoning",
+    "proficient": "Demonstrates competent application with 75-89% accuracy",
+    "developing": "Requires targeted remedial intervention on foundational principles"
+  }
+}
