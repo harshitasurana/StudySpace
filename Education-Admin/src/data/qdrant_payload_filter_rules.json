@@ -1,0 +1,33 @@
+{
+  "dataset_id": "ds_edu_0090",
+  "module": "qdrant_payload_filter_rules",
+  "title": "Qdrant metadata schema validation rules for multi-grade corpus",
+  "board": "CBSE",
+  "standard": "Standard 10",
+  "version": "2026.1",
+  "last_updated": "2026-10-25",
+  "author": "Harshita Surana",
+  "records_count": 95,
+  "competencies": [
+    {
+      "code": "COMP-090-A",
+      "level": "Foundational",
+      "description": "Mastery of Qdrant metadata schema validation rules for multi-grade corpus primary concepts"
+    },
+    {
+      "code": "COMP-090-B",
+      "level": "Intermediate",
+      "description": "Analytical application of Qdrant metadata schema validation rules for multi-grade corpus principles"
+    },
+    {
+      "code": "COMP-090-C",
+      "level": "Advanced",
+      "description": "Critical synthesis and problem solving for Qdrant metadata schema validation rules for multi-grade corpus"
+    }
+  ],
+  "rubrics": {
+    "excellent": "Demonstrates thorough understanding with >90% precision and clear reasoning",
+    "proficient": "Demonstrates competent application with 75-89% accuracy",
+    "developing": "Requires targeted remedial intervention on foundational principles"
+  }
+}
