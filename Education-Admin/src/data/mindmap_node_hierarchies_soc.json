@@ -1,0 +1,33 @@
+{
+  "dataset_id": "ds_edu_0086",
+  "module": "mindmap_node_hierarchies_soc",
+  "title": "Social Science concept clustering mindmap hierarchy dataset",
+  "board": "CBSE",
+  "standard": "Standard 10",
+  "version": "2026.1",
+  "last_updated": "2026-10-25",
+  "author": "Harshita Surana",
+  "records_count": 75,
+  "competencies": [
+    {
+      "code": "COMP-086-A",
+      "level": "Foundational",
+      "description": "Mastery of Social Science concept clustering mindmap hierarchy dataset primary concepts"
+    },
+    {
+      "code": "COMP-086-B",
+      "level": "Intermediate",
+      "description": "Analytical application of Social Science concept clustering mindmap hierarchy dataset principles"
+    },
+    {
+      "code": "COMP-086-C",
+      "level": "Advanced",
+      "description": "Critical synthesis and problem solving for Social Science concept clustering mindmap hierarchy dataset"
+    }
+  ],
+  "rubrics": {
+    "excellent": "Demonstrates thorough understanding with >90% precision and clear reasoning",
+    "proficient": "Demonstrates competent application with 75-89% accuracy",
+    "developing": "Requires targeted remedial intervention on foundational principles"
+  }
+}
