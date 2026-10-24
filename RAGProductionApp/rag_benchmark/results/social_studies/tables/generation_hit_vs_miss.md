@@ -1,0 +1,5 @@
+| Model | Hit N | Hit Accuracy | Miss N | Miss Accuracy |
+|---|---|---|---|---|
+| llama3:8b | 78 | 96.8% | 1 | 100.0% |
+| gemma3:4b | 78 | 93.6% | 1 | 100.0% |
+| qwen2.5vl:7b | 78 | 96.2% | 1 | 100.0% |
