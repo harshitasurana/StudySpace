@@ -1,0 +1,125 @@
+services:
+
+  fastapi:
+    image: ${APP_IMAGE:-rag-ai-tutor:preprod}
+    container_name: rag-ai-tutor-fastapi-preprod
+    restart: always
+
+    ports:
+      - "8200:8000"
+
+    env_file:
+      - ../env/.env.preprod
+
+    command:
+      - python
+      - -m
+      - uvicorn
+      - main:app
+      - --host
+      - 0.0.0.0
+      - --port
+      - "8000"
+      - --workers
+      - "2"
+
+    volumes:
+      - preprod_uploads:/app/uploads
+      - preprod_data:/app/data
+
+    networks:
+      - rag-network
+
+
+
+  redis:
+    image: redis:7-alpine
+    container_name: rag-ai-tutor-redis-preprod
+    restart: always
+
+    volumes:
+      - preprod_redis_data:/data
+
+    networks:
+      - rag-network
+
+
+  # Background generation for the 4 non-default mind-map variants (see
+  # core/mindmap_tasks.py), plus slide deck/infographic/quiz/flashcard —
+  # every task of that same SHAPE: one bounded, Ollama-bound generation
+  # per request. Explicit `-Q celery` — see docker-compose.dev.yml's
+  # comment on why (and celery_app.py's task_routes for the split this
+  # pairs with).
+  celery-worker:
+    image: ${APP_IMAGE:-rag-ai-tutor:preprod}
+    container_name: rag-ai-tutor-celery-worker-preprod
+    restart: always
+
+    env_file:
+      - ../env/.env.preprod
+
+    command:
+      - python
+      - -m
+      - celery
+      - -A
+      - core.celery_app
+      - worker
+      - --loglevel=info
+      - --concurrency=2
+      - -Q
+      - celery
+
+    volumes:
+      - preprod_uploads:/app/uploads
+      - preprod_data:/app/data
+
+    depends_on:
+      redis:
+        condition: service_started
+
+  # Image ingestion/enrichment — routed to its own "heavy" queue so a
+  # long-running job can never starve a student's quiz/tutor/mind-map
+  # request behind it — see docker-compose.dev.yml's fuller comment.
+  celery-worker-heavy:
+    image: ${APP_IMAGE:-rag-ai-tutor:preprod}
+    container_name: rag-ai-tutor-celery-worker-heavy-preprod
+    restart: always
+
+    env_file:
+      - ../env/.env.preprod
+
+    command:
+      - python
+      - -m
+      - celery
+      - -A
+      - core.celery_app
+      - worker
+      - --loglevel=info
+      - --concurrency=1
+      - -Q
+      - heavy
+
+    volumes:
+      - preprod_uploads:/app/uploads
+      - preprod_data:/app/data
+
+    depends_on:
+      redis:
+        condition: service_started
+
+    networks:
+      - rag-network
+
+
+volumes:
+  preprod_uploads:
+  preprod_data:
+  preprod_redis_data:
+
+
+networks:
+  rag-network:
+    name: rag-ai-tutor-preprod-network
+    driver: bridge

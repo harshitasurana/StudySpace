@@ -1,0 +1,5 @@
+| Model | CORRECT | PARTIAL | INCORRECT | UNPARSEABLE | ERROR | Accuracy |
+|---|---|---|---|---|---|---|
+| llama3:8b | 124 | 2 | 17 | 0 | 0 | 87.4% |
+| gemma3:4b | 131 | 3 | 9 | 0 | 0 | 92.7% |
+| qwen2.5vl:7b | 133 | 3 | 7 | 0 | 0 | 94.1% |

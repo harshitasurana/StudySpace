@@ -1,0 +1,775 @@
+{
+  "subject": "Social Studies",
+  "top_k": 3,
+  "n_questions": 79,
+  "retrieval_hit_rate": 0.9873417721518988,
+  "decomposition": {
+    "llama3:8b": {
+      "hit_n": 78,
+      "hit_counts": {
+        "CORRECT": 74,
+        "PARTIAL": 3,
+        "INCORRECT": 1,
+        "ERROR": 0
+      },
+      "hit_accuracy": 0.967948717948718,
+      "miss_n": 1,
+      "miss_counts": {
+        "CORRECT": 1,
+        "PARTIAL": 0,
+        "INCORRECT": 0,
+        "ERROR": 0
+      },
+      "miss_accuracy": 1.0
+    },
+    "gemma3:4b": {
+      "hit_n": 78,
+      "hit_counts": {
+        "CORRECT": 70,
+        "PARTIAL": 6,
+        "INCORRECT": 2,
+        "ERROR": 0
+      },
+      "hit_accuracy": 0.9358974358974359,
+      "miss_n": 1,
+      "miss_counts": {
+        "CORRECT": 1,
+        "PARTIAL": 0,
+        "INCORRECT": 0,
+        "ERROR": 0
+      },
+      "miss_accuracy": 1.0
+    },
+    "qwen2.5vl:7b": {
+      "hit_n": 78,
+      "hit_counts": {
+        "CORRECT": 73,
+        "PARTIAL": 4,
+        "INCORRECT": 1,
+        "ERROR": 0
+      },
+      "hit_accuracy": 0.9615384615384616,
+      "miss_n": 1,
+      "miss_counts": {
+        "CORRECT": 1,
+        "PARTIAL": 0,
+        "INCORRECT": 0,
+        "ERROR": 0
+      },
+      "miss_accuracy": 1.0
+    }
+  },
+  "per_question": [
+    {
+      "id": "socsci_01",
+      "retrieval_hit": true,
+      "context_ids": [
+        "5ee3f302-5f27-55d6-a7ed-61004de3aea3",
+        "057f008a-f237-54f1-bfa6-f627183c189d",
+        "d42647e9-8848-588a-996d-178fd5daa272"
+      ]
+    },
+    {
+      "id": "socsci_02",
+      "retrieval_hit": true,
+      "context_ids": [
+        "8f3be3b9-9db7-574d-bb2c-28237ed70fb5",
+        "5ee3f302-5f27-55d6-a7ed-61004de3aea3",
+        "468c3f45-676e-5473-a2a8-3520bd6f5ae0"
+      ]
+    },
+    {
+      "id": "socsci_03",
+      "retrieval_hit": true,
+      "context_ids": [
+        "d63cab89-bdf4-57b9-ba37-077b272285b1",
+        "e8bd972c-9759-56aa-aa0b-0fbb207322d5",
+        "022ab8e3-09aa-51d3-94f4-2da62e278d84"
+      ]
+    },
+    {
+      "id": "socsci_04",
+      "retrieval_hit": true,
+      "context_ids": [
+        "abddabd7-6098-559c-b62d-47da00f8fe68",
+        "5ee3f302-5f27-55d6-a7ed-61004de3aea3",
+        "c634aaf1-da2c-54e7-9b06-4327bea1f325"
+      ]
+    },
+    {
+      "id": "socsci_05",
+      "retrieval_hit": true,
+      "context_ids": [
+        "6e785d61-4b63-5d2c-a2e1-7de8e5fa3a11",
+        "d47198d0-d2ba-5696-bd4e-0e5f0b67a826",
+        "591a8dcc-aea4-51c8-a27e-faaafed61769"
+      ]
+    },
+    {
+      "id": "socsci_06",
+      "retrieval_hit": true,
+      "context_ids": [
+        "2833b2f4-c260-5c38-8013-0be95b121601",
+        "abddabd7-6098-559c-b62d-47da00f8fe68",
+        "e27b50c5-ca0f-55b7-b5fb-d2dd2ac306a4"
+      ]
+    },
+    {
+      "id": "socsci_07",
+      "retrieval_hit": true,
+      "context_ids": [
+        "f01402c1-72aa-50dc-9cf3-559ec268e540",
+        "d3c1efca-0776-5f03-adc2-e61b17971533",
+        "046f7fd2-b627-5b2d-9f7b-df1c3194d575"
+      ]
+    },
+    {
+      "id": "socsci_08",
+      "retrieval_hit": false,
+      "context_ids": [
+        "f01402c1-72aa-50dc-9cf3-559ec268e540",
+        "ce9e7de3-5c11-56c0-9004-f98c07073d03",
+        "01bf31e3-64e9-53b8-a0bc-392ef62cef89"
+      ]
+    },
+    {
+      "id": "socsci_09",
+      "retrieval_hit": true,
+      "context_ids": [
+        "c634aaf1-da2c-54e7-9b06-4327bea1f325",
+        "468c3f45-676e-5473-a2a8-3520bd6f5ae0",
+        "d42647e9-8848-588a-996d-178fd5daa272"
+      ]
+    },
+    {
+      "id": "socsci_10",
+      "retrieval_hit": true,
+      "context_ids": [
+        "d0ff9da0-828b-5d10-a4fa-48f5eee29c39",
+        "e8bd972c-9759-56aa-aa0b-0fbb207322d5",
+        "022ab8e3-09aa-51d3-94f4-2da62e278d84"
+      ]
+    },
+    {
+      "id": "socsci_11",
+      "retrieval_hit": true,
+      "context_ids": [
+        "b3ec4e8e-e2a6-57a2-bb8e-d034ecc6d001",
+        "ca6ee36a-2228-5192-8195-504543daee49",
+        "057f008a-f237-54f1-bfa6-f627183c189d"
+      ]
+    },
+    {
+      "id": "socsci_12",
+      "retrieval_hit": true,
+      "context_ids": [
+        "d42647e9-8848-588a-996d-178fd5daa272",
+        "057f008a-f237-54f1-bfa6-f627183c189d",
+        "5ee3f302-5f27-55d6-a7ed-61004de3aea3"
+      ]
+    },
+    {
+      "id": "earthsurf_01",
+      "retrieval_hit": true,
+      "context_ids": [
+        "c6b7ca3b-2724-596e-a23a-9a46a3cf35e5",
+        "e8fb7587-2a29-543c-9049-7fc332ee2a8c",
+        "f4e6828b-2377-58d1-8cf5-13562c511e41"
+      ]
+    },
+    {
+      "id": "earthsurf_03",
+      "retrieval_hit": true,
+      "context_ids": [
+        "b61e6ad0-d61b-51db-a79a-70f37ab27f32",
+        "5149df5e-3d0a-5579-bcb4-d3ef7cda54a5",
+        "c6b7ca3b-2724-596e-a23a-9a46a3cf35e5"
+      ]
+    },
+    {
+      "id": "earthsurf_04",
+      "retrieval_hit": true,
+      "context_ids": [
+        "b61e6ad0-d61b-51db-a79a-70f37ab27f32",
+        "c6b7ca3b-2724-596e-a23a-9a46a3cf35e5",
+        "3b3d99ae-39db-5015-8156-e849a8b695b6"
+      ]
+    },
+    {
+      "id": "earthsurf_05",
+      "retrieval_hit": true,
+      "context_ids": [
+        "e3205630-f319-5d83-b312-70fc691a59d0",
+        "e8fb7587-2a29-543c-9049-7fc332ee2a8c",
+        "c6b7ca3b-2724-596e-a23a-9a46a3cf35e5"
+      ]
+    },
+    {
+      "id": "earthsurf_06",
+      "retrieval_hit": true,
+      "context_ids": [
+        "e3205630-f319-5d83-b312-70fc691a59d0",
+        "e8fb7587-2a29-543c-9049-7fc332ee2a8c",
+        "c6b7ca3b-2724-596e-a23a-9a46a3cf35e5"
+      ]
+    },
+    {
+      "id": "earthsurf_07",
+      "retrieval_hit": true,
+      "context_ids": [
+        "ed24d869-9615-52ca-8cd8-a64b3b8a34de",
+        "257c5c53-bbed-5b30-991d-763ef5ec7e89",
+        "3b3d99ae-39db-5015-8156-e849a8b695b6"
+      ]
+    },
+    {
+      "id": "earthsurf_09",
+      "retrieval_hit": true,
+      "context_ids": [
+        "8aa4d7dc-3cb0-52a1-bb8c-beb07619818b",
+        "34805042-da63-5dad-8e1d-263852da7b00",
+        "90b940b3-964b-5fab-98fd-efa90e2ce723"
+      ]
+    },
+    {
+      "id": "earthsurf_10",
+      "retrieval_hit": true,
+      "context_ids": [
+        "34805042-da63-5dad-8e1d-263852da7b00",
+        "052f98cb-102e-5032-b7cb-e64204899a33",
+        "cc58e3f9-b9b9-5b67-bc06-8a74b0bfc78d"
+      ]
+    },
+    {
+      "id": "earthsurf_11",
+      "retrieval_hit": true,
+      "context_ids": [
+        "0932586b-64d5-566d-9714-1c4ad7264c97",
+        "a12ef968-1a78-5593-ac43-4e1fb7c82396",
+        "e15db258-cd14-5aa3-b063-f7f965071bd6"
+      ]
+    },
+    {
+      "id": "earthsurf_13",
+      "retrieval_hit": true,
+      "context_ids": [
+        "618131f0-a33a-5017-b541-6c132c13c17a",
+        "01992006-5d63-5a1f-99ae-b1e9ff3dc67f",
+        "3b3d99ae-39db-5015-8156-e849a8b695b6"
+      ]
+    },
+    {
+      "id": "earthsurf_14",
+      "retrieval_hit": true,
+      "context_ids": [
+        "e15db258-cd14-5aa3-b063-f7f965071bd6",
+        "618131f0-a33a-5017-b541-6c132c13c17a",
+        "052f98cb-102e-5032-b7cb-e64204899a33"
+      ]
+    },
+    {
+      "id": "earthsurf_15",
+      "retrieval_hit": true,
+      "context_ids": [
+        "eb9a8d3b-f43f-548b-b370-c713d558bd9c",
+        "052f98cb-102e-5032-b7cb-e64204899a33",
+        "897b915e-393b-533f-ab50-063f9f782ccc"
+      ]
+    },
+    {
+      "id": "earthsurf_16",
+      "retrieval_hit": true,
+      "context_ids": [
+        "28a7a75f-5b77-5764-af64-6925f04623b4",
+        "b2527395-4e4c-5789-801b-7f9c47ee046c",
+        "f2db9efb-bf58-5740-a25f-4d816951bc49"
+      ]
+    },
+    {
+      "id": "earthsurf_17",
+      "retrieval_hit": true,
+      "context_ids": [
+        "049fe1c3-1486-5161-b71a-330b2c2ac17f",
+        "a8bcebc9-2c93-5620-8a3b-b7382bb84137",
+        "fb04fa70-2e93-5f81-b048-1eec1827db62"
+      ]
+    },
+    {
+      "id": "earthsurf_18",
+      "retrieval_hit": true,
+      "context_ids": [
+        "fd8e4994-96be-586a-a572-2ce08114fc48",
+        "3b3d99ae-39db-5015-8156-e849a8b695b6",
+        "b5381e31-abda-587f-9e73-46618324a0a3"
+      ]
+    },
+    {
+      "id": "earthsurf_19",
+      "retrieval_hit": true,
+      "context_ids": [
+        "6a13a0b3-9150-5f37-b2c0-376058e75283",
+        "b5381e31-abda-587f-9e73-46618324a0a3",
+        "2a7fff18-1e42-50b3-b009-23d8a406906c"
+      ]
+    },
+    {
+      "id": "earthsurf_21",
+      "retrieval_hit": true,
+      "context_ids": [
+        "b798f23c-92c2-5da3-96c0-c30880718066",
+        "2a7fff18-1e42-50b3-b009-23d8a406906c",
+        "39c4a01c-4d53-5af4-adb6-486289fbad1b"
+      ]
+    },
+    {
+      "id": "earthsurf_22",
+      "retrieval_hit": true,
+      "context_ids": [
+        "ca4493bc-2cb5-5ea4-862c-d977a6ee23e2",
+        "055a79de-8bb2-5332-b799-d6d13a379951",
+        "2a7fff18-1e42-50b3-b009-23d8a406906c"
+      ]
+    },
+    {
+      "id": "earthsurf_24",
+      "retrieval_hit": true,
+      "context_ids": [
+        "cc58e3f9-b9b9-5b67-bc06-8a74b0bfc78d",
+        "e27b50c5-ca0f-55b7-b5fb-d2dd2ac306a4",
+        "e8bd972c-9759-56aa-aa0b-0fbb207322d5"
+      ]
+    },
+    {
+      "id": "atmosphere_01",
+      "retrieval_hit": true,
+      "context_ids": [
+        "29dd5719-7153-54d4-a947-1c035795b103",
+        "5149df5e-3d0a-5579-bcb4-d3ef7cda54a5",
+        "2b908319-4ce8-5c7f-8732-5ac8c99cfeac"
+      ]
+    },
+    {
+      "id": "atmosphere_02",
+      "retrieval_hit": true,
+      "context_ids": [
+        "29dd5719-7153-54d4-a947-1c035795b103",
+        "f270cf3f-5529-54a0-8b28-6bbb766707bf",
+        "2a7fff18-1e42-50b3-b009-23d8a406906c"
+      ]
+    },
+    {
+      "id": "atmosphere_03",
+      "retrieval_hit": true,
+      "context_ids": [
+        "81f23f3f-8779-50fa-95f6-2d975eaadea5",
+        "2b908319-4ce8-5c7f-8732-5ac8c99cfeac",
+        "5149df5e-3d0a-5579-bcb4-d3ef7cda54a5"
+      ]
+    },
+    {
+      "id": "atmosphere_04",
+      "retrieval_hit": true,
+      "context_ids": [
+        "cc48230a-8944-5113-9b6b-9da9bb5bf985",
+        "5149df5e-3d0a-5579-bcb4-d3ef7cda54a5",
+        "39c4a01c-4d53-5af4-adb6-486289fbad1b"
+      ]
+    },
+    {
+      "id": "atmosphere_07",
+      "retrieval_hit": true,
+      "context_ids": [
+        "cc48230a-8944-5113-9b6b-9da9bb5bf985",
+        "81f23f3f-8779-50fa-95f6-2d975eaadea5",
+        "39c4a01c-4d53-5af4-adb6-486289fbad1b"
+      ]
+    },
+    {
+      "id": "atmosphere_09",
+      "retrieval_hit": true,
+      "context_ids": [
+        "39c4a01c-4d53-5af4-adb6-486289fbad1b",
+        "2b908319-4ce8-5c7f-8732-5ac8c99cfeac",
+        "2a7fff18-1e42-50b3-b009-23d8a406906c"
+      ]
+    },
+    {
+      "id": "atmosphere_10",
+      "retrieval_hit": true,
+      "context_ids": [
+        "2b908319-4ce8-5c7f-8732-5ac8c99cfeac",
+        "7f317c6e-55aa-5c9d-b5c1-c903e8d701a4",
+        "5149df5e-3d0a-5579-bcb4-d3ef7cda54a5"
+      ]
+    },
+    {
+      "id": "atmosphere_12",
+      "retrieval_hit": true,
+      "context_ids": [
+        "f270cf3f-5529-54a0-8b28-6bbb766707bf",
+        "86c05a3a-e827-5735-8870-62269274fe61",
+        "39c4a01c-4d53-5af4-adb6-486289fbad1b"
+      ]
+    },
+    {
+      "id": "atmosphere_13",
+      "retrieval_hit": true,
+      "context_ids": [
+        "f270cf3f-5529-54a0-8b28-6bbb766707bf",
+        "86c05a3a-e827-5735-8870-62269274fe61",
+        "5149df5e-3d0a-5579-bcb4-d3ef7cda54a5"
+      ]
+    },
+    {
+      "id": "atmosphere_14",
+      "retrieval_hit": true,
+      "context_ids": [
+        "f270cf3f-5529-54a0-8b28-6bbb766707bf",
+        "86c05a3a-e827-5735-8870-62269274fe61",
+        "5149df5e-3d0a-5579-bcb4-d3ef7cda54a5"
+      ]
+    },
+    {
+      "id": "atmosphere_15",
+      "retrieval_hit": true,
+      "context_ids": [
+        "a2b16d5d-f3b2-5505-917f-77b7e11334af",
+        "2b908319-4ce8-5c7f-8732-5ac8c99cfeac",
+        "39c4a01c-4d53-5af4-adb6-486289fbad1b"
+      ]
+    },
+    {
+      "id": "atmosphere_18",
+      "retrieval_hit": true,
+      "context_ids": [
+        "674ae412-ed28-54c0-9b01-3435994d01c7",
+        "ac415dd5-9d26-58c9-bbb1-285819902f9e",
+        "71dca5b9-60a0-5986-91f5-e64e2f5aafd9"
+      ]
+    },
+    {
+      "id": "atmosphere_20",
+      "retrieval_hit": true,
+      "context_ids": [
+        "096b43d8-5be2-59ef-b4ed-9746b5a02e31",
+        "13c0d896-4788-5f7e-b029-b70a5b0791af",
+        "2a7fff18-1e42-50b3-b009-23d8a406906c"
+      ]
+    },
+    {
+      "id": "atmosphere_21",
+      "retrieval_hit": true,
+      "context_ids": [
+        "13c0d896-4788-5f7e-b029-b70a5b0791af",
+        "096b43d8-5be2-59ef-b4ed-9746b5a02e31",
+        "39c4a01c-4d53-5af4-adb6-486289fbad1b"
+      ]
+    },
+    {
+      "id": "atmosphere_22",
+      "retrieval_hit": true,
+      "context_ids": [
+        "13c0d896-4788-5f7e-b029-b70a5b0791af",
+        "3f604dd3-9031-53a7-b57e-a1dc2f591d27",
+        "ac415dd5-9d26-58c9-bbb1-285819902f9e"
+      ]
+    },
+    {
+      "id": "atmosphere_23",
+      "retrieval_hit": true,
+      "context_ids": [
+        "ac415dd5-9d26-58c9-bbb1-285819902f9e",
+        "71dca5b9-60a0-5986-91f5-e64e2f5aafd9",
+        "e4066a58-d135-520e-b971-80e487596e8c"
+      ]
+    },
+    {
+      "id": "atmosphere_24",
+      "retrieval_hit": true,
+      "context_ids": [
+        "096b43d8-5be2-59ef-b4ed-9746b5a02e31",
+        "ac415dd5-9d26-58c9-bbb1-285819902f9e",
+        "71dca5b9-60a0-5986-91f5-e64e2f5aafd9"
+      ]
+    },
+    {
+      "id": "atmosphere_25",
+      "retrieval_hit": true,
+      "context_ids": [
+        "096b43d8-5be2-59ef-b4ed-9746b5a02e31",
+        "ac415dd5-9d26-58c9-bbb1-285819902f9e",
+        "71dca5b9-60a0-5986-91f5-e64e2f5aafd9"
+      ]
+    },
+    {
+      "id": "atmosphere_27",
+      "retrieval_hit": true,
+      "context_ids": [
+        "e4066a58-d135-520e-b971-80e487596e8c",
+        "ac415dd5-9d26-58c9-bbb1-285819902f9e",
+        "71dca5b9-60a0-5986-91f5-e64e2f5aafd9"
+      ]
+    },
+    {
+      "id": "atmosphere_28",
+      "retrieval_hit": true,
+      "context_ids": [
+        "999e3354-3838-5db9-97f6-fc07cc84a190",
+        "39c4a01c-4d53-5af4-adb6-486289fbad1b",
+        "f2be03f4-2556-56b7-b997-9f642b5ad231"
+      ]
+    },
+    {
+      "id": "atmosphere_31",
+      "retrieval_hit": true,
+      "context_ids": [
+        "0d7ee36d-2f4e-55a3-8b13-35c379cb2f6b",
+        "2a7fff18-1e42-50b3-b009-23d8a406906c",
+        "b5381e31-abda-587f-9e73-46618324a0a3"
+      ]
+    },
+    {
+      "id": "atmosphere_32",
+      "retrieval_hit": true,
+      "context_ids": [
+        "2a7fff18-1e42-50b3-b009-23d8a406906c",
+        "b5381e31-abda-587f-9e73-46618324a0a3",
+        "0d7ee36d-2f4e-55a3-8b13-35c379cb2f6b"
+      ]
+    },
+    {
+      "id": "atmosphere_34",
+      "retrieval_hit": true,
+      "context_ids": [
+        "5149df5e-3d0a-5579-bcb4-d3ef7cda54a5",
+        "7f317c6e-55aa-5c9d-b5c1-c903e8d701a4",
+        "07e09907-cb2d-518e-ab43-7d507a548910"
+      ]
+    },
+    {
+      "id": "atmosphere_35",
+      "retrieval_hit": true,
+      "context_ids": [
+        "39c4a01c-4d53-5af4-adb6-486289fbad1b",
+        "7f317c6e-55aa-5c9d-b5c1-c903e8d701a4",
+        "468c3f45-676e-5473-a2a8-3520bd6f5ae0"
+      ]
+    },
+    {
+      "id": "earlyhumans_01",
+      "retrieval_hit": true,
+      "context_ids": [
+        "022ab8e3-09aa-51d3-94f4-2da62e278d84",
+        "e8bd972c-9759-56aa-aa0b-0fbb207322d5",
+        "f47563c8-6b6d-5b79-9531-17cae194846e"
+      ]
+    },
+    {
+      "id": "earlyhumans_02",
+      "retrieval_hit": true,
+      "context_ids": [
+        "022ab8e3-09aa-51d3-94f4-2da62e278d84",
+        "cf77c52a-37ff-5c38-aaf1-64fe3cace711",
+        "7d078f3d-5a05-55da-8223-506c6e7fa095"
+      ]
+    },
+    {
+      "id": "earlyhumans_03",
+      "retrieval_hit": true,
+      "context_ids": [
+        "e975e77a-31fd-574d-b6cb-e03305134b7d",
+        "8f958757-9021-5861-b476-00e341812fca",
+        "54519857-f30a-51dd-af41-ed7ec1012ae8"
+      ]
+    },
+    {
+      "id": "earlyhumans_04",
+      "retrieval_hit": true,
+      "context_ids": [
+        "e975e77a-31fd-574d-b6cb-e03305134b7d",
+        "8f958757-9021-5861-b476-00e341812fca",
+        "54519857-f30a-51dd-af41-ed7ec1012ae8"
+      ]
+    },
+    {
+      "id": "earlyhumans_05",
+      "retrieval_hit": true,
+      "context_ids": [
+        "a48f488b-911a-5737-bb12-85d61cd34248",
+        "ddd8b928-1697-5a74-b987-2b270b2d15b9",
+        "e975e77a-31fd-574d-b6cb-e03305134b7d"
+      ]
+    },
+    {
+      "id": "earlyhumans_07",
+      "retrieval_hit": true,
+      "context_ids": [
+        "0b370118-2f57-53ea-9eec-3e49f87dad32",
+        "71d55422-7847-5ac3-8488-f795c4a9b8bb",
+        "8f958757-9021-5861-b476-00e341812fca"
+      ]
+    },
+    {
+      "id": "earlyhumans_08",
+      "retrieval_hit": true,
+      "context_ids": [
+        "fc4aa439-90ba-59ed-8841-ea198e4b4199",
+        "54519857-f30a-51dd-af41-ed7ec1012ae8",
+        "7d078f3d-5a05-55da-8223-506c6e7fa095"
+      ]
+    },
+    {
+      "id": "earlyhumans_09",
+      "retrieval_hit": true,
+      "context_ids": [
+        "06b04113-7243-5677-a1d1-ae2d68bc218e",
+        "7d078f3d-5a05-55da-8223-506c6e7fa095",
+        "506f0f4d-28c8-5395-a75c-d181f48622fd"
+      ]
+    },
+    {
+      "id": "earlyhumans_10",
+      "retrieval_hit": true,
+      "context_ids": [
+        "06b04113-7243-5677-a1d1-ae2d68bc218e",
+        "ce9e7de3-5c11-56c0-9004-f98c07073d03",
+        "08bd7a70-9553-5100-8ef5-01e51ac1c6bd"
+      ]
+    },
+    {
+      "id": "earlyhumans_11",
+      "retrieval_hit": true,
+      "context_ids": [
+        "54519857-f30a-51dd-af41-ed7ec1012ae8",
+        "506f0f4d-28c8-5395-a75c-d181f48622fd",
+        "7d078f3d-5a05-55da-8223-506c6e7fa095"
+      ]
+    },
+    {
+      "id": "earlyhumans_12",
+      "retrieval_hit": true,
+      "context_ids": [
+        "08bd7a70-9553-5100-8ef5-01e51ac1c6bd",
+        "0b370118-2f57-53ea-9eec-3e49f87dad32",
+        "71d55422-7847-5ac3-8488-f795c4a9b8bb"
+      ]
+    },
+    {
+      "id": "earlyhumans_13",
+      "retrieval_hit": true,
+      "context_ids": [
+        "5e8605a3-8059-528b-a308-04009fc5242a",
+        "7d078f3d-5a05-55da-8223-506c6e7fa095",
+        "743a916e-77f2-5b17-99b6-173d8cb3fd0a"
+      ]
+    },
+    {
+      "id": "earlyhumans_14",
+      "retrieval_hit": true,
+      "context_ids": [
+        "743a916e-77f2-5b17-99b6-173d8cb3fd0a",
+        "5e8605a3-8059-528b-a308-04009fc5242a",
+        "47bf705c-64e1-5c87-95ff-cd9833914b0b"
+      ]
+    },
+    {
+      "id": "earlyhumans_15",
+      "retrieval_hit": true,
+      "context_ids": [
+        "3e68550d-a815-53e8-949e-c6f642483a54",
+        "743a916e-77f2-5b17-99b6-173d8cb3fd0a",
+        "5e8605a3-8059-528b-a308-04009fc5242a"
+      ]
+    },
+    {
+      "id": "earlyhumans_16",
+      "retrieval_hit": true,
+      "context_ids": [
+        "3e68550d-a815-53e8-949e-c6f642483a54",
+        "ecb40c8b-9780-51c9-ae8f-5e72af8d8901",
+        "cf77c52a-37ff-5c38-aaf1-64fe3cace711"
+      ]
+    },
+    {
+      "id": "earlyhumans_17",
+      "retrieval_hit": true,
+      "context_ids": [
+        "c89de48b-8e7a-53ad-b0f4-5d1738ea8f5f",
+        "4865b3e6-f9c0-557b-88b7-f38b394b2536",
+        "3e68550d-a815-53e8-949e-c6f642483a54"
+      ]
+    },
+    {
+      "id": "earlyhumans_18",
+      "retrieval_hit": true,
+      "context_ids": [
+        "ecb40c8b-9780-51c9-ae8f-5e72af8d8901",
+        "9636c90c-5c8c-576c-90ff-424c70d6b381",
+        "517f7d69-cfd8-5fa0-a230-c89b45cc42ec"
+      ]
+    },
+    {
+      "id": "earlyhumans_20",
+      "retrieval_hit": true,
+      "context_ids": [
+        "3062e45b-a389-512c-b5d8-310a02e90c17",
+        "cf77c52a-37ff-5c38-aaf1-64fe3cace711",
+        "9636c90c-5c8c-576c-90ff-424c70d6b381"
+      ]
+    },
+    {
+      "id": "earlyhumans_21",
+      "retrieval_hit": true,
+      "context_ids": [
+        "3f5ea51e-f263-596d-aa50-5a4cd8b673bf",
+        "a7ce3db2-541d-50e3-b7d8-e0f244433c7e",
+        "ac415dd5-9d26-58c9-bbb1-285819902f9e"
+      ]
+    },
+    {
+      "id": "earlyhumans_23",
+      "retrieval_hit": true,
+      "context_ids": [
+        "641b868a-b9b4-523a-bafb-36fcf9d713cf",
+        "3062e45b-a389-512c-b5d8-310a02e90c17",
+        "a7ce3db2-541d-50e3-b7d8-e0f244433c7e"
+      ]
+    },
+    {
+      "id": "earlyhumans_24",
+      "retrieval_hit": true,
+      "context_ids": [
+        "95c8b01a-bc50-5c65-8301-0625fbb220f1",
+        "5e8605a3-8059-528b-a308-04009fc5242a",
+        "32c1e2eb-8e54-5607-ba2d-3792b0805ea4"
+      ]
+    },
+    {
+      "id": "earlyhumans_25",
+      "retrieval_hit": true,
+      "context_ids": [
+        "71287e57-d6f0-5f62-a3dd-40d0e4edc1af",
+        "8f958757-9021-5861-b476-00e341812fca",
+        "95c8b01a-bc50-5c65-8301-0625fbb220f1"
+      ]
+    },
+    {
+      "id": "earlyhumans_26",
+      "retrieval_hit": true,
+      "context_ids": [
+        "32c1e2eb-8e54-5607-ba2d-3792b0805ea4",
+        "95c8b01a-bc50-5c65-8301-0625fbb220f1",
+        "ff1965c6-ae44-5299-9bbf-4a85c1487236"
+      ]
+    },
+    {
+      "id": "earlyhumans_27",
+      "retrieval_hit": true,
+      "context_ids": [
+        "95c8b01a-bc50-5c65-8301-0625fbb220f1",
+        "32c1e2eb-8e54-5607-ba2d-3792b0805ea4",
+        "3bd81790-808f-5eb2-902d-baf1fe63dd96"
+      ]
+    }
+  ]
+}

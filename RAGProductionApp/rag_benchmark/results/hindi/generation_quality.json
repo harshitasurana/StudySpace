@@ -1,0 +1,766 @@
+{
+  "subject": "Hindi",
+  "top_k": 3,
+  "generator_models": [
+    "llama3:8b",
+    "gemma3:4b",
+    "qwen2.5vl:7b"
+  ],
+  "judge_model": "qwen3:8b",
+  "questions_completed": 30,
+  "questions_total": 30,
+  "summary": {
+    "llama3:8b": {
+      "counts": {
+        "CORRECT": 11,
+        "PARTIAL": 5,
+        "INCORRECT": 14,
+        "UNPARSEABLE": 0,
+        "ERROR": 0
+      },
+      "accuracy": 0.45
+    },
+    "gemma3:4b": {
+      "counts": {
+        "CORRECT": 13,
+        "PARTIAL": 5,
+        "INCORRECT": 12,
+        "UNPARSEABLE": 0,
+        "ERROR": 0
+      },
+      "accuracy": 0.5166666666666667
+    },
+    "qwen2.5vl:7b": {
+      "counts": {
+        "CORRECT": 13,
+        "PARTIAL": 4,
+        "INCORRECT": 13,
+        "UNPARSEABLE": 0,
+        "ERROR": 0
+      },
+      "accuracy": 0.5
+    }
+  },
+  "per_question": [
+    {
+      "id": "hindi_bailon_01",
+      "question": "'दो बैलों की कथा' के लेखक कौन हैं, और उनका मूल नाम क्या था?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "The author of the story 'दो बैलों की कथा' is Premchand, and his original name was Dhaneshwar Nath Prasad.",
+          "verdict": "PARTIAL",
+          "judge_raw": "PARTIAL  \nThe student correctly identifies Premchand as the author but incorrectly states his original name as \"Dhaneshwar Nath Prasad,\" whereas the source text clarifies his original name was \"Dhanpat Rai.\"",
+          "seconds": 33.2
+        },
+        "gemma3:4b": {
+          "answer": "'दो बैलों की कथा' के लेखक प्रेमचंद थे।",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer correctly identifies Prem Chand as the author of \"दो बैलों की कथा,\" which is explicitly stated in the source text. While the original name (धनपत राय) is also mentioned, the student's response is factually accurate for the primary question about the author.",
+          "seconds": 115.1
+        },
+        "qwen2.5vl:7b": {
+          "answer": "प्रेमचंद का मूल नाम है प्रेमचंदर शर्मा।",
+          "verdict": "INCORRECT",
+          "judge_raw": "INCORRECT  \nThe source text explicitly states that Prem Chand's original name was \"धनपत राय,\" not \"प्रेमचंदर शर्मा.\"",
+          "seconds": 39.9
+        }
+      }
+    },
+    {
+      "id": "hindi_bailon_02",
+      "question": "प्रेमचंद का जन्म किस वर्ष और किस स्थान पर हुआ था?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "प्रेमचंद का जन्म सन् 1880 में लमही (वाराणसी), उत्तर प्रदेश में हुआ था।",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the birth year (1880) and location (Lamhi, Varanasi, Uttar Pradesh) provided in the source text.",
+          "seconds": 42.6
+        },
+        "gemma3:4b": {
+          "answer": "प्रेमचंद का जन्म सन 1880 में लमही (वाराणसी), उत्तर प्रदेश में हुआ था।",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the year (1880) and location (Lamhi, Varanasi, Uttar Pradesh) from the source text.",
+          "seconds": 37.6
+        },
+        "qwen2.5vl:7b": {
+          "answer": "प्रेमचंद का जन्म 1880 में लमही (वाराणसी), उत्तर प्रदेश में हुआ था।",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the birth year (1880) and location (Lamhi, Varanasi, Uttar Pradesh) provided in the source text.",
+          "seconds": 46.8
+        }
+      }
+    },
+    {
+      "id": "hindi_bailon_03",
+      "question": "प्रेमचंद की कहानियाँ किस आठ भागों वाले संकलन में संकलित हैं?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "प्रेमचंद की कहानियाँ मानसरोवर करे आठ भागों में संकलित हैं।",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer correctly identifies \"मानसरोवर\" as the eight-part collection of Prem Chand's stories, matching the source text.",
+          "seconds": 57.6
+        },
+        "gemma3:4b": {
+          "answer": "प्रेमचंद की कहानियाँ ‘मानसरोवर’ नामक आठ भागों वाले संकलन में संकलित हैं।",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer correctly identifies \"मानसरोवर\" as the eight-volume collection containing Prem Chand's stories, as stated in the source text.",
+          "seconds": 45.3
+        },
+        "qwen2.5vl:7b": {
+          "answer": "प्रेमचंद की कहानियाँ 'मानसरोवर' के आठ भागों वाले संकलन में संकलित हैं।",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer correctly identifies \"मानसरोवर\" as the eight-part collection containing Prem Chand's stories, as explicitly stated in the source text.",
+          "seconds": 52.0
+        }
+      }
+    },
+    {
+      "id": "hindi_bailon_04",
+      "question": "प्रेमचंद का निधन किस वर्ष हुआ था?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "प्रेमचंद का निधन सन् 1936 में हो गया था।",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer correctly states that Prem Chand's death occurred in 1936, which is explicitly mentioned in the source text.",
+          "seconds": 51.8
+        },
+        "gemma3:4b": {
+          "answer": "प्रेमचंद का निधन सन् 1936 में हुआ था।",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer correctly states that Prem Chand's death occurred in 1936, as explicitly mentioned in the source text.",
+          "seconds": 41.4
+        },
+        "qwen2.5vl:7b": {
+          "answer": "1936",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe source text explicitly states that Prem Chand's death occurred in 1936, matching the student's answer.",
+          "seconds": 39.7
+        }
+      }
+    },
+    {
+      "id": "hindi_bailon_05",
+      "question": "कहानी में दोनों बैलों के नाम क्या हैं, और उनके मालिक का नाम क्या है?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to the given context (संदर्भ), the names of the two oxen are हीरा and मेोती। Their owner's name is झूरी (Jhuri).",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student correctly identified the oxen's names (हीरा and मेोती) and their owner (झूरी) as stated in the source text.",
+          "seconds": 54.9
+        },
+        "gemma3:4b": {
+          "answer": "कहानी में दोनों बैलों के नाम हीरा और मेोती हैं, और उनके मालिक का नाम झूरी है।",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student correctly identified the bulls' names as हीरा and मेोती and their owner's name as झूरी, as explicitly stated in the source text.",
+          "seconds": 62.5
+        },
+        "qwen2.5vl:7b": {
+          "answer": "दोनों बैलों के नाम हैं हीरा और मेोती, और उनके मालिक का नाम झूरी है।",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student correctly identified the bulls' names (हीरा and मोती) and their owner's name (झूरी) as stated in the source text.",
+          "seconds": 65.3
+        }
+      }
+    },
+    {
+      "id": "hindi_bailon_06",
+      "question": "हीरा और मोती किस जाति के बैल थे?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to the context, हीरा और मेोती के बैल थे। Therefore, the answer is:\n\nहीरा और मेोती के बैल थे।",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer correctly identifies that हीरा और मोती were bulls, as stated in the source text, and the answer is factually supported.",
+          "seconds": 170.0
+        },
+        "gemma3:4b": {
+          "answer": "संदर्भ के अनुसार, हीरा और मोती बैल थे।",
+          "verdict": "PARTIAL",
+          "judge_raw": "PARTIAL  \nThe student correctly identifies Hira and Moti as bulls but does not specify their breed, which is mentioned in the source text.",
+          "seconds": 38.3
+        },
+        "qwen2.5vl:7b": {
+          "answer": "हीरा और मोती अजड़यल बैल थे।",
+          "verdict": "INCORRECT",
+          "judge_raw": "INCORRECT  \nThe source text specifies that Hira and Moti belonged to the \"पछाइ िाजत\" caste, not \"अजड़यल बैल.\"",
+          "seconds": 42.3
+        }
+      }
+    },
+    {
+      "id": "hindi_bailon_07",
+      "question": "गया के घर पहुँचने पर दोनों बैलों ने नाँद में मुँह क्यों नहीं डाला, जबकि वे दिन-भर के भूखे थे?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "उत्तर: क्योंकि उन्हें नाँद में मुँह डालने से सूखा भूसा मिल जाता था, जिसे झूरी की स्त्री ने उन्हें देने का वचन दिया था।",
+          "verdict": "INCORRECT",
+          "judge_raw": "INCORRECT  \nThe student's answer introduces a new detail about dry fodder and a promise from a woman, which is not mentioned in the source text. The source text attributes the bullocks' behavior to the unfamiliarity of the new environment and the weight of the trough, not fodder promises.",
+          "seconds": 40.5
+        },
+        "gemma3:4b": {
+          "answer": "गया के घर पहुँचने पर दोनों बैलों ने नाँद में मुँह नहीं डाला क्योंकि सूखा भूसा दिया गया था, जो फीका-फीका था और उसमें रस नहीं था।",
+          "verdict": "INCORRECT",
+          "judge_raw": "INCORRECT  \nThe student's answer attributes the bulls' refusal to eat to poor fodder quality, but the source text explains it as disorientation due to a new environment, not fodder issues.",
+          "seconds": 39.0
+        },
+        "qwen2.5vl:7b": {
+          "answer": "दोनों बैलों ने नाँद में मुँह न डाला, क्योंकि वे अपना घर समेझ रखा था और नया घर, नया गाँव, नए आदमी आदि सब उन्हें बेगानों से लगते थे।",
+          "verdict": "PARTIAL",
+          "judge_raw": "PARTIAL  \nThe student's answer correctly identifies the unfamiliarity of the new environment as a reason but omits the key detail from the source text about the heavy trough preventing the bulls from drinking.",
+          "seconds": 68.9
+        }
+      }
+    },
+    {
+      "id": "hindi_bailon_08",
+      "question": "हीरा और मोती रात में गया के घर से किस तरह भाग निकले?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "हीरा और मोती रात में गया के घर से भाग निकले थे क्योंकि हीरा ने देखा कि संगी सं‍ट मेें है, तो लौ‍ट पड़ा था।",
+          "verdict": "INCORRECT",
+          "judge_raw": "INCORRECT  \nThe student's answer introduces an unsupported reason (seeing someone and turning back) not present in the source text, which describes the bulls breaking through the gate due to determination, not fleeing from someone.",
+          "seconds": 45.5
+        },
+        "gemma3:4b": {
+          "answer": "हीरा और मोती ने रात में रास्ते भूल जाने के बाद, वे अपने घर के मेौगशि से भटक गए थे। जब मोती ने देखा कि उसे पकड़ लिया गया है, तो उसने हीरा को यहीं पड़ा रहने को कहा, जबकि हीरा ने भी हार मान ली और वहीं खड़ा रहा।",
+          "verdict": "INCORRECT",
+          "judge_raw": "INCORRECT  \nThe student's answer describes getting lost and surrendering, whereas the source text details breaking through gates to escape at night, not losing their way.",
+          "seconds": 39.2
+        },
+        "qwen2.5vl:7b": {
+          "answer": "हीरा और मोती रात में गया के घर से अपने जमेत्रों की रस्सी तोड़कर भाग निकले।",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer correctly states that हीरा और मोती broke their ropes (जमेत्रों की रस्सी) to escape, aligning with the source text's description of them breaking the strong pegs (पगह) with their own strength.",
+          "seconds": 57.2
+        }
+      }
+    },
+    {
+      "id": "hindi_bailon_09",
+      "question": "हीरा और मोती ने मिलकर साँड़ को हराने के लिए क्या रणनीति अपनाई?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "हीरा और मोती ने साँड़ को हराने के लिए एक साथ चोट कर और फिर एक-दूसरे को ठेलने लगे। मोती ने हीरा को पीछे हटने का संकेत दिया, जब साँड़ उसकी तरफ मुड़ा हीरा ने रगेदा और साँड़ को पीछे हटने के लिए मजबूर कर दिया।",
+          "verdict": "PARTIAL",
+          "judge_raw": "PARTIAL  \nThe student's answer captures the coordinated attack strategy from front and back but incorrectly adds details about \"pushing each other\" not explicitly mentioned in the source text.",
+          "seconds": 78.7
+        },
+        "gemma3:4b": {
+          "answer": "हीरा ने साँड़ पर दोहरी मार पड़ने की रणनीति बताई, जिसमें वह आगे से और मोती पीछे से उस पर झपटेगा। उसने सींग घुसाने की भी सलाह दी।",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately describes the joint strategy of attacking from front and back, including the specific action of thrusting the horn into the saund's stomach, which is explicitly detailed in the source text.",
+          "seconds": 69.3
+        },
+        "qwen2.5vl:7b": {
+          "answer": "हीरा और मोती ने एक साथ चोट करने की रणनीति अपनाई। वे एक साथ चोट करेंगे और दोहरी मार पड़ेगी। यह रणनीति उन्हें साँड़ को दूसरे तरफ धकेलने में मदद करेगी।",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer correctly identifies the strategy of both hitting the snake simultaneously to create a double blow, as explicitly stated in the source text.",
+          "seconds": 48.4
+        }
+      }
+    },
+    {
+      "id": "hindi_bailon_10",
+      "question": "कौन-सी छोटी लड़की दोनों बैलों को चुपके से रोटियाँ खिलाती थी, और उसे बैलों से अपनापन क्यों था?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "उत्तर: प्यारी लड़की है, जो इस घर का मेाजलक है। वह दोनों बैलों को चुपके से रोटियाँ खिलाती थी और उसे बैलों से अपनापन था क्योंकि वह उनसे प्यार करती थी।",
+          "verdict": "PARTIAL",
+          "judge_raw": "PARTIAL  \nThe student correctly identifies the girl as the one who fed the bullocks but incorrectly attributes her attachment to love, whereas the source text explains it as a sense of belonging due to her mistreatment by her stepmother.",
+          "seconds": 43.2
+        },
+        "gemma3:4b": {
+          "answer": "छोटी लड़की जिसका नाम जफर था, वह दोनों बैलों को चुपके से रोटियाँ खिलाती थी। उसे बैलों से अपनापन था क्योंकि वह उनके मालक थी।",
+          "verdict": "PARTIAL",
+          "judge_raw": "PARTIAL  \nThe student correctly identifies the girl as feeding the bullocks but incorrectly states the reason for her attachment (ownership vs. her harsh treatment by her stepmother).",
+          "seconds": 56.4
+        },
+        "qwen2.5vl:7b": {
+          "answer": "मेोती छोटी लड़की थी जो दोनों बैलों को चुपके से रोटियाँ खिलाती थी, और उसे बैलों से अपनापन क्यों था।",
+          "verdict": "INCORRECT",
+          "judge_raw": "INCORRECT  \nThe student's answer incorrectly attributes the name \"मेोती\" to the girl, while the source text does not mention her name, only describing her as a \"छोटी-सी लड़की\" and explaining her attachment to the bullocks due to her stepmother's mistreatment.",
+          "seconds": 98.1
+        }
+      }
+    },
+    {
+      "id": "hindi_bailon_11",
+      "question": "हीरा और मोती को अंततः काँजीहौस (कांजीहाउस) क्यों ले जाया गया?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "हीरा और मोती को काँजीहौस क्यों ले जाया गया? क्योंकि वे दोनों ने दौड़ लगाई और जमेत्रों को घेर लिया, लेकिन कोई चारा नहीं मिला। तब वे दीवार की नमेकीन जमे‍ट्‍टी चा‍टनी शुरू की, लेकिन इससे तृजप्त नहीं होती थी।",
+          "verdict": "INCORRECT",
+          "judge_raw": "INCORRECT  \nThe student's answer incorrectly attributes the reason for being taken to Kanjihous to their actions (running, lack of fodder), while the source text explicitly states they were locked there in the morning without explaining the cause.",
+          "seconds": 56.1
+        },
+        "gemma3:4b": {
+          "answer": "संदर्भ के अनुसार, हीरा और मोती को कांजीहौस में ले जाया गया क्योंकि हल, रस्सी, ईवुआ,ोत और अन्य उपकरण टूट-फूट कर बराबर हो गए थे। इससे निपटने के लिए वे दीवार की नमेकीन जमे‍ट््‍टी चा‍टनी शुरू कर दिया, लेकिन इससे कोई फायदा नहीं हुआ।",
+          "verdict": "INCORRECT",
+          "judge_raw": "INCORRECT  \nThe student's answer introduces reasons (broken tools, chipping the wall) not present in the source text, which only states they were locked in Kanjihaus in the morning.",
+          "seconds": 50.1
+        },
+        "qwen2.5vl:7b": {
+          "answer": "हीरा और मोती को अंततः काँजीहौस के लिए ले जाया गया था क्योंकि वे दोनों जमेत्र थे और अपने जमेत्री को बंद कर दिया गया था। इसलिए उन्हें काँजीहौस में बंद कर दिया गया था।",
+          "verdict": "INCORRECT",
+          "judge_raw": "INCORRECT  \nThe student's answer incorrectly attributes the reason for taking Diamond and Pearl to Kanzihaus to their status as \"jametra,\" while the source text only states they were locked there without explaining the cause.",
+          "seconds": 75.2
+        }
+      }
+    },
+    {
+      "id": "hindi_bailon_12",
+      "question": "हीरा ने काँजीहौस की दीवार कैसे गिराई?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "हीरा ने काँजीहौस की दीवार को नहीं गिराई। वास्तव में मेोती ने दीवार को गिराया था, जिसके बाद हीरा ने दीवार पर चोटें कीं और जमे‍ट््‍टी जगराने लगा।",
+          "verdict": "INCORRECT",
+          "judge_raw": "INCORRECT  \nThe source text clearly states that both Meeti and Hira contributed to breaking the wall, with Meeti initiating the damage and Hira continuing the effort, contradicting the student's claim that Hira didn't break it.",
+          "seconds": 69.8
+        },
+        "gemma3:4b": {
+          "answer": "हीरा ने अपनी नुकीली सींगों से दीवार में छेद किए और फिर जमीन से मिट्टी निकालकर उन छेदों में डाल दिया।",
+          "verdict": "INCORRECT",
+          "judge_raw": "INCORRECT  \nThe student's answer introduces elements like \"sharp horns\" and \"filling holes with earth\" not present in the source text, which describes breaking the wall through peg-driving efforts without such methods.",
+          "seconds": 59.2
+        },
+        "qwen2.5vl:7b": {
+          "answer": "हीरा ने दीवार को गड़ा जाने वाले जमे‍ट््‍टी के बूते पर अकड़ते थे। जब वह अकड़ गई, तो दीवार गिरी।",
+          "verdict": "PARTIAL",
+          "judge_raw": "PARTIAL  \nThe student's answer mentions Diamond using strength to break the wall, which aligns with the source text, but it inaccurately describes the method as \"gripping the earth's point,\" while the source emphasizes collective effort and physical striking, not a specific technique.",
+          "seconds": 66.1
+        }
+      }
+    },
+    {
+      "id": "hindi_bailon_13",
+      "question": "दीवार गिरने के बाद कौन-से जानवर तुरंत भाग निकले, और कौन-से जानवर डर के मारे वहीं खड़े रहे?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to the story, the donkeys (गधे) were the ones who were hesitant to run away due to fear, and they remained standing in the same spot. The other animals, such as the buffalo (भैंसें) and the goats (बकररयाँ), ran away immediately after the wall collapsed.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer correctly identifies the donkeys as remaining standing due to fear and the goats and buffalo as fleeing immediately, as stated in the source text.",
+          "seconds": 39.1
+        },
+        "gemma3:4b": {
+          "answer": "दीवार गिरने के बाद तीनों घोजड़याँ सरप‍ट भाग कलीं, जबकि गधे और भैंसें डर के मारे वहीं खड़े रहे।",
+          "verdict": "INCORRECT",
+          "judge_raw": "INCORRECT  \nThe student incorrectly states that cows stayed, but the source text specifies that cows (भैंसें) also ran away, while only the donkeys (गधे) remained.",
+          "seconds": 37.9
+        },
+        "qwen2.5vl:7b": {
+          "answer": "दीवार गिरने के बाद गधे तुरंत भाग निकले, और भैंसें डर के मारे वहीं खड़े रहे।",
+          "verdict": "INCORRECT",
+          "judge_raw": "INCORRECT  \nThe student incorrectly states that donkeys ran immediately and cows stayed, whereas the source text specifies that oxen and cows ran first, while donkeys remained standing out of fear.",
+          "seconds": 49.3
+        }
+      }
+    },
+    {
+      "id": "hindi_bailon_14",
+      "question": "सच या झूठ: जब हीरा को चौकीदार ने पकड़कर बाँध दिया, तो मोती अकेला वहाँ से भाग गया और हीरा को छोड़ दिया।",
+      "answers": {
+        "llama3:8b": {
+          "answer": "सच नहीं। जब हीरा को चौकीदार ने पकड़कर बाँध दिया, तो मोती हीरा के साथ वहाँ से भाग गया था।",
+          "verdict": "INCORRECT",
+          "judge_raw": "INCORRECT  \nThe source text states that Moti was tied up with ropes and did not run away when Hira was caught, contradicting the student's claim.",
+          "seconds": 36.1
+        },
+        "gemma3:4b": {
+          "answer": "यह झूठ है। संदर्भ के अनुसार, मोती ने दोनों गधों को सींगों से मारकर बाड़े से बाहर कर दिया और फिर अपने बंधु के पास आकर सो गया।",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student correctly identifies the statement as false, as the source text shows Moti stayed with Hira during trouble, not abandoning him.",
+          "seconds": 90.1
+        },
+        "qwen2.5vl:7b": {
+          "answer": "सच नहीं।",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe source text states that Moti was still present and did not leave Hira after the incident, contradicting the student's claim that Moti ran away and abandoned Hira.",
+          "seconds": 51.7
+        }
+      }
+    },
+    {
+      "id": "hindi_bailon_15",
+      "question": "कहानी के 'समय और समाज' वाले भाग के अनुसार, यह कहानी परोक्ष रूप से किस ऐतिहासिक आंदोलन से जुड़ी है?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "उत्तर: स्वतंत्रता आंदोलन से जुड़ी है।",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer correctly identifies the independence movement (स्वतंत्रता आंदोलन) as the historical movement indirectly linked to the story, as explicitly stated in the source text.",
+          "seconds": 46.3
+        },
+        "gemma3:4b": {
+          "answer": "यह कहानी अंग्रेजी शासन के दमनकारी शासन और स्वतंत्रता आंदोलन से जुड़ी है।",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer correctly identifies the story's indirect connection to the independence movement, as explicitly stated in the source text.",
+          "seconds": 42.1
+        },
+        "qwen2.5vl:7b": {
+          "answer": "स्वतंत्रता आंदोलन से जुड़ी है।",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe source text explicitly states that the story indirectly relates to the freedom movement (\"स्वतंत्रता आंदोलन की भावना से जुड़ी है\").",
+          "seconds": 51.6
+        }
+      }
+    },
+    {
+      "id": "hindi_jhansi_01",
+      "question": "'झाँसी की रानी' कविता की रचनाकार कौन हैं, और उनका जन्म किस वर्ष हुआ था?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "उत्तर: 'झाँसी की रानी' कविता की रचनाकार सुभद्रा कुमारी चौहान हैं, और उनका जन्म किस वर्ष हुआ था? (क्योंकि संदर्भ में कोई जानकारी नहीं है)",
+          "verdict": "PARTIAL",
+          "judge_raw": "PARTIAL  \nThe student correctly identifies the author as Subhadra Kumari Chauhan but incorrectly states there's no information about her birth year, while the source text explicitly mentions she was born in 1904.",
+          "seconds": 34.9
+        },
+        "gemma3:4b": {
+          "answer": "संदर्भ के अनुसार, 'झाँसी की रानी' कविता में कई वीरवर शामिल हैं। कविता में लक्ष्मीबाई को स्वतंत्रता संग्राम में उनकी भूमिका के लिए सम्मानित किया गया है। स्रोत 3 के अनुसार, सुभद्रा कुमारी चौहान की यह कृति 1857 के स्वतंत्रता संग्राम की पृष्ठभूमि पर आधारित है और उनकी जन्मतिथि 1948 में थी।",
+          "verdict": "INCORRECT",
+          "judge_raw": "INCORRECT  \nThe student incorrectly states Subhadra Kumari Chauhan's birth year as 1948 (source says 1904) and mistakenly references Rani Lakshmi Bai instead of the poem's subject.",
+          "seconds": 36.9
+        },
+        "qwen2.5vl:7b": {
+          "answer": "'झाँसी की रानी' कविता की रचनाकार कौन हैं, और उनका जन्म किस वर्ष हुआ था?\n\nउत्तर: भारतीय कवि और लेखक सुभद्रा कुमारी चौहान। उनका जन्म 1948 में हुआ था।",
+          "verdict": "PARTIAL",
+          "judge_raw": "PARTIAL  \nThe student correctly identified Subhadra Kumari Chauhan as the author but incorrectly stated her birth year as 1948, whereas the source text specifies 1904.",
+          "seconds": 40.3
+        }
+      }
+    },
+    {
+      "id": "hindi_jhansi_02",
+      "question": "सुभद्रा कुमारी चौहान की मृत्यु किस वर्ष हुई?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "सन् 1948 में उनकी आकभस्मक मृत्यु हो गई।",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer directly quotes the exact sentence from the source text stating Subhadra Kumari Chauhan's sudden death occurred in 1948.",
+          "seconds": 33.4
+        },
+        "gemma3:4b": {
+          "answer": "सुभद्रा कुमारी चौहान की मृत्यु 1948 में हुई।",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe source text explicitly states that Subhadra Kumari Chauhan's sudden death occurred in 1948, matching the student's answer.",
+          "seconds": 36.6
+        },
+        "qwen2.5vl:7b": {
+          "answer": "सन् 1948 में उनकी आकभस्मक मृत्यु हो गई।",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer directly quotes the exact year mentioned in the source text (1948) regarding Subhadra Kumari Chauhan's death.",
+          "seconds": 54.6
+        }
+      }
+    },
+    {
+      "id": "hindi_jhansi_03",
+      "question": "सुभद्रा कुमारी चौहान को किन दो रचनाओं के लिए 'सेकसरिया पुरस्कार' से सम्मानित किया गया?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "सुभद्रा कुमारी चौहान को \"त्रिधारा\" (कत्िता सं\nग्रह) और \"त्िखरे मोती\" के लिए 'सेकसरिया पुरस्कार' से सम्मानित किया गया है।",
+          "verdict": "PARTIAL",
+          "judge_raw": "PARTIAL  \nThe student correctly identified \"त्िखरे मोती\" as one of the works but incorrectly listed \"त्रिधारा\" instead of the correct title \"कभवतरा संग्रह\".",
+          "seconds": 46.0
+        },
+        "gemma3:4b": {
+          "answer": "सुभद्रा कुमारी चौहान को 'मुकुल' और 'त्िखर मोती' के लिए 'सेकसरिया पुरस्कार' से सम्मानित किया गया।",
+          "verdict": "PARTIAL",
+          "judge_raw": "PARTIAL  \nThe student correctly identified \"त्िखर मोती\" as one of the works but incorrectly stated \"मुकुल\" instead of \"कभवतरा संग्रह\" as the second work.",
+          "seconds": 37.8
+        },
+        "qwen2.5vl:7b": {
+          "answer": "सुभद्रा कुमारी चौहान को 'सेकसरिया पुरस्कार' से सम्मानित किया गया था 'मुकुल' और 'त्खरे मोती' रचनाओं के लिए।",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student correctly identified the two works \"मुकुल\" and \"त्खरे मोती\" as the ones for which Subhadra Kumari Chauhan received the 'Sekseriya Puraskar', as stated in the source text.",
+          "seconds": 76.5
+        }
+      }
+    },
+    {
+      "id": "hindi_jhansi_04",
+      "question": "यह कविता भारत के किस ऐतिहासिक स्वतंत्रता संग्राम की पृष्ठभूमि पर लिखी गई है?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to the provided context, the poem appears to be written on the backdrop of India's freedom struggle. The poem's themes of freedom, equality, and the struggles of the common man are reminiscent of the Indian independence movement. Additionally, the poem's use of simple language and its focus on the lives of ordinary people, including workers and women, suggests that it is connected to the Indian freedom struggle.",
+          "verdict": "INCORRECT",
+          "judge_raw": "INCORRECT  \nThe student's answer generically refers to \"India's freedom struggle\" without specifying the 1857 Revolt, which the source text explicitly names as the historical backdrop.",
+          "seconds": 33.7
+        },
+        "gemma3:4b": {
+          "answer": "यह कविता भारत के स्वतंत्रता संग्राम की पृष्ठभूमि पर लिखी गई है, जिसमें भगत सिंह और चंद्रशेखर आजाद जैसे कार्यकर्ताओं ने बदलाव लाया, जिससे लाखों भारतीयों में आजादी की प्रेरणा जगी।",
+          "verdict": "INCORRECT",
+          "judge_raw": "INCORRECT  \nThe source text explicitly mentions the 1857 Revolt as the historical context, while the student's answer refers to the 1942 Quit India Movement and figures like Bhagat Singh, which are not supported by the source.",
+          "seconds": 49.2
+        },
+        "qwen2.5vl:7b": {
+          "answer": "यह कविता भारत के गंगा घाटी के ऐतिहासिक स्वतंत्रता संग्राम की पृष्ठभूमि पर लिखी गई है।",
+          "verdict": "INCORRECT",
+          "judge_raw": "INCORRECT  \nThe source text explicitly mentions the 1857 Revolt as the historical backdrop, not the Ganges plains struggle.",
+          "seconds": 43.8
+        }
+      }
+    },
+    {
+      "id": "hindi_jhansi_05",
+      "question": "रानी लक्ष्मीबाई का बचपन का नाम क्या था?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "उत्तर: झाँसी की रानी में नहीं बताया गया है कि रानी लक्ष्मीबाई का बचपन का नाम क्या था। लेकिन, संदर्भ [स्रोत 1] से पता चलता है कि उमा का व्यप्ता है और उमा लड़की है।",
+          "verdict": "INCORRECT",
+          "judge_raw": "INCORRECT  \nThe source text does not mention Rani Lakshmi Bai's childhood name, and the student's answer introduces \"Uma\" as a reference to an external source not provided here.",
+          "seconds": 40.5
+        },
+        "gemma3:4b": {
+          "answer": "संदर्भ के अनुसार, रानी लक्ष्मीबाई का बचपन का नाम लक्मीबाई था।",
+          "verdict": "INCORRECT",
+          "judge_raw": "INCORRECT  \nThe source text refers to her childhood name as \"छबीली\" (a nickname) and \"लक्मीबराई,\" not \"लक्मीबाई.\" The student's answer incorrectly identifies her childhood name as \"लक्मीबाई.\"",
+          "seconds": 84.1
+        },
+        "qwen2.5vl:7b": {
+          "answer": "नहीं दिया गया है।",
+          "verdict": "INCORRECT",
+          "judge_raw": "INCORRECT  \nThe source text explicitly mentions her childhood name as \"छबीली\" (Chhibili), so the answer \"नहीं दिया गया है\" (not given) is factually incorrect.",
+          "seconds": 51.8
+        }
+      }
+    },
+    {
+      "id": "hindi_jhansi_06",
+      "question": "बचपन में लक्ष्मीबाई ने नाना के साथ कौन-कौन सी अस्त्र-कलाएँ (हथियार चलाना) सीखीं?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "उत्तर: (घ) स्िामभिान और सच्िाई क े  साथ जीना",
+          "verdict": "INCORRECT",
+          "judge_raw": "INCORRECT  \nThe source text describes specific weapons and martial arts skills (e.g., \"बरछी,\" \"ढराल,\" \"झराँसी\") that Laxmibai learned, but the student's answer mentions unrelated concepts like \"honesty and truth,\" which are not supported by the source.",
+          "seconds": 44.3
+        },
+        "gemma3:4b": {
+          "answer": "बचपन में लक्ष्मीबाई ने नाना के साथ तीरंदाजी, कुश्ती और भँवरविद्या सीखीं।",
+          "verdict": "PARTIAL",
+          "judge_raw": "PARTIAL  \nThe student's answer includes some correct skills like archery (तीरंदाजी) but adds wrestling (कुश्ती) and hypnotism (भँवरविद्या), which are not explicitly mentioned in the source text.",
+          "seconds": 49.1
+        },
+        "qwen2.5vl:7b": {
+          "answer": "लक्ष्मीबाई ने नाना के साथ तीरंदाजी, कुश्ती और भनशरानी बराजी सीखीं।",
+          "verdict": "PARTIAL",
+          "judge_raw": "PARTIAL  \nThe student's answer includes some correct weapons like \"झराँसी\" (cannon) and \"बरछी\" (sword), but mentions \"भनशरानी बराजी\" and \"कुश्ती\" (wrestling) which are not explicitly stated in the source text.",
+          "seconds": 60.3
+        }
+      }
+    },
+    {
+      "id": "hindi_jhansi_07",
+      "question": "रानी लक्ष्मीबाई के पति, झाँसी के राजा, का नाम क्या था?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "The answer is not explicitly mentioned in the provided context. However, according to historical records, Rani Lakshmibai's husband, the King of Jhansi, was named Damodar Rao.",
+          "verdict": "INCORRECT",
+          "judge_raw": "INCORRECT  \nThe source text explicitly mentions \"गंगराधर राव\" (Gangadhar Rao) as the husband of Rani Lakshmibai, not Damodar Rao.",
+          "seconds": 48.8
+        },
+        "gemma3:4b": {
+          "answer": "स्रोत 1 और स्रोत 3 में दिए गए संदर्भ के अनुसार, झाँसी की रानी लक्ष्मीबाई, बुंदेले हरबोलों के मुंह से सुनी कहानी थी कि वह \"खूब लड़ी मर्दानी वह तो झाँसी वाली रानी थी।\" स्रोत 1 में बताया गया है कि “रानी लक्ष्मीबाई खींच ली, हुआ दंड असमानों में, झ्मी होकर वॉकर कागा, उसे अब हैरान थी।\" स्रोत 3 में यह भी उल्लेख किया गया है कि \"178 गंगरा महारराष्‍‍ट्-कु ल-देवी उसकी भी आर राध्य भव रानी थी।\"\n",
+          "verdict": "INCORRECT",
+          "judge_raw": "INCORRECT  \nThe student's answer does not mention the husband's name, which is explicitly stated in the source text as \"गंगराधर राव.\"",
+          "seconds": 39.6
+        },
+        "qwen2.5vl:7b": {
+          "answer": "अहमद शाह मौल्वी",
+          "verdict": "INCORRECT",
+          "judge_raw": "INCORRECT  \nThe source text clearly states that Rani Lakshmi Bai's husband was Gangadhar Rao, not Ahmed Shah Maulvi.",
+          "seconds": 42.7
+        }
+      }
+    },
+    {
+      "id": "hindi_jhansi_08",
+      "question": "1858 में जनरल ह्यू रोज़ की अंग्रेज़ी सेना ने झाँसी के किले पर हमला किया, तब झलकारी बाई ने रानी की मदद के लिए क्या किया?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "झलकारी बाई ने रानी लक्ष्मीबाई की मदद के लिए भकलरा और भकले को घेर लिया और अंग्रेजों से लड़ाई लड़ी। उन्होंने सेनरा की कमरान संभाली और अंग्रेजों से लड़ाई का नेतृत्व किया।",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects Jhalkari Bai's actions of surrounding Bhalkara/Bhalka and leading the resistance against the British, as described in the source text.",
+          "seconds": 52.1
+        },
+        "gemma3:4b": {
+          "answer": "झलकारी बाई ने अंग्रेजों से लड़ाई और रानी लक्मीबाई को अपने बच्चों के साथ सराथ महल से निकालने में मदद की।",
+          "verdict": "PARTIAL",
+          "judge_raw": "PARTIAL  \nThe student's answer correctly mentions Jhalkari Bai helping the queen leave the palace with her children but omits the critical detail of her disguising herself as the queen to mislead the British, which is explicitly stated in the source text.",
+          "seconds": 44.1
+        },
+        "qwen2.5vl:7b": {
+          "answer": "झलकारी बाई ने अंग्रेजों को भ्रभमत भकए रखरा और उनकी यह चराल लंबे समय तक कराम करती रही। झलकारी बाई की असली पहचान के बराबर अंग्रेज अभनभश्चत थे और उनकी वजह से ही रानी लक्मीबाई अपने बेटे के सराथ अपने महल से भराग सकीं।",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's details about Jhalkari Bhai deceiving the British and enabling the queen's escape.",
+          "seconds": 58.9
+        }
+      }
+    },
+    {
+      "id": "hindi_jhansi_09",
+      "question": "झलकारी बाई के पति का नाम क्या था, और वे राजा गंगाधर राव की सेना में क्या काम करते थे?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "उत्तर: झलकारी बाई के पति का नाम पूरन कोरी था, और वे राजा गंगाधर राव की सेना में लड़नरा सीख भलयरा करते थे।",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student correctly identifies Puran Kori as Jhalakari Bai's husband and notes his role in the army, aligning with the source text's mention of his service in the royal forces.",
+          "seconds": 90.4
+        },
+        "gemma3:4b": {
+          "answer": "झलकारी बाई के पति का नाम पूरन कोरी था, और वे राजा गंगाधर राव की सेना में एक सैनिक थे।",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student correctly identified Purna Korii as the husband of Jhalakari Bai and noted his role as a soldier in the king's army, both of which are explicitly stated in the source text.",
+          "seconds": 43.7
+        },
+        "qwen2.5vl:7b": {
+          "answer": "झलकारी बाई के पति का नाम राजा गंगाधर राव था, और वे राजा गंगाधर राव की सेना में एक सैनिक थे।",
+          "verdict": "INCORRECT",
+          "judge_raw": "INCORRECT  \nThe student incorrectly states that the husband's name was \"राजा गंगाधर राव\" (King Gangadhar Rao), but the source text explicitly identifies the husband as \"पूरन कोरी\" (Puran Korai), while Gangadhar Rao was the king.",
+          "seconds": 48.7
+        }
+      }
+    },
+    {
+      "id": "hindi_jhansi_10",
+      "question": "झलकारी बाई का जन्म कब और किस गाँव में हुआ था?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "प्रश्न का उत्तर नहीं है। प्रेमचंद, सुभद्रा कुमारी चौधरी और तुलसीदास के संदर्भ में झलकारी बाई का जन्म नहीं हुआ है। इन संदर्भों में झलकारी बाई का उल्लेख नहीं है।",
+          "verdict": "INCORRECT",
+          "judge_raw": "INCORRECT  \nThe source text explicitly states Jhalkari Bhai's birth date (22 November 1830) and village (Bhanki Bhozlara in Jharsuguda), which the student's answer contradicts.",
+          "seconds": 42.1
+        },
+        "gemma3:4b": {
+          "answer": "सुभद्रा कुमारी चौहान का जन्म 1904 में प्रयागराज में हुआ था।",
+          "verdict": "INCORRECT",
+          "judge_raw": "INCORRECT  \nThe student's answer refers to Subhadra Kumari Chauhan, while the source text describes Jhalakari Bai, born on 22 November 1830 in Bhanki Bhoolia, Jharsuguda, not in Prayagraj in 1904.",
+          "seconds": 38.3
+        },
+        "qwen2.5vl:7b": {
+          "answer": "प्रश्न के अनुसार, झलकारी बाई का जन्म और गाँव के बारे में दिए गए संदर्भ में व्यक्त नहीं है। इसलिए, उत्तर नहीं दिया जा सकता है।",
+          "verdict": "INCORRECT",
+          "judge_raw": "INCORRECT  \nThe source text explicitly states that Jhalakari Bai was born on 22 November 1830 in Bhanki Bhozlara village of Jhansi.",
+          "seconds": 47.3
+        }
+      }
+    },
+    {
+      "id": "hindi_jhansi_11",
+      "question": "अंग्रेज सैनिकों के साथ लड़ाई में पूरन कोरी की मृत्यु होने पर झलकारी बाई ने क्या प्रतिक्रिया दी?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "जब पूरन कोरी की मृत्यु होने पर झलकारी बाई ने क्रोध से उबलना शुरू किया और अंग्रेज सैनिकों से लड़ाई का संकल्प किया।",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects Jhalakari Bai's reaction of anger and resolve to fight the British soldiers after Puran Kori's death, as described in the source text.",
+          "seconds": 43.1
+        },
+        "gemma3:4b": {
+          "answer": "झलकारी बाई को पूरन कोरी की मृत्यु से क्लोभधत हो गई और उन्होंने कई अंग्रेज सैंको को मारकर लड़ाई में हिस्सा लिया।",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects Zhalkari Bai's emotional reaction (क्लोभधत हो गई) and her subsequent actions of killing British soldiers, as described in the source text.",
+          "seconds": 52.6
+        },
+        "qwen2.5vl:7b": {
+          "answer": "झलकारी बाई ने अंग्रेज सैनिकों से लड़ाई जारी रखी।",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer correctly states that Jhalakari Bai continued the battle against the British soldiers, which is explicitly mentioned in the source text.",
+          "seconds": 69.5
+        }
+      }
+    },
+    {
+      "id": "hindi_jhansi_12",
+      "question": "युद्धभूमि में अंत तक रानी लक्ष्मीबाई के साथ रहने वाली उनकी दो सखियों के नाम क्या थे?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to the context, Rani Lakshmibai's two friends who accompanied her till the end of the war were:\n\n1. Punnukari (पूरन कोरी)\n2. Jhalkari Bai (झलकरारी बराई)\n\nThese names are mentioned in the third source ([स्रोत 3]).",
+          "verdict": "INCORRECT",
+          "judge_raw": "INCORRECT  \nThe source text explicitly names \"करानरा\" (Karanra) and \"मंदररा\" (Mandarra) as Lakshmibai's two companions who stayed with her until the end, not \"Punnukari\" or \"Jhalkari Bai.\"",
+          "seconds": 48.8
+        },
+        "gemma3:4b": {
+          "answer": "संदर्भ के अनुसार, स्रोत 2 और स्रोत 3 में रानी लक्ष्मीबाई के साथ युद्धभूमि में रहने वाली दो सखियों के नाम का उल्लेख नहीं है। स्रोत 2 में झाँसी की रानी के बारे में वर्णन है, जो उनकी कुर्बानी के लिए जाने जाती हैं। स्रोत 3 में सुभद्रा कुमारी चौहान का उल्लेख है, जो रानी लक्ष्मीबाई की सहयोगी थीं।",
+          "verdict": "INCORRECT",
+          "judge_raw": "INCORRECT  \nThe source text explicitly mentions \"करानरा\" and \"मंदररा\" as Rani Lakshmi Bai's two companions, but the student's answer incorrectly states that their names are not mentioned in the sources.",
+          "seconds": 34.4
+        },
+        "qwen2.5vl:7b": {
+          "answer": "झलकरारी बराई और पूरन कोरी।",
+          "verdict": "INCORRECT",
+          "judge_raw": "INCORRECT  \nThe student's answer includes \"झलकरारी बराई\" (mentioned as a separate individual, not one of the two companions) and an unmentioned name \"पूरन कोरी,\" whereas the source text explicitly names \"करानरा\" and \"मंदररा\" as the two companions.",
+          "seconds": 45.7
+        }
+      }
+    },
+    {
+      "id": "hindi_jhansi_13",
+      "question": "कविता के अनुसार, वीरगति प्राप्त होने के समय रानी लक्ष्मीबाई की उम्र कितनी थी?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "उत्तर: 180 गंगरा है जिसका अर्थ है रानी लक्ष्मीबाई की उम्र 180 गंगरा यानि 180 साल थी।",
+          "verdict": "INCORRECT",
+          "judge_raw": "INCORRECT  \nThe source text explicitly states \"अभी उम्र कु ल तेइस की थी\" (her age was about thirteen), but the student's answer claims 180 years, which is factually inconsistent.",
+          "seconds": 38.4
+        },
+        "gemma3:4b": {
+          "answer": "संदर्भ में इस प्रश्न का उत्तर नहीं दिया गया है। कविता में रानी लक्ष्मीबाई के बारे में आयु का कोई उल्लेख नहीं है।",
+          "verdict": "INCORRECT",
+          "judge_raw": "INCORRECT  \nThe source text explicitly mentions Rani Lakshmi Bai's age as \"तेइस\" (twenty) during the time of her martyrdom, contradicting the student's claim of no mention.",
+          "seconds": 41.1
+        },
+        "qwen2.5vl:7b": {
+          "answer": "180 गंगरा",
+          "verdict": "INCORRECT",
+          "judge_raw": "INCORRECT  \nThe source text explicitly states Rani Lakshmi Bai was \"तेइस की थी\" (about twenty years old), but the answer claims \"180 गंगरा,\" which is numerically and contextually unsupported.",
+          "seconds": 42.5
+        }
+      }
+    },
+    {
+      "id": "hindi_jhansi_14",
+      "question": "कालपी में हार के बाद रानी लक्ष्मीबाई ने आगे बढ़कर किस शहर पर अधिकार किया?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to the given context, after losing at Kalpi, Rani Lakshmibai went on to take control of Jhansi.",
+          "verdict": "INCORRECT",
+          "judge_raw": "INCORRECT  \nThe source text indicates Rani Lakshmibai moved to Gwalior after losing at Kalpi, not Jhansi.",
+          "seconds": 78.4
+        },
+        "gemma3:4b": {
+          "answer": "संदर्भ के अनुसार, कालपी में हार के बाद रानी लक्ष्मीबाई ने ग्वात्लयर पर अधिकार किया।",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe source text explicitly states that after losing at Kalpi, Rani Lakshmi Bai took control of Gwalior (ग्वात्लयर).",
+          "seconds": 48.8
+        },
+        "qwen2.5vl:7b": {
+          "answer": "तकया ग्वात्लयर पर अतधकार।",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer directly matches the source text's mention of Rani Lakshmi Bai taking control of Tikait Garh after her defeat at Kalpi.",
+          "seconds": 46.6
+        }
+      }
+    },
+    {
+      "id": "hindi_jhansi_15",
+      "question": "सच या झूठ: कविता के अनुसार, रानी लक्ष्मीबाई अकेली बड़ी हुईं और नाना धुंधूपंत के साथ उनका बचपन में कोई संबंध नहीं था।",
+      "answers": {
+        "llama3:8b": {
+          "answer": "प्रश्न 1 का उत्तर: (क) पाररिारक अनुशासन और स् न ेह क े  संतीुलन का प्रतीीक है।\n\nप्रश्न 2 का उत्तर: (ग) सुर िें िाद् बजान े से तीार टूट जातीे हैं।\n\nप्रश्न 3 का उत्तर: सच (True) - रानी लक्ष्मीबाई अकेली बड़ी हुईं और नाना धुंधूपंत के साथ उनका बचपन में कोई संबंध नहीं था।",
+          "verdict": "INCORRECT",
+          "judge_raw": "INCORRECT  \nThe source text explicitly states that Lakshmi Bai interacted with Nana Dhundhu Pant during her childhood, contradicting the student's assertion that they had no connection.",
+          "seconds": 40.7
+        },
+        "gemma3:4b": {
+          "answer": "झूठ। कविता में कहा गया है कि \"झाँसी वाली रानी थी\" और इसमें झाँसी की रानी लक्ष्मीबाई और नाना धुंधूपंत के साथ अन्य लोगों का उल्लेख है।",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe source text explicitly mentions Rani Lakshmi Bai interacting with Nana Dhundhu Pant during her childhood, directly contradicting the claim that they had no relation.",
+          "seconds": 47.1
+        },
+        "qwen2.5vl:7b": {
+          "answer": "सच।",
+          "verdict": "INCORRECT",
+          "judge_raw": "INCORRECT  \nThe source text mentions she interacted with \"नरानरा\" (possibly Nana Dhundhu Pant) during childhood, contradicting the claim she had no relationship with him.",
+          "seconds": 46.2
+        }
+      }
+    }
+  ]
+}

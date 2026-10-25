@@ -1,0 +1,667 @@
+{
+  "subject": "English",
+  "top_k": 3,
+  "n_questions": 67,
+  "retrieval_hit_rate": 0.6865671641791045,
+  "decomposition": {
+    "llama3:8b": {
+      "hit_n": 46,
+      "hit_counts": {
+        "CORRECT": 45,
+        "PARTIAL": 0,
+        "INCORRECT": 1,
+        "ERROR": 0
+      },
+      "hit_accuracy": 0.9782608695652174,
+      "miss_n": 21,
+      "miss_counts": {
+        "CORRECT": 12,
+        "PARTIAL": 2,
+        "INCORRECT": 7,
+        "ERROR": 0
+      },
+      "miss_accuracy": 0.6190476190476191
+    },
+    "gemma3:4b": {
+      "hit_n": 46,
+      "hit_counts": {
+        "CORRECT": 42,
+        "PARTIAL": 2,
+        "INCORRECT": 2,
+        "ERROR": 0
+      },
+      "hit_accuracy": 0.9347826086956522,
+      "miss_n": 21,
+      "miss_counts": {
+        "CORRECT": 11,
+        "PARTIAL": 2,
+        "INCORRECT": 8,
+        "ERROR": 0
+      },
+      "miss_accuracy": 0.5714285714285714
+    },
+    "qwen2.5vl:7b": {
+      "hit_n": 46,
+      "hit_counts": {
+        "CORRECT": 41,
+        "PARTIAL": 2,
+        "INCORRECT": 3,
+        "ERROR": 0
+      },
+      "hit_accuracy": 0.9130434782608695,
+      "miss_n": 21,
+      "miss_counts": {
+        "CORRECT": 11,
+        "PARTIAL": 0,
+        "INCORRECT": 10,
+        "ERROR": 0
+      },
+      "miss_accuracy": 0.5238095238095238
+    }
+  },
+  "per_question": [
+    {
+      "id": "bharat_01",
+      "retrieval_hit": true,
+      "context_ids": [
+        "9c68e739-dad0-5727-9a12-7a23ad7be15f",
+        "09dee819-f05d-5dd7-baa6-2ae0e8e48dfa",
+        "ff23ad86-ac85-5e86-a0f7-5064de9f2fa1"
+      ]
+    },
+    {
+      "id": "bharat_02",
+      "retrieval_hit": true,
+      "context_ids": [
+        "9c68e739-dad0-5727-9a12-7a23ad7be15f",
+        "09dee819-f05d-5dd7-baa6-2ae0e8e48dfa",
+        "ff23ad86-ac85-5e86-a0f7-5064de9f2fa1"
+      ]
+    },
+    {
+      "id": "bharat_03",
+      "retrieval_hit": false,
+      "context_ids": [
+        "9c68e739-dad0-5727-9a12-7a23ad7be15f",
+        "09dee819-f05d-5dd7-baa6-2ae0e8e48dfa",
+        "ff23ad86-ac85-5e86-a0f7-5064de9f2fa1"
+      ]
+    },
+    {
+      "id": "bharat_04",
+      "retrieval_hit": false,
+      "context_ids": [
+        "a0617c9c-a9be-5e47-9fbf-83b54b8ca594",
+        "03e8ef82-b2df-5ddd-99ec-52a7184e581c",
+        "bd119de5-6768-5b0b-9291-0e721b7867ee"
+      ]
+    },
+    {
+      "id": "bharat_05",
+      "retrieval_hit": false,
+      "context_ids": [
+        "03e8ef82-b2df-5ddd-99ec-52a7184e581c",
+        "bd119de5-6768-5b0b-9291-0e721b7867ee",
+        "a0617c9c-a9be-5e47-9fbf-83b54b8ca594"
+      ]
+    },
+    {
+      "id": "bharat_06",
+      "retrieval_hit": true,
+      "context_ids": [
+        "29a86b01-af98-5204-a6a9-7cfb673d1a61",
+        "3e835ac8-e98b-5bc6-9a38-9db7a8197c35",
+        "7403eba2-1fd2-572a-8773-633ac771c016"
+      ]
+    },
+    {
+      "id": "bharat_07",
+      "retrieval_hit": false,
+      "context_ids": [
+        "ad420f43-8ee3-5a65-b237-47e7e05e3f26",
+        "31fe1ea2-0e7a-55ee-af7d-3870b93182dd",
+        "7f39ad2e-503a-5692-b7f9-8b61526010bb"
+      ]
+    },
+    {
+      "id": "bharat_08",
+      "retrieval_hit": true,
+      "context_ids": [
+        "ad420f43-8ee3-5a65-b237-47e7e05e3f26",
+        "31fe1ea2-0e7a-55ee-af7d-3870b93182dd",
+        "7f39ad2e-503a-5692-b7f9-8b61526010bb"
+      ]
+    },
+    {
+      "id": "bharat_09",
+      "retrieval_hit": false,
+      "context_ids": [
+        "ab558ce5-f6e3-56bd-9fb2-2fd0545d04c3",
+        "614c4407-2bb7-5425-8789-980cfb6b3caf",
+        "3098c93b-a3d6-5da0-bb54-6eb6b3fd2a5e"
+      ]
+    },
+    {
+      "id": "bharat_10",
+      "retrieval_hit": false,
+      "context_ids": [
+        "ab558ce5-f6e3-56bd-9fb2-2fd0545d04c3",
+        "614c4407-2bb7-5425-8789-980cfb6b3caf",
+        "3098c93b-a3d6-5da0-bb54-6eb6b3fd2a5e"
+      ]
+    },
+    {
+      "id": "bharat_11",
+      "retrieval_hit": true,
+      "context_ids": [
+        "2215ed33-fbe4-588b-98d5-7807cd9c7ad8",
+        "6bb96ceb-c234-550b-b8da-e221252d8f02",
+        "f4ee19fb-df22-57a5-a2da-746da3763cfa"
+      ]
+    },
+    {
+      "id": "bharat_12",
+      "retrieval_hit": false,
+      "context_ids": [
+        "09dee819-f05d-5dd7-baa6-2ae0e8e48dfa",
+        "9c68e739-dad0-5727-9a12-7a23ad7be15f",
+        "ff23ad86-ac85-5e86-a0f7-5064de9f2fa1"
+      ]
+    },
+    {
+      "id": "bharat_13",
+      "retrieval_hit": true,
+      "context_ids": [
+        "0e6b47a9-5056-588c-999d-36f0f1b7c74c",
+        "8d5d662e-05f0-59dd-8156-95831d3f64a5",
+        "48e07510-5dbc-5256-bc8d-0fd609b94141"
+      ]
+    },
+    {
+      "id": "bharat_14",
+      "retrieval_hit": true,
+      "context_ids": [
+        "ce0e9d47-0bee-5f2b-82b0-59bfd9bcfaeb",
+        "0db0eba6-5a83-516f-a668-f57b571a646e",
+        "8893ef01-01c0-5275-b20f-862ab65ce3c1"
+      ]
+    },
+    {
+      "id": "grandmother_01",
+      "retrieval_hit": false,
+      "context_ids": [
+        "66274f4b-9913-5161-a790-00ce9739e1d1",
+        "f3ed521e-1957-5cc7-950e-00e820200e6d",
+        "467225d9-9d34-5265-9e32-7f067b7aca17"
+      ]
+    },
+    {
+      "id": "grandmother_02",
+      "retrieval_hit": true,
+      "context_ids": [
+        "a3931815-7531-5edc-9cc0-e738ae6afb43",
+        "4cfb315d-60fa-5aec-a138-56a037de4872",
+        "2662a1b0-8796-5285-87a2-65ddda8c80fc"
+      ]
+    },
+    {
+      "id": "grandmother_03",
+      "retrieval_hit": true,
+      "context_ids": [
+        "2dfef8c7-25f6-5440-9691-4cf71e669b30",
+        "3e3e26a5-f04e-5a17-bdb2-0ab6882d0edf",
+        "0fed49b0-6567-52c2-9bc3-29954c1bf47d"
+      ]
+    },
+    {
+      "id": "grandmother_04",
+      "retrieval_hit": false,
+      "context_ids": [
+        "467225d9-9d34-5265-9e32-7f067b7aca17",
+        "2dfef8c7-25f6-5440-9691-4cf71e669b30",
+        "66274f4b-9913-5161-a790-00ce9739e1d1"
+      ]
+    },
+    {
+      "id": "grandmother_05",
+      "retrieval_hit": false,
+      "context_ids": [
+        "dc0056bb-af7e-5afa-a7c1-a49a5391b8cf",
+        "66274f4b-9913-5161-a790-00ce9739e1d1",
+        "467225d9-9d34-5265-9e32-7f067b7aca17"
+      ]
+    },
+    {
+      "id": "grandmother_06",
+      "retrieval_hit": false,
+      "context_ids": [
+        "66274f4b-9913-5161-a790-00ce9739e1d1",
+        "f3ed521e-1957-5cc7-950e-00e820200e6d",
+        "3e3e26a5-f04e-5a17-bdb2-0ab6882d0edf"
+      ]
+    },
+    {
+      "id": "grandmother_07",
+      "retrieval_hit": false,
+      "context_ids": [
+        "66c1c8aa-e911-5b2d-bc20-fbd3633559f4",
+        "f3ed521e-1957-5cc7-950e-00e820200e6d",
+        "66274f4b-9913-5161-a790-00ce9739e1d1"
+      ]
+    },
+    {
+      "id": "grandmother_08",
+      "retrieval_hit": true,
+      "context_ids": [
+        "f3ed521e-1957-5cc7-950e-00e820200e6d",
+        "66c1c8aa-e911-5b2d-bc20-fbd3633559f4",
+        "0fed49b0-6567-52c2-9bc3-29954c1bf47d"
+      ]
+    },
+    {
+      "id": "grandmother_09",
+      "retrieval_hit": false,
+      "context_ids": [
+        "f3ed521e-1957-5cc7-950e-00e820200e6d",
+        "66c1c8aa-e911-5b2d-bc20-fbd3633559f4",
+        "2dfef8c7-25f6-5440-9691-4cf71e669b30"
+      ]
+    },
+    {
+      "id": "grandmother_10",
+      "retrieval_hit": true,
+      "context_ids": [
+        "2dfef8c7-25f6-5440-9691-4cf71e669b30",
+        "66c1c8aa-e911-5b2d-bc20-fbd3633559f4",
+        "0fed49b0-6567-52c2-9bc3-29954c1bf47d"
+      ]
+    },
+    {
+      "id": "grandmother_11",
+      "retrieval_hit": true,
+      "context_ids": [
+        "66c1c8aa-e911-5b2d-bc20-fbd3633559f4",
+        "2dfef8c7-25f6-5440-9691-4cf71e669b30",
+        "f3ed521e-1957-5cc7-950e-00e820200e6d"
+      ]
+    },
+    {
+      "id": "grandmother_12",
+      "retrieval_hit": true,
+      "context_ids": [
+        "66274f4b-9913-5161-a790-00ce9739e1d1",
+        "2dfef8c7-25f6-5440-9691-4cf71e669b30",
+        "3e3e26a5-f04e-5a17-bdb2-0ab6882d0edf"
+      ]
+    },
+    {
+      "id": "grandmother_13",
+      "retrieval_hit": true,
+      "context_ids": [
+        "fc1bf551-deb4-542f-b6c8-d1338d95e223",
+        "0e6b47a9-5056-588c-999d-36f0f1b7c74c",
+        "179c0f09-81f0-58e0-8777-58e792bb6241"
+      ]
+    },
+    {
+      "id": "grandmother_14",
+      "retrieval_hit": false,
+      "context_ids": [
+        "66c1c8aa-e911-5b2d-bc20-fbd3633559f4",
+        "2dfef8c7-25f6-5440-9691-4cf71e669b30",
+        "66274f4b-9913-5161-a790-00ce9739e1d1"
+      ]
+    },
+    {
+      "id": "grandmother_15",
+      "retrieval_hit": false,
+      "context_ids": [
+        "2dfef8c7-25f6-5440-9691-4cf71e669b30",
+        "f3ed521e-1957-5cc7-950e-00e820200e6d",
+        "66c1c8aa-e911-5b2d-bc20-fbd3633559f4"
+      ]
+    },
+    {
+      "id": "grandmother_16",
+      "retrieval_hit": true,
+      "context_ids": [
+        "dbc2a07a-09d1-5ae9-acbd-95d02c25e2d5",
+        "3e3e26a5-f04e-5a17-bdb2-0ab6882d0edf",
+        "2dfef8c7-25f6-5440-9691-4cf71e669b30"
+      ]
+    },
+    {
+      "id": "grandmother_17",
+      "retrieval_hit": true,
+      "context_ids": [
+        "dbc2a07a-09d1-5ae9-acbd-95d02c25e2d5",
+        "3e3e26a5-f04e-5a17-bdb2-0ab6882d0edf",
+        "2dfef8c7-25f6-5440-9691-4cf71e669b30"
+      ]
+    },
+    {
+      "id": "grandmother_18",
+      "retrieval_hit": true,
+      "context_ids": [
+        "eb3fffa0-38d2-5ca5-a96a-512dfb99fcc1",
+        "3098c93b-a3d6-5da0-bb54-6eb6b3fd2a5e",
+        "ab558ce5-f6e3-56bd-9fb2-2fd0545d04c3"
+      ]
+    },
+    {
+      "id": "grandmother_19",
+      "retrieval_hit": true,
+      "context_ids": [
+        "f88af0f0-f5cb-5aee-a59e-afd4363ed1cf",
+        "fe7d7c8e-2ddd-5960-ba0b-45dd9b773036",
+        "ac207b71-fcf5-5969-801c-6ccf45ef9542"
+      ]
+    },
+    {
+      "id": "potmaker_01",
+      "retrieval_hit": true,
+      "context_ids": [
+        "3a9009af-f5d3-54b0-8be9-0c1e289ca6bd",
+        "a85c4443-9b99-5e95-aa05-2e7386247d8c",
+        "d87e3234-15a1-576b-a3cc-40eb79fdc899"
+      ]
+    },
+    {
+      "id": "potmaker_02",
+      "retrieval_hit": true,
+      "context_ids": [
+        "2662a1b0-8796-5285-87a2-65ddda8c80fc",
+        "d87e3234-15a1-576b-a3cc-40eb79fdc899",
+        "3a9009af-f5d3-54b0-8be9-0c1e289ca6bd"
+      ]
+    },
+    {
+      "id": "potmaker_03",
+      "retrieval_hit": true,
+      "context_ids": [
+        "8e9217b9-9d49-54af-ab68-d7ceaa872fd2",
+        "3a9009af-f5d3-54b0-8be9-0c1e289ca6bd",
+        "9a90d29b-954b-55a7-9afc-3655b1f3bfae"
+      ]
+    },
+    {
+      "id": "potmaker_04",
+      "retrieval_hit": true,
+      "context_ids": [
+        "2662a1b0-8796-5285-87a2-65ddda8c80fc",
+        "d87e3234-15a1-576b-a3cc-40eb79fdc899",
+        "9a90d29b-954b-55a7-9afc-3655b1f3bfae"
+      ]
+    },
+    {
+      "id": "potmaker_05",
+      "retrieval_hit": true,
+      "context_ids": [
+        "a85c4443-9b99-5e95-aa05-2e7386247d8c",
+        "b99835ce-3dbc-5f59-9d11-5fdc63d09215",
+        "d87e3234-15a1-576b-a3cc-40eb79fdc899"
+      ]
+    },
+    {
+      "id": "potmaker_06",
+      "retrieval_hit": true,
+      "context_ids": [
+        "92fc53dd-3a71-5f54-9b07-c2af21f105b8",
+        "b99835ce-3dbc-5f59-9d11-5fdc63d09215",
+        "587bc5dd-cc6c-5bab-8188-ac55fac9c72f"
+      ]
+    },
+    {
+      "id": "potmaker_07",
+      "retrieval_hit": true,
+      "context_ids": [
+        "7c6917e7-d1b4-5987-ae67-414f1a11cb70",
+        "d87e3234-15a1-576b-a3cc-40eb79fdc899",
+        "b99835ce-3dbc-5f59-9d11-5fdc63d09215"
+      ]
+    },
+    {
+      "id": "potmaker_08",
+      "retrieval_hit": true,
+      "context_ids": [
+        "7c6917e7-d1b4-5987-ae67-414f1a11cb70",
+        "3a9009af-f5d3-54b0-8be9-0c1e289ca6bd",
+        "a85c4443-9b99-5e95-aa05-2e7386247d8c"
+      ]
+    },
+    {
+      "id": "potmaker_09",
+      "retrieval_hit": true,
+      "context_ids": [
+        "7c6917e7-d1b4-5987-ae67-414f1a11cb70",
+        "d87e3234-15a1-576b-a3cc-40eb79fdc899",
+        "2662a1b0-8796-5285-87a2-65ddda8c80fc"
+      ]
+    },
+    {
+      "id": "potmaker_10",
+      "retrieval_hit": true,
+      "context_ids": [
+        "a00f36c9-b764-5c9d-97d7-087bdac9ab95",
+        "10b23fee-9c80-5154-88a4-bd81c5433f81",
+        "587bc5dd-cc6c-5bab-8188-ac55fac9c72f"
+      ]
+    },
+    {
+      "id": "potmaker_11",
+      "retrieval_hit": true,
+      "context_ids": [
+        "2662a1b0-8796-5285-87a2-65ddda8c80fc",
+        "587bc5dd-cc6c-5bab-8188-ac55fac9c72f",
+        "b99835ce-3dbc-5f59-9d11-5fdc63d09215"
+      ]
+    },
+    {
+      "id": "potmaker_12",
+      "retrieval_hit": true,
+      "context_ids": [
+        "1b549909-013b-5971-b18a-553efa0ec7f1",
+        "e13bc2bb-27a7-5ae9-8905-5b4320f7e4de",
+        "20596627-872b-5856-8623-4d98df84f608"
+      ]
+    },
+    {
+      "id": "potmaker_13",
+      "retrieval_hit": true,
+      "context_ids": [
+        "c0efec7f-a5d9-546a-af11-496aed1e02e1",
+        "1b549909-013b-5971-b18a-553efa0ec7f1",
+        "20596627-872b-5856-8623-4d98df84f608"
+      ]
+    },
+    {
+      "id": "potmaker_14",
+      "retrieval_hit": false,
+      "context_ids": [
+        "1b549909-013b-5971-b18a-553efa0ec7f1",
+        "c0efec7f-a5d9-546a-af11-496aed1e02e1",
+        "3c87cf99-8cec-5963-9880-081b6ce6c035"
+      ]
+    },
+    {
+      "id": "potmaker_15",
+      "retrieval_hit": true,
+      "context_ids": [
+        "20596627-872b-5856-8623-4d98df84f608",
+        "1b549909-013b-5971-b18a-553efa0ec7f1",
+        "e13bc2bb-27a7-5ae9-8905-5b4320f7e4de"
+      ]
+    },
+    {
+      "id": "potmaker_16",
+      "retrieval_hit": true,
+      "context_ids": [
+        "1b549909-013b-5971-b18a-553efa0ec7f1",
+        "3c87cf99-8cec-5963-9880-081b6ce6c035",
+        "c0efec7f-a5d9-546a-af11-496aed1e02e1"
+      ]
+    },
+    {
+      "id": "potmaker_17",
+      "retrieval_hit": true,
+      "context_ids": [
+        "858ed23a-2efc-531f-bc83-fce78d142c9a",
+        "a03d29ec-39d8-58b0-8c37-47ab4c4c38a2",
+        "68c146f3-0240-5973-8b0a-5e45510807cf"
+      ]
+    },
+    {
+      "id": "potmaker_18",
+      "retrieval_hit": true,
+      "context_ids": [
+        "1b549909-013b-5971-b18a-553efa0ec7f1",
+        "20596627-872b-5856-8623-4d98df84f608",
+        "c0efec7f-a5d9-546a-af11-496aed1e02e1"
+      ]
+    },
+    {
+      "id": "giftsgrace_01",
+      "retrieval_hit": false,
+      "context_ids": [
+        "ce4e8f6a-1d93-5030-b7ab-1bcb493cedb5",
+        "52ccd8f8-b776-55f9-bfb4-a5dc0f86a1f9",
+        "dea5fe67-fa47-5053-a869-73abd2f6e77a"
+      ]
+    },
+    {
+      "id": "giftsgrace_02",
+      "retrieval_hit": false,
+      "context_ids": [
+        "2b9ede54-42a1-5ac0-ab1a-598bbf4bb294",
+        "f98b63e2-0bc6-5ced-bfff-ce0cfe3a61b5",
+        "a32b15c3-c8f9-5648-9c7f-834265b5799a"
+      ]
+    },
+    {
+      "id": "giftsgrace_03",
+      "retrieval_hit": true,
+      "context_ids": [
+        "10a534c0-d0cd-5d7f-a228-37410ad9aedb",
+        "2b9ede54-42a1-5ac0-ab1a-598bbf4bb294",
+        "135aef62-9ecd-58a3-9397-3ee1520b7201"
+      ]
+    },
+    {
+      "id": "giftsgrace_04",
+      "retrieval_hit": true,
+      "context_ids": [
+        "f7edc7c8-211f-5ad8-9d31-a8485884063e",
+        "15a7f461-9bed-5ddc-89ea-c9b1d14c129d",
+        "670cb38e-3b56-5187-8e7e-1e084c926d9d"
+      ]
+    },
+    {
+      "id": "giftsgrace_05",
+      "retrieval_hit": false,
+      "context_ids": [
+        "7052c4eb-ae98-531b-961f-a46699fee2ed",
+        "f98b63e2-0bc6-5ced-bfff-ce0cfe3a61b5",
+        "a32b15c3-c8f9-5648-9c7f-834265b5799a"
+      ]
+    },
+    {
+      "id": "giftsgrace_06",
+      "retrieval_hit": false,
+      "context_ids": [
+        "7052c4eb-ae98-531b-961f-a46699fee2ed",
+        "ce4e8f6a-1d93-5030-b7ab-1bcb493cedb5",
+        "f7edc7c8-211f-5ad8-9d31-a8485884063e"
+      ]
+    },
+    {
+      "id": "giftsgrace_07",
+      "retrieval_hit": true,
+      "context_ids": [
+        "7052c4eb-ae98-531b-961f-a46699fee2ed",
+        "1ce47d26-a74d-5b52-a419-52a64adf265a",
+        "837487ef-030d-53fd-b9da-15800dde222b"
+      ]
+    },
+    {
+      "id": "giftsgrace_08",
+      "retrieval_hit": true,
+      "context_ids": [
+        "2fa9311a-7b44-5011-b1b5-752747798cca",
+        "89f45bea-854e-51b1-a87e-173f12feb8c0",
+        "de4a5da3-918c-5464-8fbf-543afd280a23"
+      ]
+    },
+    {
+      "id": "giftsgrace_09",
+      "retrieval_hit": true,
+      "context_ids": [
+        "2fa9311a-7b44-5011-b1b5-752747798cca",
+        "de4a5da3-918c-5464-8fbf-543afd280a23",
+        "89f45bea-854e-51b1-a87e-173f12feb8c0"
+      ]
+    },
+    {
+      "id": "giftsgrace_10",
+      "retrieval_hit": false,
+      "context_ids": [
+        "b5b28d50-4e53-5c1a-803d-166a92404097",
+        "256e9ab1-597a-5e12-8c02-1ccdaf0aec4b",
+        "6468f0e8-6a57-5489-a5bd-b2855ea79e9b"
+      ]
+    },
+    {
+      "id": "giftsgrace_11",
+      "retrieval_hit": true,
+      "context_ids": [
+        "b5b28d50-4e53-5c1a-803d-166a92404097",
+        "6468f0e8-6a57-5489-a5bd-b2855ea79e9b",
+        "256e9ab1-597a-5e12-8c02-1ccdaf0aec4b"
+      ]
+    },
+    {
+      "id": "giftsgrace_12",
+      "retrieval_hit": true,
+      "context_ids": [
+        "b5b28d50-4e53-5c1a-803d-166a92404097",
+        "6468f0e8-6a57-5489-a5bd-b2855ea79e9b",
+        "256e9ab1-597a-5e12-8c02-1ccdaf0aec4b"
+      ]
+    },
+    {
+      "id": "giftsgrace_13",
+      "retrieval_hit": true,
+      "context_ids": [
+        "ba0b9b42-fd04-51e3-9ef4-128b6f8cc4dc",
+        "f8bb4d70-6857-50bb-bd03-ee7d1e0fd4cd",
+        "44998dbf-f725-5458-93de-08e736136170"
+      ]
+    },
+    {
+      "id": "giftsgrace_14",
+      "retrieval_hit": true,
+      "context_ids": [
+        "4f7a04a8-5626-5782-b348-a810bf8a91ae",
+        "f80b0cfa-875b-5ace-a2ca-65e4cfe720e8",
+        "b4f7771a-4f28-578b-9121-023a2143fc98"
+      ]
+    },
+    {
+      "id": "giftsgrace_15",
+      "retrieval_hit": true,
+      "context_ids": [
+        "4f7a04a8-5626-5782-b348-a810bf8a91ae",
+        "f80b0cfa-875b-5ace-a2ca-65e4cfe720e8",
+        "b4f7771a-4f28-578b-9121-023a2143fc98"
+      ]
+    },
+    {
+      "id": "giftsgrace_16",
+      "retrieval_hit": true,
+      "context_ids": [
+        "ee50d163-3fc8-5886-ba8a-67a9ee669160",
+        "770939b0-6b54-58f2-b5b5-f28f83016597",
+        "1fc24580-1168-5290-9681-62868e88bad7"
+      ]
+    }
+  ]
+}

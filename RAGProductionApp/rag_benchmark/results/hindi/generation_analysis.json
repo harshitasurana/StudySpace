@@ -1,0 +1,334 @@
+{
+  "subject": "Hindi",
+  "top_k": 3,
+  "n_questions": 30,
+  "retrieval_hit_rate": 0.5666666666666667,
+  "decomposition": {
+    "llama3:8b": {
+      "hit_n": 17,
+      "hit_counts": {
+        "CORRECT": 11,
+        "PARTIAL": 2,
+        "INCORRECT": 4,
+        "ERROR": 0
+      },
+      "hit_accuracy": 0.7058823529411765,
+      "miss_n": 13,
+      "miss_counts": {
+        "CORRECT": 0,
+        "PARTIAL": 3,
+        "INCORRECT": 10,
+        "ERROR": 0
+      },
+      "miss_accuracy": 0.11538461538461539
+    },
+    "gemma3:4b": {
+      "hit_n": 17,
+      "hit_counts": {
+        "CORRECT": 10,
+        "PARTIAL": 3,
+        "INCORRECT": 4,
+        "ERROR": 0
+      },
+      "hit_accuracy": 0.6764705882352942,
+      "miss_n": 13,
+      "miss_counts": {
+        "CORRECT": 3,
+        "PARTIAL": 2,
+        "INCORRECT": 8,
+        "ERROR": 0
+      },
+      "miss_accuracy": 0.3076923076923077
+    },
+    "qwen2.5vl:7b": {
+      "hit_n": 17,
+      "hit_counts": {
+        "CORRECT": 11,
+        "PARTIAL": 2,
+        "INCORRECT": 4,
+        "ERROR": 0
+      },
+      "hit_accuracy": 0.7058823529411765,
+      "miss_n": 13,
+      "miss_counts": {
+        "CORRECT": 2,
+        "PARTIAL": 2,
+        "INCORRECT": 9,
+        "ERROR": 0
+      },
+      "miss_accuracy": 0.23076923076923078
+    }
+  },
+  "per_question": [
+    {
+      "id": "hindi_bailon_01",
+      "retrieval_hit": false,
+      "context_ids": [
+        "57f652d6-0aea-5d6f-a7d1-0e24853573e7",
+        "512e1110-1574-5f0f-87ea-7e35551554cd",
+        "5198979d-d042-5e89-b665-69b7b0214848"
+      ]
+    },
+    {
+      "id": "hindi_bailon_02",
+      "retrieval_hit": true,
+      "context_ids": [
+        "436a6b63-a2d2-58f4-aed1-04472cc64629",
+        "5198979d-d042-5e89-b665-69b7b0214848",
+        "21aa57e1-1c59-5ff7-bdd4-037ab48d0376"
+      ]
+    },
+    {
+      "id": "hindi_bailon_03",
+      "retrieval_hit": true,
+      "context_ids": [
+        "436a6b63-a2d2-58f4-aed1-04472cc64629",
+        "5198979d-d042-5e89-b665-69b7b0214848",
+        "9f34b2fc-85dd-5756-8c8e-a4562249aef3"
+      ]
+    },
+    {
+      "id": "hindi_bailon_04",
+      "retrieval_hit": true,
+      "context_ids": [
+        "436a6b63-a2d2-58f4-aed1-04472cc64629",
+        "5198979d-d042-5e89-b665-69b7b0214848",
+        "a50422fc-6735-58bc-ae64-dfbd9d397673"
+      ]
+    },
+    {
+      "id": "hindi_bailon_05",
+      "retrieval_hit": true,
+      "context_ids": [
+        "90b83b50-277f-582b-a5cd-9e88eaf55a0f",
+        "766284b3-bedc-5f1e-b628-c45d6953b667",
+        "52b62c0e-5bc9-5612-9b3f-f258f2a4207c"
+      ]
+    },
+    {
+      "id": "hindi_bailon_06",
+      "retrieval_hit": true,
+      "context_ids": [
+        "766284b3-bedc-5f1e-b628-c45d6953b667",
+        "7a959068-4e79-50f3-9253-911f46b4c9a4",
+        "00209b11-96ab-552b-9167-9ac05bec6a44"
+      ]
+    },
+    {
+      "id": "hindi_bailon_07",
+      "retrieval_hit": true,
+      "context_ids": [
+        "247f0352-bf01-5aab-9a35-4ba2d677b1a7",
+        "2a3d3cac-892f-5a18-abee-6844e7f9048a",
+        "90b83b50-277f-582b-a5cd-9e88eaf55a0f"
+      ]
+    },
+    {
+      "id": "hindi_bailon_08",
+      "retrieval_hit": false,
+      "context_ids": [
+        "9a1fb210-bc72-5587-926b-c064e4d4c989",
+        "3699ccd7-60bb-5027-bac6-9848ca78cb18",
+        "e7f92a42-3f28-5e68-a4ad-994b3b052d85"
+      ]
+    },
+    {
+      "id": "hindi_bailon_09",
+      "retrieval_hit": true,
+      "context_ids": [
+        "a39190eb-2606-5727-a4d0-e5faf1b256c5",
+        "091c3a61-01f7-5f47-9d60-46b64e7a0d05",
+        "098fa4cd-8836-5cdf-b256-c14438944043"
+      ]
+    },
+    {
+      "id": "hindi_bailon_10",
+      "retrieval_hit": false,
+      "context_ids": [
+        "766284b3-bedc-5f1e-b628-c45d6953b667",
+        "90b83b50-277f-582b-a5cd-9e88eaf55a0f",
+        "9f90a38c-b0ea-5a64-bb1b-bdaee18892a4"
+      ]
+    },
+    {
+      "id": "hindi_bailon_11",
+      "retrieval_hit": true,
+      "context_ids": [
+        "9a1fb210-bc72-5587-926b-c064e4d4c989",
+        "31f46532-9151-50b0-8880-34112e160ae1",
+        "3699ccd7-60bb-5027-bac6-9848ca78cb18"
+      ]
+    },
+    {
+      "id": "hindi_bailon_12",
+      "retrieval_hit": true,
+      "context_ids": [
+        "dcaa2a56-ec27-5cda-bde0-95581c696e67",
+        "e7f92a42-3f28-5e68-a4ad-994b3b052d85",
+        "3699ccd7-60bb-5027-bac6-9848ca78cb18"
+      ]
+    },
+    {
+      "id": "hindi_bailon_13",
+      "retrieval_hit": true,
+      "context_ids": [
+        "e7f92a42-3f28-5e68-a4ad-994b3b052d85",
+        "dcaa2a56-ec27-5cda-bde0-95581c696e67",
+        "6399cad3-fa7a-58fa-8fa6-f9695115600a"
+      ]
+    },
+    {
+      "id": "hindi_bailon_14",
+      "retrieval_hit": false,
+      "context_ids": [
+        "dcaa2a56-ec27-5cda-bde0-95581c696e67",
+        "9d61bec7-f0c5-52e8-87ce-705fad1a7b96",
+        "098fa4cd-8836-5cdf-b256-c14438944043"
+      ]
+    },
+    {
+      "id": "hindi_bailon_15",
+      "retrieval_hit": true,
+      "context_ids": [
+        "f603498c-ed35-59f0-8eb1-c6d74d9d0120",
+        "5198979d-d042-5e89-b665-69b7b0214848",
+        "9b77ddc7-31d1-5bf7-b450-e7bda12b1b40"
+      ]
+    },
+    {
+      "id": "hindi_jhansi_01",
+      "retrieval_hit": false,
+      "context_ids": [
+        "0edca351-e25f-5e30-ad82-44773a1b46e8",
+        "7de2ea8b-4535-5513-8552-c72ee25676f8",
+        "88af78ec-2ddc-5283-ac9d-3d800e075982"
+      ]
+    },
+    {
+      "id": "hindi_jhansi_02",
+      "retrieval_hit": true,
+      "context_ids": [
+        "88af78ec-2ddc-5283-ac9d-3d800e075982",
+        "608ef22e-fdf0-5245-b4a1-11766efe0408",
+        "e29b92e0-8781-538b-8ffa-548d1533d2ae"
+      ]
+    },
+    {
+      "id": "hindi_jhansi_03",
+      "retrieval_hit": true,
+      "context_ids": [
+        "608ef22e-fdf0-5245-b4a1-11766efe0408",
+        "88af78ec-2ddc-5283-ac9d-3d800e075982",
+        "553e2168-8bad-55ed-8873-44772969b773"
+      ]
+    },
+    {
+      "id": "hindi_jhansi_04",
+      "retrieval_hit": false,
+      "context_ids": [
+        "9b77ddc7-31d1-5bf7-b450-e7bda12b1b40",
+        "5198979d-d042-5e89-b665-69b7b0214848",
+        "ac519f7e-1b82-5a89-92a2-121e8eca4e60"
+      ]
+    },
+    {
+      "id": "hindi_jhansi_05",
+      "retrieval_hit": false,
+      "context_ids": [
+        "6b368ed5-a452-5d1d-a95e-8c7833441fe9",
+        "0edca351-e25f-5e30-ad82-44773a1b46e8",
+        "436a6b63-a2d2-58f4-aed1-04472cc64629"
+      ]
+    },
+    {
+      "id": "hindi_jhansi_06",
+      "retrieval_hit": false,
+      "context_ids": [
+        "7fbc25b4-7bb3-5418-92ed-0d9c64d4ea76",
+        "7c5f25a1-93fa-57e7-ae82-dfb598c46a2d",
+        "e5d0ab51-1697-50a3-bad0-3a784a423948"
+      ]
+    },
+    {
+      "id": "hindi_jhansi_07",
+      "retrieval_hit": false,
+      "context_ids": [
+        "0edca351-e25f-5e30-ad82-44773a1b46e8",
+        "88af78ec-2ddc-5283-ac9d-3d800e075982",
+        "46e33bf8-8e71-50c2-b257-b84b1819c784"
+      ]
+    },
+    {
+      "id": "hindi_jhansi_08",
+      "retrieval_hit": true,
+      "context_ids": [
+        "143d7b92-705e-5f37-9a9e-49055bf85d3c",
+        "0edca351-e25f-5e30-ad82-44773a1b46e8",
+        "eeee6e43-4514-5077-bce2-b5b04155a90a"
+      ]
+    },
+    {
+      "id": "hindi_jhansi_09",
+      "retrieval_hit": true,
+      "context_ids": [
+        "5a1b8017-bb83-56f1-984f-a50852c6d7a4",
+        "7d9c0407-41d0-5b90-a1ea-40b1841aa4df",
+        "7c5f25a1-93fa-57e7-ae82-dfb598c46a2d"
+      ]
+    },
+    {
+      "id": "hindi_jhansi_10",
+      "retrieval_hit": false,
+      "context_ids": [
+        "436a6b63-a2d2-58f4-aed1-04472cc64629",
+        "608ef22e-fdf0-5245-b4a1-11766efe0408",
+        "5e7002da-6217-5391-9b81-6143e26d2007"
+      ]
+    },
+    {
+      "id": "hindi_jhansi_11",
+      "retrieval_hit": true,
+      "context_ids": [
+        "7c5f25a1-93fa-57e7-ae82-dfb598c46a2d",
+        "143d7b92-705e-5f37-9a9e-49055bf85d3c",
+        "88af78ec-2ddc-5283-ac9d-3d800e075982"
+      ]
+    },
+    {
+      "id": "hindi_jhansi_12",
+      "retrieval_hit": false,
+      "context_ids": [
+        "143d7b92-705e-5f37-9a9e-49055bf85d3c",
+        "0edca351-e25f-5e30-ad82-44773a1b46e8",
+        "88af78ec-2ddc-5283-ac9d-3d800e075982"
+      ]
+    },
+    {
+      "id": "hindi_jhansi_13",
+      "retrieval_hit": false,
+      "context_ids": [
+        "eeee6e43-4514-5077-bce2-b5b04155a90a",
+        "ac519f7e-1b82-5a89-92a2-121e8eca4e60",
+        "d410cf5e-d3a4-52ab-8f14-9c6fd3912866"
+      ]
+    },
+    {
+      "id": "hindi_jhansi_14",
+      "retrieval_hit": true,
+      "context_ids": [
+        "1fcbab4a-642a-59bd-9478-12e41b00e433",
+        "0edca351-e25f-5e30-ad82-44773a1b46e8",
+        "eeee6e43-4514-5077-bce2-b5b04155a90a"
+      ]
+    },
+    {
+      "id": "hindi_jhansi_15",
+      "retrieval_hit": false,
+      "context_ids": [
+        "76cdbaf7-07c9-5ce0-ab93-cb4105aa7212",
+        "d410cf5e-d3a4-52ab-8f14-9c6fd3912866",
+        "0edca351-e25f-5e30-ad82-44773a1b46e8"
+      ]
+    }
+  ]
+}

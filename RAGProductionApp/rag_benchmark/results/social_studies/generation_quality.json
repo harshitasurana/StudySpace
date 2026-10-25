@@ -1,0 +1,1942 @@
+{
+  "subject": "Social Studies",
+  "top_k": 3,
+  "generator_models": [
+    "llama3:8b",
+    "gemma3:4b",
+    "qwen2.5vl:7b"
+  ],
+  "judge_model": "qwen3:8b",
+  "questions_completed": 79,
+  "questions_total": 169,
+  "summary": {
+    "llama3:8b": {
+      "counts": {
+        "CORRECT": 75,
+        "PARTIAL": 3,
+        "INCORRECT": 1,
+        "UNPARSEABLE": 0,
+        "ERROR": 0
+      },
+      "accuracy": 0.9683544303797469
+    },
+    "gemma3:4b": {
+      "counts": {
+        "CORRECT": 71,
+        "PARTIAL": 6,
+        "INCORRECT": 2,
+        "UNPARSEABLE": 0,
+        "ERROR": 0
+      },
+      "accuracy": 0.9367088607594937
+    },
+    "qwen2.5vl:7b": {
+      "counts": {
+        "CORRECT": 74,
+        "PARTIAL": 4,
+        "INCORRECT": 1,
+        "UNPARSEABLE": 0,
+        "ERROR": 0
+      },
+      "accuracy": 0.9620253164556962
+    }
+  },
+  "per_question": [
+    {
+      "id": "socsci_01",
+      "question": "What are the four core disciplines from which Social Science primarily draws, according to the chapter?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to the chapter, the four core disciplines from which Social Science primarily draws are:\n\n1. Geography\n2. History\n3. Political Science\n4. Economics",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer correctly lists the four core disciplines—Geography, History, Political Science, and Economics—as explicitly stated in the source text.",
+          "seconds": 122.7
+        },
+        "gemma3:4b": {
+          "answer": "According to the chapter, Social Science primarily draws from four core disciplines: Geography, History, Political Science, and Economics.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer correctly lists the four core disciplines—Geography, History, Political Science, and Economics—as specified in the source text.",
+          "seconds": 89.7
+        },
+        "qwen2.5vl:7b": {
+          "answer": "Geography, History, Political Science, and Economics.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer exactly lists the four core disciplines—Geography, History, Political Science, and Economics—as stated in the source text.",
+          "seconds": 84.0
+        }
+      }
+    },
+    {
+      "id": "socsci_02",
+      "question": "What does Geography study, and what tools does it use to investigate its questions?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to the given context, Geography studies the location and distribution of places, objects, materials, and people, as well as the relationships between human societies and their surroundings. It examines both, the physical features of the Earth's surface and the human communities that inhabit it, focusing on how people interact with the natural environment and how places influence human life.\n\nGeography uses various tools to understand concepts and investigate questions. These tools include:\n\n1. Maps\n2. Globes\n3. Atlases\n4. Geographical Information System (GIS)\n5. Infographics\n6. Other instruments\n\nThese tools help to enhance the understanding of the discipline and facilitate the investigation of questions.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's content on Geography's subject matter and tools without introducing errors or omissions.",
+          "seconds": 91.3
+        },
+        "gemma3:4b": {
+          "answer": "Geography studies the location and distribution of places, objects, materials, and people, as well as the relationships between human societies and their surroundings. It uses tools like maps, globes, atlases, *Geographical Information Systems (GIS)*, infographics, and other instruments to understand concepts and investigate questions.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's explanation of Geography's subject matter and tools, omitting minor details but retaining the core factual information.",
+          "seconds": 106.3
+        },
+        "qwen2.5vl:7b": {
+          "answer": "Geography studies the location and distribution of places, objects, materials, and people, as well as the relationships between human societies and their surroundings. It examines both the physical features of the Earth's surface and the human communities that inhabit it, focusing on how people interact with the natural environment and how places influence human life. Geography seeks to understand where things are located, why they are found there, and how places—near or distant—affect one another over time. It views the world as a system of interdependencies and adopts a holistic approach by integrating spatial perspectives (location and its significance) with temporal perspectives (change over time).\n\nGeography uses various tools to understand concepts and investigate questions, including maps, globes, atlases, geographical Information System (GIS), infographics, and various other instruments.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's explanation of geography's subject matter and tools, without adding or omitting key details.",
+          "seconds": 134.5
+        }
+      }
+    },
+    {
+      "id": "socsci_03",
+      "question": "What is History the study of, and what does modern historiography increasingly rely on to establish timelines?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to the given context, History is the study of human past, through which societies seek to understand people's experiences, values, and changes over time. Modern historiography, on the other hand, increasingly relies on HMSiriFaO\u0003 HviGHQFH and uses tools such as human genetics, carbon-14 dating, archaeology, and other scientific methods to establish timelines and understand the past.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's definition of History and correctly identifies modern historiography's reliance on empirical evidence and scientific methods for establishing timelines.",
+          "seconds": 102.8
+        },
+        "gemma3:4b": {
+          "answer": "According to the provided context, History is the study of human past, through which societies seek to understand people’s experiences, values, and changes over time. Modern historiography increasingly relies on archaeological methods and uses tools such as human genetics, carbon dating, and archaeology to establish timelines and understand the past.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's emphasis on History as the study of the human past and modern historiography's reliance on scientific tools like genetics, carbon dating, and archaeology to establish timelines.",
+          "seconds": 99.0
+        },
+        "qwen2.5vl:7b": {
+          "answer": "History is the study of human past, through which societies seek to understand people’s experiences, values, and changes over time. Modern historiography increasingly relies on HmSiriFaO HviGHQFH to establish timelines.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's assertion that History studies the human past and that modern historiography increasingly relies on \"HmSiriFaO HviGHQFH\" (empirical observation/experimentation) to establish timelines.",
+          "seconds": 161.8
+        }
+      }
+    },
+    {
+      "id": "socsci_04",
+      "question": "What is Political Science the study of, according to the chapter?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to the chapter, Political Science is the study of governance, which informs us how and why power is distributed, decisions are made, and policies are implemented. It is the study of constitutions, governments, and institutions of the State. Political Science also studies social movements, nation building, foreign policy, and the ways power is exercised, shared, and regulated in society and everyday life.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the core definition of Political Science from the source text, covering governance, power dynamics, institutions, and societal aspects without introducing unsupported information.",
+          "seconds": 138.7
+        },
+        "gemma3:4b": {
+          "answer": "According to the chapter, Political Science is the study of governance, which informs us how and why power is distributed, decisions are made, and policies are implemented. It is the study of constitutions, governments, and institutions of the State.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the core definition of Political Science from the source text, focusing on governance, power distribution, decision-making, and state institutions.",
+          "seconds": 112.9
+        },
+        "qwen2.5vl:7b": {
+          "answer": "Political Science is the study of governance, which informs us how and why power is distributed, decisions are made, and policies are implemented.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer directly quotes the source text's definition of Political Science as the study of governance, which aligns exactly with the chapter's explanation.",
+          "seconds": 124.6
+        }
+      }
+    },
+    {
+      "id": "socsci_05",
+      "question": "What does Economics help us understand, and what decision-making roles does it study?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to the provided context, Economics helps us understand how individuals and societies decide how to use limited resources to meet their needs. It studies how goods and services are produced, exchanged, and distributed, and examines how these processes shape everyday life. Economics explores decision-making by consumers, producers, and governments, and helps us recognize both achievements and challenges, while encouraging us to think about how resources can be used more wisely and fairly, while ensuring sustainable growth that meets present needs without harming the ability of future generations to meet theirs.\n\nIn particular, Economics helps us understand the following decision-making roles:\n\n* Consumers decide what to buy.\n* Producers determine what and how much to produce.\n* Governments frame policies to balance goals, such as growth and stability, efficiency and fairness.\n\nOverall, Economics helps us understand how economic decisions affect individuals, communities, and the nation as a whole.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's explanation of Economics' role in understanding resource allocation, decision-making by consumers, producers, and governments, and its focus on well-being, equity, and sustainable growth.",
+          "seconds": 127.1
+        },
+        "gemma3:4b": {
+          "answer": "Economics helps us understand how individuals and societies decide how to use limited resources to meet their needs. It studies how goods and services are produced, exchanged, and distributed, and examines the decision-making by consumers, producers, and governments.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's core points about Economics' role in understanding resource allocation and decision-making by consumers, producers, and governments.",
+          "seconds": 127.2
+        },
+        "qwen2.5vl:7b": {
+          "answer": "Economics helps us understand how individuals and societies make choices to use limited resources to satisfy unlimited wants. It studies decision-making roles of consumers, producers, and governments.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's explanation of economics' role in understanding resource allocation and decision-making by consumers, producers, and governments.",
+          "seconds": 157.6
+        }
+      }
+    },
+    {
+      "id": "socsci_06",
+      "question": "Which ancient Indian ideas were closely linked to the early study of politics, and which text is described as a foundational treatise on politics and administration?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to the provided context, ancient Indian ideas that were closely linked to the early study of politics are:\n\n* Dharma (moral duty)\n* Artha (economic well-being)\n* Rāmadharma (the duties of the ruler)\n\nThe text described as a foundational treatise on politics and administration is the $rthaĜhÃstra.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student accurately identified dharma, artha, and rāmadharma as linked to ancient Indian political thought and correctly named the Arthaśāstra as the foundational text.",
+          "seconds": 163.0
+        },
+        "gemma3:4b": {
+          "answer": "According to the provided context, ancient Indian ideas closely linked to the early study of politics were dharma, artha, and rMadharma. The text described as a foundational treatise on politics and administration is the $rthaĜhÃstra.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student accurately identifies dharma, artha, and rajadharma as the linked ideas and correctly names the Arthashastra as the foundational text, both of which are explicitly stated in the source text.",
+          "seconds": 117.4
+        },
+        "qwen2.5vl:7b": {
+          "answer": "The ancient Indian ideas closely linked to the early study of politics were dharma (moral duty), artha (economic well-being), and rājadharmā (the duties of the ruler). The text described as a foundational treatise on politics and administration is the Srīttha Āgamastra.",
+          "verdict": "PARTIAL",
+          "judge_raw": "PARTIAL  \nThe student correctly identified dharma, artha, and rājadharmā but incorrectly named the foundational text as \"Srīttha Āgamastra\" instead of the correct \"Arthashastra.\"",
+          "seconds": 196.8
+        }
+      }
+    },
+    {
+      "id": "socsci_07",
+      "question": "What is the concept of the Panchamahabhutas, and what five fundamental elements does it comprise?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "The concept of the Panchamahabhutas is an idea that comes from Indian philosophical traditions and explains the world as composed of five fundamental elements: earth (Pṛithví), water (׌), fire (gni), air (Vāyu), and space (Âkāśha).",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately lists the five elements of Panchamahabhutas as described in the source text.",
+          "seconds": 255.3
+        },
+        "gemma3:4b": {
+          "answer": "The concept of the Panchamahabhutas describes the natural world as an interconnected system in which human life is embedded. It comprises five fundamental elements: earth (Pṛithví), water, fire, air (Vāyu), and space (Âkāśha).",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately lists the five elements (earth, water, fire, air, space) as described in the source text, including their Sanskrit names and the concept of interconnectedness.",
+          "seconds": 162.7
+        },
+        "qwen2.5vl:7b": {
+          "answer": "The concept of the Panchamahabhutas comes from Indian philosophical traditions and explains the world as composed of five fundamental elements: Earth (Pṛithví), Water (Āgā), Fire (Āgni), Air (Vāyu), and Space (Ākāśha).",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer correctly identifies the five elements (Earth, Water, Fire, Air, Space) as described in the source text.",
+          "seconds": 117.5
+        }
+      }
+    },
+    {
+      "id": "socsci_08",
+      "question": "What does the phrase 'vasudhaiva kutumbakam' mean, and what idea does it express?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "The phrase 'vasudhaiva kutumbakam' means 'the world is one family'. It expresses the idea of interdependence and interconnectedness of human societies across regions and cultures.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's explanation of the phrase's meaning and the idea of interconnectedness it expresses.",
+          "seconds": 146.3
+        },
+        "gemma3:4b": {
+          "answer": "The phrase ‘vasudhaiva kutumbakam’ means ‘the world is one family’. It expresses the idea of interconnectedness of human societies across regions and cultures.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's explanation of \"vasudhaiva kutumbakam\" as meaning \"the world is one family\" and expressing interconnectedness across societies.",
+          "seconds": 129.4
+        },
+        "qwen2.5vl:7b": {
+          "answer": "The phrase 'vasudhaiva kutumbakam' means 'the world is one family'. It expresses the interconnectedness of human societies across regions and cultures, emphasizing the idea of interdependence and unity among all people.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's explanation of 'vasudhaiva kutumbakam' as meaning 'the world is one family' and its expression of interconnectedness and interdependence.",
+          "seconds": 128.4
+        }
+      }
+    },
+    {
+      "id": "socsci_09",
+      "question": "In simple words, how does the chapter define Social Science, and how does it differ from subjects like Physics, Chemistry, and Biology?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to the chapter, Social Science is defined as \"the systematic study of human society\". It is not just about telling what happened or where things are located, but also explains why events occur, how people live together, how environments influence life, how governments function, how economies operate, and how the past and the present together shape the world.\n\nSocial Science differs from subjects like Physics, Chemistry, and Biology in that it focuses on society, institutions, cultures, and human interactions, whereas subjects like Physics, Chemistry, and Biology study the natural world. Social Science helps us understand not only what happens in our social world, but also why it happens and how different aspects of life are interconnected.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's definition of Social Science and its distinction from natural sciences, capturing key points about human society, explanations of events, and focus on social interactions versus natural world studies.",
+          "seconds": 143.7
+        },
+        "gemma3:4b": {
+          "answer": "According to the provided text, Social Science is “the systematic study of human society.” It differs from subjects like Physics, Chemistry, and Biology by focusing on society, institutions, cultures, and human interactions, rather than the natural world.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's definition of Social Science and its distinction from natural sciences.",
+          "seconds": 159.3
+        },
+        "qwen2.5vl:7b": {
+          "answer": "Social Science is the systematic study of human society. It focuses on society, institutions, cultures, and human interactions, explaining why events occur and how different aspects of life are interconnected. It differs from subjects like Physics, Chemistry, and Biology, which study the natural world.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's definition of Social Science as the study of human society and its focus on society, institutions, cultures, and human interactions, while correctly distinguishing it from natural sciences like Physics, Chemistry, and Biology.",
+          "seconds": 187.2
+        }
+      }
+    },
+    {
+      "id": "socsci_10",
+      "question": "What are archaeological sources and epigraphic sources, and give an example of each mentioned in the chapter's figures.",
+      "answers": {
+        "llama3:8b": {
+          "answer": "Based on the provided context, here are the answers:\n\nArchaeological sources are material remains used to study the past, which include:\n\n* Monuments\n* Architectural structures\n* Excavated sites\n* Artefacts\n* Objects\n* Art, such as sculptures and paintings\n\nExample mentioned in the chapter: \"Material remains used to study the past are known as archaeological sources.\"\n\nEpigraphic sources are written documents that provide information about historical events and people, which include:\n\n* Inscriptions\n* Carvings\n* Sculptures\n* Graffiti\n\nExample mentioned in the chapter: \"Epigraphic Sources: %rahmL LnscrLptLon on part oI a pLllar EelongLng to the *Xpta perLod\"\n\nNote: The chapter does not explicitly mention epigraphic sources in the figures, but it does provide examples of archaeological sources (Fig. 4.3).",
+          "verdict": "PARTIAL",
+          "judge_raw": "PARTIAL  \nThe student correctly identified examples of epigraphic sources but inaccurately claimed the chapter does not mention epigraphic sources in the figures, as the source text explicitly includes them.",
+          "seconds": 241.2
+        },
+        "gemma3:4b": {
+          "answer": "According to the provided context:\n\n*   **Archaeological Sources:** These are material remains used to study the past, including monuments, architectural structures, excavated sites, artefacts, objects, and art like sculptures and paintings. Their analysis often involves scientific instruments and laboratory testing. Example: “monuments, architectural structures, excavated sites, artefacts, objects, and art, such as sculptures and paintings” (Source 2).\n\n*   **Epigraphic Sources:** These are inscriptions on pillars, such as the “rahmL LnscrLptLon on part oI a pLllar EelongLng to the *Xpta perLod” and the “.annada LnscrLptLon oI (mperor .rLshnadeYa 5aya at the XndergroXnd 6hLYa temple” (Source 1).",
+          "verdict": "PARTIAL",
+          "judge_raw": "PARTIAL  \nThe answer correctly defines epigraphic sources and cites examples from the source text but inaccurately describes archaeological sources with generic examples not specified in the provided text.",
+          "seconds": 128.2
+        },
+        "qwen2.5vl:7b": {
+          "answer": "Archaeological sources are material remains used to study the past, such as monuments, architectural structures, excavated sites, artefacts, objects, and art. An example mentioned in the chapter is the pillar inscription from the Xipta period.\n\nEpigraphic sources are inscriptions on stone or other materials that provide historical and cultural information. An example mentioned in the chapter is the inscription of Emperor Rashnadeva 5aya at the UndergroXnd 6hLYa temple, 3rasanna 9LrXpaNsha temple, and +ampL.",
+          "verdict": "PARTIAL",
+          "judge_raw": "PARTIAL  \nThe student correctly identifies epigraphic sources with the Rashnadeva 5aya inscription but incorrectly classifies the pillar inscription as an archaeological source instead of an epigraphic one.",
+          "seconds": 129.7
+        }
+      }
+    },
+    {
+      "id": "socsci_11",
+      "question": "Why is Social Science described as connecting the past, present, and future?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to the given context, Social Science is described as connecting the past, present, and future because \"By understanding how past decisions shaped the present, we become better equipped to make wiser choices for the future.\"",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer directly quotes the key sentence from the source text that explains how Social Science connects past, present, and future by learning from past decisions to inform future choices.",
+          "seconds": 109.7
+        },
+        "gemma3:4b": {
+          "answer": "Social Science connects the past, present, and future by understanding how past decisions shaped the present, allowing for wiser choices for the future.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer directly reflects the source text's explanation that Social Science connects past decisions to present understanding and future choices.",
+          "seconds": 103.6
+        },
+        "qwen2.5vl:7b": {
+          "answer": "Social Science connects the past, present, and future by helping us understand how past decisions shaped the present and equipping us to make wiser choices for the future.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's explanation that Social Science connects past decisions to the present and prepares for the future by fostering informed choices.",
+          "seconds": 136.2
+        }
+      }
+    },
+    {
+      "id": "socsci_12",
+      "question": "What broad areas will students explore over the two-year Grade 9-10 Social Science learning journey, according to the chapter?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to the chapter, over the two-year Grade 9-10 Social Science learning journey, students will explore the following broad areas:\n\n1. Historical events and how they shaped the modern world.\n2. Geographical features and how they influence human life and economic activity.\n3. Political systems and democratic institutions, and how they function.\n4. Economies and how they organize production, distribution, and development.\n5. Contemporary challenges such as environmental sustainability, social diversity, citizens' rights and responsibilities, and the impact of technology and global connections.\n\nThese areas will help students grow into thoughtful learners, aware citizens, and responsible members of society.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's enumeration of the five broad areas (historical events, geography, political systems, economies, and contemporary challenges) and their purpose in shaping students' understanding.",
+          "seconds": 112.9
+        },
+        "gemma3:4b": {
+          "answer": "Over the next two years, you will explore society in greater depth through different branches of Social Science. You will examine how historical events shaped the modern world, how geographical features influence human life and economic activity, how political systems and democratic institutions function, and how economies organise production, distribution, and development.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's mention of exploring historical events, geography, political systems, and economic organization as key areas in the two-year Social Science journey.",
+          "seconds": 125.8
+        },
+        "qwen2.5vl:7b": {
+          "answer": "Students will explore society in greater depth through different branches of Social Science, examining historical events, geographical features, political systems, and economic systems. They will also study contemporary challenges such as environmental sustainability, social diversity, citizens' rights and responsibilities, and the impact of technology and global connections.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's mention of exploring historical events, geographical features, political systems, economic systems, and contemporary challenges like environmental sustainability, social diversity, rights, and technology's impact.",
+          "seconds": 144.7
+        }
+      }
+    },
+    {
+      "id": "earthsurf_01",
+      "question": "What is the theory of plate tectonics, and who proposed it?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "The theory of plate tectonics is an important idea that explains how large pieces of the Earth's crust move slowly over the molten mantle. According to this theory, the outermost layer of the Earth is not one single piece but is broken into several large and small pieces called tectonic plates. These plates move slowly over the semi-molten layer beneath them and are responsible for major physical features and natural phenomena, such as mountains, earthquakes, and volcanoes.\n\nThis theory was given by W.J. Morgan in earth science.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's explanation of plate tectonics and correctly attributes the theory to W.J. Morgan as stated in the source.",
+          "seconds": 82.2
+        },
+        "gemma3:4b": {
+          "answer": "According to the provided context, the theory of plate tectonics explains the movement of the Earth’s crust, which is broken into large and small pieces called tectonic plates. W.J. Morgan proposed this theory.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text, which attributes the theory of plate tectonics to W.J. Morgan and describes it as explaining the movement of the Earth's crust.",
+          "seconds": 84.7
+        },
+        "qwen2.5vl:7b": {
+          "answer": "The theory of plate tectonics is an important theory in earth science that explains the movement of the Earth's crust. It was proposed by W.J. Morgan.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's assertion that W.J. Morgan proposed the theory of plate tectonics.",
+          "seconds": 83.4
+        }
+      }
+    },
+    {
+      "id": "earthsurf_03",
+      "question": "What is the lithosphere, and what is the asthenosphere?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to the given context, the lithosphere is the rigid outer layer of the Earth that includes the crust and upper mantle. It is broken into different tectonic plates.\n\nThe asthenosphere is a hot, mobile layer of partially molten rock that lies beneath the lithosphere. It allows the tectonic plates to move slowly.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately describes both the lithosphere and asthenosphere as per the source text, including their composition, position, and role in tectonic plate movement.",
+          "seconds": 75.9
+        },
+        "gemma3:4b": {
+          "answer": "The lithosphere is the rigid outer layer of the Earth that includes the crust and upper mantle. The asthenosphere is a hot, mobile layer of partially molten rock beneath the lithosphere, which allows the plates to move.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the definitions of lithosphere and asthenosphere from the source text, including their composition, position, and role in plate movement.",
+          "seconds": 93.5
+        },
+        "qwen2.5vl:7b": {
+          "answer": "The lithosphere is the rigid outer layer of the Earth that includes the crust and upper mantle. The asthenosphere is a hot, mobile layer of partially molten rock beneath the lithosphere.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately describes both the lithosphere and asthenosphere as per the source text, including their composition and relative positions.",
+          "seconds": 114.9
+        }
+      }
+    },
+    {
+      "id": "earthsurf_04",
+      "question": "According to the chapter, what is the approximate thickness of the Earth's crust under continents compared to under the ocean?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to the chapter, the approximate thickness of the Earth's crust under continents is 30-40 km, while under the ocean it is 5-7 km.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's stated values for the Earth's crust thickness under continents (30–40 km) and oceans (5–7 km).",
+          "seconds": 74.6
+        },
+        "gemma3:4b": {
+          "answer": "According to the chapter, the crust varies in thickness: 30–40 km under continents and 5–7 km under the ocean.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's stated values for crust thickness under continents (30–40 km) and oceans (5–7 km).",
+          "seconds": 117.7
+        },
+        "qwen2.5vl:7b": {
+          "answer": "The Earth's crust is approximately 30–40 km thick under continents and 5–7 km thick under the ocean.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer directly matches the thickness values provided in the source text for the Earth's crust under continents and oceans.",
+          "seconds": 114.0
+        }
+      }
+    },
+    {
+      "id": "earthsurf_05",
+      "question": "What causes the movement of tectonic plates?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to the given context, the movement of tectonic plates is caused by convection currents in the mantle. Heat from the Earth's core causes molten material in the mantle to rise, while cooler material sinks, creating convection currents that push and pull the tectonic plates, causing them to move in different directions.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's explanation of convection currents in the mantle as the primary cause of tectonic plate movement.",
+          "seconds": 112.6
+        },
+        "gemma3:4b": {
+          "answer": "Heat from the Earth’s core causes molten material in the mantle to rise, while cooler material sinks, creating convection currents that push and pull the tectonic plates.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's explanation that convection currents in the mantle, driven by Earth's core heat, cause tectonic plate movement.",
+          "seconds": 111.4
+        },
+        "qwen2.5vl:7b": {
+          "answer": "The movement of tectonic plates is caused by convection currents in the mantle.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's explanation that convection currents in the mantle drive tectonic plate movement.",
+          "seconds": 153.3
+        }
+      }
+    },
+    {
+      "id": "earthsurf_06",
+      "question": "What are the three main types of plate boundaries, and what landform or feature is given as an example for each?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to the given context, the three main types of plate boundaries are:\n\n1. Convergent boundary: Where two plates move towards each other. Example: Fold mountains, such as the Himalaya.\n2. Divergent boundary: Where plates move away from each other. Example: Mid-ocean ridges, such as the Mid-Atlantic Ridge.\n3. Transform boundary: Where plates slide past each other without creating or destroying crust. Example: Earthquakes, such as along the San Andreas Fault in the United States.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately identifies the three plate boundary types (convergent, divergent, transform) and correctly pairs each with the example landforms/features from the source text.",
+          "seconds": 128.7
+        },
+        "gemma3:4b": {
+          "answer": "यहां संदर्भ के आधार पर उत्तर दिया गया है:\n\nतीन मुख्य प्रकार के प्लेट सीमाएं हैं:\n\n*   **convergent boundary:** यहां दो प्लेटें एक-दूसरे की ओर टकराती हैं, जिससे हिमालय जैसे फोल्ड पर्वत बनते हैं।\n*   **divergent boundary:** यहां प्लेटें एक-दूसरे से दूर हटती हैं, जिससे नए क्रस्टल बनते हैं और मिड-अटलांटिक रिज जैसे विशेषताएं बनती हैं।\n*   **transform boundary:** यहां प्लेटें एक-दूसरे के ऊपर फिसलती हैं, जिससे सैन एंड्रियास फॉल्ट जैसे भूकंप आते हैं।",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately identifies the three plate boundary types and provides correct examples (Himalayas for convergent, Mid-Atlantic Ridge for divergent, San Andreas Fault for transform) as per the source text.",
+          "seconds": 110.7
+        },
+        "qwen2.5vl:7b": {
+          "answer": "The three main types of plate boundaries are:\n\n1. Convergent boundary: Where two plates move towards each other. An example of this is the Himalaya, formed by the collision of continental plates.\n\n2. Divergent boundary: Where plates move away from each other. An example of this is the Mid-Atlantic Ridge, where magma rises and forms new crust.\n\n3. Transform boundary: Where plates slide past each other without creating or destroying crust. An example of this is the San Andreas Fault in the United States.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately identifies all three plate boundary types and provides the correct examples as stated in the source text.",
+          "seconds": 106.2
+        }
+      }
+    },
+    {
+      "id": "earthsurf_07",
+      "question": "What is the key difference between weathering and erosion?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to the provided context, the key difference between weathering and erosion is that weathering only breaks down rocks into smaller pieces without involving the movement of the broken material, whereas erosion involves the movement of the broken material from one place to another by natural agents like water, wind, ice, or waves.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's distinction that weathering breaks down rocks without movement, while erosion involves transporting broken material via natural agents.",
+          "seconds": 97.4
+        },
+        "gemma3:4b": {
+          "answer": "Weathering is the process of breaking down rocks, while erosion is the movement of the broken material.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately captures the key difference stated in the source text: weathering breaks down rocks, while erosion involves moving the broken material.",
+          "seconds": 113.9
+        },
+        "qwen2.5vl:7b": {
+          "answer": "Weathering breaks down rocks into smaller pieces without moving them, while erosion involves the movement of broken material.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's distinction that weathering breaks down rocks in place without movement, while erosion involves transporting the broken material.",
+          "seconds": 79.2
+        }
+      }
+    },
+    {
+      "id": "earthsurf_09",
+      "question": "What is a meander, and how is it formed?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "A meander is a winding curve or bend in the middle or lower course of a river formed due to the lateral erosion and deposition of sediments. As the river flows, it erodes the outer banks of bends and deposits sediment on the inner banks, gradually creating large loops.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's explanation of meanders as winding river bends formed by lateral erosion and deposition, with erosion on outer banks and deposition on inner banks.",
+          "seconds": 100.5
+        },
+        "gemma3:4b": {
+          "answer": "A meander is a winding curve or bend in a river’s course formed due to lateral erosion and deposition.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's explanation of meanders as winding curves formed by lateral erosion and deposition.",
+          "seconds": 112.2
+        },
+        "qwen2.5vl:7b": {
+          "answer": "A meander is a winding curve or bend in the middle or lower course of a river formed due to the lateral erosion and deposition of sediments. As the river flows, it erodes the outer banks of bends and deposits sediment on the inner banks, gradually creating large loops.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's explanation of meanders as winding river bends formed by lateral erosion and deposition, including the process of sediment deposition on inner banks and erosion on outer banks.",
+          "seconds": 75.2
+        }
+      }
+    },
+    {
+      "id": "earthsurf_10",
+      "question": "What is a delta, and why are deltas highly fertile and important for human settlement?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to the provided context, a delta is a landform formed at the mouth of a river, where it flows into a sea, ocean, or lake, and deposits the sediments it has carried from upstream. Over time, these deposits accumulate to form a fan-shaped or triangular area of land.\n\nDeltas are highly fertile due to their rich alluvial soil, making them ideal for agriculture and supporting crops, such as rice and jute. They are also important for fishing, as the mix of fresh and saltwater creates diverse aquatic life. Many deltas support dense human settlements and are centres of trade and transportation because rivers provide navigable routes.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's explanation of deltas' formation, fertility due to alluvial soil, agricultural importance, fishing, and role in human settlements and trade.",
+          "seconds": 106.6
+        },
+        "gemma3:4b": {
+          "answer": "According to the provided context:\n\nA delta is a landform formed at the mouth of a river, where it flows into a sea, ocean, or lake, and deposits the sediments it has carried from upstream. Deltas are highly fertile due to their rich alluvial soil, making them ideal for agriculture and supporting crops like rice and jute. They are also important for human settlement because rivers provide navigable routes, supporting trade and transportation, and the fertile land allows for farming.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's explanation of deltas' formation, fertility due to alluvial soil, and their importance for agriculture, trade, and human settlement.",
+          "seconds": 110.3
+        },
+        "qwen2.5vl:7b": {
+          "answer": "A delta is a landform formed at the mouth of a river, where it flows into a sea, ocean, or lake, and deposits the sediments it has carried from upstream. Over time, these deposits accumulate to form a fan-shaped or triangular area of land. Deltas are highly fertile due to their rich alluvial soil, making them ideal for agriculture and supporting crops, such as rice and jute. They are also important for fishing, as the mix of fresh and saltwater creates diverse aquatic life. Many deltas support dense human settlements and are centres of trade and transportation because rivers provide navigable routes.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately defines deltas and explains their fertility and importance for human settlement as described in the source text.",
+          "seconds": 123.7
+        }
+      }
+    },
+    {
+      "id": "earthsurf_11",
+      "question": "What are moraines, and what are the three types described in the chapter?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to the chapter, moraines are landforms created by the deposition of rocks, soil, and debris (called till) carried along and left behind by glaciers. There are three types of moraines described in the chapter:\n\n1. Lateral moraines: These form along the sides of glaciers.\n2. Terminal moraines: These are found at the end of glaciers, marking their furthest advance.\n3. Medial moraines: These are formed when two glaciers meet and their lateral moraines join in the middle.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately identifies and describes the three types of moraines as outlined in the source text.",
+          "seconds": 89.9
+        },
+        "gemma3:4b": {
+          "answer": "Moraines are landforms created by the deposition of rocks, soil, and debris (called till) carried along and left behind by glaciers. The three types are:\n\n*   Lateral moraines (formed along the sides of glaciers)\n*   Terminal moraines (found at the end of glaciers, marking their furthest advance)\n*   Medial moraines (formed when two glaciers meet and their lateral moraines join in the middle).",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately defines moraines and correctly lists the three types as described in the source text.",
+          "seconds": 66.6
+        },
+        "qwen2.5vl:7b": {
+          "answer": "Moraines are landforms created by the deposition of rocks, soil, and debris (called till) carried along and left behind by glaciers. The three types of moraines described in the chapter are:\n\n1. Lateral moraines (which form along the sides of glaciers)\n2. Terminal moraines (found at the end of glaciers, marking their furthest advance)\n3. Medial moraines (formed when two glaciers meet and their lateral moraines join in the middle)",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately lists and describes the three types of moraines as defined in the source text.",
+          "seconds": 70.9
+        }
+      }
+    },
+    {
+      "id": "earthsurf_13",
+      "question": "What is Karst topography, and what landforms of underground water does it include?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to the given context, Karst topography is a unique landform created by underground water, especially in areas of limestone or soluble rocks, through chemical weathering and erosion. It includes landforms such as:\n\n* Caves (hollow spaces formed as acidic water dissolves rock)\n* Stalactites (icicle-shaped formations hanging from the ceiling of caves)\n* Stalagmites (formations rising from the floor of caves)\n* Sinkholes or dolines (depressions formed when the ground collapses into an underground cavity)\n* Underground rivers (which flow through cave systems)",
+          "verdict": "PARTIAL",
+          "judge_raw": "PARTIAL  \nThe student's answer correctly identifies caves, stalactites, stalagmites, and sinkholes/dolines as Karst landforms but incorrectly adds \"underground rivers,\" which are not mentioned in the source text.",
+          "seconds": 93.4
+        },
+        "gemma3:4b": {
+          "answer": "Karst topography is created by underground water, especially in areas of limestone or soluble rocks, through chemical weathering and erosion. It includes landforms such as caves, stalactites, stalagmites, sinkholes, or dolines, and underground rivers.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately describes Karst topography and its associated landforms (caves, stalactites, stalagmites, sinkholes/dolines) as per the source text, with no factual errors.",
+          "seconds": 75.2
+        },
+        "qwen2.5vl:7b": {
+          "answer": "Karst topography is a unique landform created by the chemical weathering and erosion of limestone or soluble rocks. It includes landforms such as caves, stalactites, stalagmites, and sinkholes or dolines.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's description of Karst topography and its associated landforms.",
+          "seconds": 77.7
+        }
+      }
+    },
+    {
+      "id": "earthsurf_14",
+      "question": "What are the different types of sand dunes described in the chapter?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to the chapter, there are several types of sand dunes described:\n\n1. Barchan dunes: crescent-shaped and form in areas with limited sand and a single wind direction.\n2. Longitudinal dunes: long ridges formed parallel to the prevailing wind.\n3. Star dunes: have multiple arms and form where winds come from different directions.\n4. Parabolic dunes: U-shaped dunes often found in arid regions.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately lists and describes all four types of dunes mentioned in the source text without adding incorrect information.",
+          "seconds": 107.8
+        },
+        "gemma3:4b": {
+          "answer": "The chapter describes barchan dunes, longitudinal dunes, star dunes, and parabolic dunes.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer correctly lists all the dune types mentioned in the source text.",
+          "seconds": 166.4
+        },
+        "qwen2.5vl:7b": {
+          "answer": "The different types of sand dunes described in the chapter are:\n\n1. Barchan dunes\n2. Longitudinal dunes\n3. Star dunes\n4. Parabolic dunes",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer correctly lists all four dune types (barchan, longitudinal, star, parabolic) explicitly mentioned in the source text.",
+          "seconds": 151.9
+        }
+      }
+    },
+    {
+      "id": "earthsurf_15",
+      "question": "What landforms are created by coastal erosion?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to the given context, coastal erosion creates the following landforms:\n\n1. Cliffs (steep rock faces formed as waves undercut the base of the coast)\n2. Wave-cut platforms (flat areas left behind as cliffs retreat)\n3. Caves (formed when waves erode weak parts of the rock)\n4. Arches (created when caves on opposite sides of a headland meet)\n5. Stacks (isolated pillars of rock left standing after the arches collapse)\n\nNote: These landforms are mentioned in the context of India and Beyond, Grade 9 – Part 1, Understanding Society.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately lists and describes all the coastal erosion landforms mentioned in the source text.",
+          "seconds": 126.2
+        },
+        "gemma3:4b": {
+          "answer": "Cliffs, wave-cut platforms, caves, arches, and stacks.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately lists all the landforms mentioned in the source text.",
+          "seconds": 210.8
+        },
+        "qwen2.5vl:7b": {
+          "answer": "Cliffs, wave-cut platforms, caves, arches, and stacks.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately lists all the landforms mentioned in the source text as being created by coastal erosion.",
+          "seconds": 163.9
+        }
+      }
+    },
+    {
+      "id": "earthsurf_16",
+      "question": "Which ancient Indian text contains detailed guidelines on land assessment for water management, and what is the Zabo system in Nagaland?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "The ancient Indian text that contains detailed guidelines on land assessment for water management is the $rthaĜhÃstra. The Zabo system in Nagaland is an integrated farming approach that uses earthen bunds on hillslopes for soil and water conservation, and includes the construction of check dams to reduce water velocity, prevent soil erosion, and allow sediment deposition.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately identifies the Arthashastra as the ancient text with land assessment guidelines and correctly describes the Zabo system's purpose and methods as per the source text.",
+          "seconds": 153.0
+        },
+        "gemma3:4b": {
+          "answer": "The $rthaĜhÃstra contains detailed guidelines on land assessment and categorisation based on fertility and productivity. The Zabo system in Nagaland represents an integrated farming approach using earthen bunds on hillslopes for soil and water conservation.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately identifies the Arthashastra as the text with land assessment guidelines and correctly describes the Zabo system's purpose and method as per the source text.",
+          "seconds": 150.6
+        },
+        "qwen2.5vl:7b": {
+          "answer": "The $rthaĜhÃstra$ contains detailed guidelines on land assessment for water management. The Zabo system in Nagaland represents an integrated farming approach using earthen bunds on hillslopes for soil and water conservation.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's information about the $rthaĜhÃstra's land assessment guidelines and the Zabo system's use of earthen bunds for conservation.",
+          "seconds": 152.5
+        }
+      }
+    },
+    {
+      "id": "earthsurf_17",
+      "question": "In early Indian tradition, what were earthquakes called, and which scholar and text discussed the elemental forces attributed to them?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "In early Indian tradition, earthquakes were known as 'EhĬNampa', meaning the shaking of the Earth. The scholar who discussed the elemental forces attributed to earthquakes was Barahmihira, and the text he wrote about it was not specifically mentioned.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student correctly identified the term 'EhĬNampa' for earthquakes and noted that Varahamihira (misspelled as Barahmihira) discussed elemental forces, though the text name isn't specified, aligning with the source.",
+          "seconds": 134.9
+        },
+        "gemma3:4b": {
+          "answer": "Earthquakes were called ‘EhĬNampa’. The scholar, Harahimihira, discussed the elemental forces (wind, fire, thunder, and water) attributed to them in his text.",
+          "verdict": "INCORRECT",
+          "judge_raw": "INCORRECT  \nThe student incorrectly spelled the scholar's name as \"Harahimihira\" instead of \"Varāhamihira\" and omitted \"Indra\" as a distinct elemental force, replacing it with \"thunder,\" which misrepresents the source text.",
+          "seconds": 173.2
+        },
+        "qwen2.5vl:7b": {
+          "answer": "In early Indian tradition, earthquakes were called 'EhĬNampa', meaning the shaking of the Earth. The scholar who discussed the elemental forces attributed to earthquakes was Varahamihira, and the text that discussed this was 'Understanding Society: India and Beyond'.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student correctly identifies 'EhĬNampa' as the term for earthquakes and attributes the discussion to Varahamihira in the text \"Understanding Society: India and Beyond,\" which aligns with the source text.",
+          "seconds": 161.8
+        }
+      }
+    },
+    {
+      "id": "earthsurf_18",
+      "question": "What is a Glacial Lake Outburst Flood (GLOF), and what typically causes it?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to the provided context, a Glacial Lake Outburst Flood (GLOF) is caused by the sudden release of large volumes of water from glacial lakes due to natural and climatic factors. This can occur when the natural dam made of ice or loose moraines is weakened or collapses due to factors such as rapid melting of glaciers, heavy rainfall, intense snowfall, earthquakes, avalanches, or landslides.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's explanation of GLOFs, including the causes like glacier melting, rainfall, snowfall, and geological events leading to dam collapse.",
+          "seconds": 150.9
+        },
+        "gemma3:4b": {
+          "answer": "A Glacial Lake Outburst Flood (GLOF) is caused by the sudden release of large volumes of water from glacial lakes due to rising temperatures increasing the size and water level of glacial lakes, putting pressure on their natural dams. This can be triggered by heavy rainfall, intense snowfall, earthquakes, or landslides.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately captures the primary causes of GLOFs from the source text, including melting due to rising temperatures, heavy rainfall/snowfall, and geological triggers like earthquakes/landslides, without introducing factual errors.",
+          "seconds": 147.5
+        },
+        "qwen2.5vl:7b": {
+          "answer": "A Glacial Lake Outburst Flood (GLOF) is a sudden release of large volumes of water from glacial lakes due to natural and climatic factors. It typically occurs when rapid melting of glaciers due to rising temperatures increases the size and water level of glacial lakes, putting pressure on their natural dams made of ice or loose moraines. Heavy rainfall or intense snowfall can also add excess water to these lakes. Earthquakes, avalanches, or landslides may strike the lake or weaken the dam, leading to its sudden collapse. As a result, the stored water is released abruptly, causing destructive floods in downstream areas.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects all the causes and mechanisms described in the source text without introducing errors or unsupported information.",
+          "seconds": 173.8
+        }
+      }
+    },
+    {
+      "id": "earthsurf_19",
+      "question": "In which year and month did a devastating flood strike Chamoli district in Uttarakhand, as mentioned in the chapter?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to the given context, the devastating flood struck Chamoli district in Uttarakhand in February 2021.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the year and month mentioned in the source text about the Chamoli flood.",
+          "seconds": 5371.9
+        },
+        "gemma3:4b": {
+          "answer": "In February 2021.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer correctly identifies February 2021 as the month and year of the flood mentioned in the source text.",
+          "seconds": 189.6
+        },
+        "qwen2.5vl:7b": {
+          "answer": "February 2021",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer correctly identifies February 2021 as the year and month mentioned in the source text for the Chamoli flood.",
+          "seconds": 61.8
+        }
+      }
+    },
+    {
+      "id": "earthsurf_21",
+      "question": "What conditions make dust storms more likely to occur, according to the chapter?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to the chapter, dust storms are more likely to occur in conditions of:\n\n1. Prolonged drought and low rainfall, which dry out the soil and make it easier for wind to pick up fine particles.\n2. Loose and dry soil, which is common in desert and semi-arid regions.\n3. Sparse vegetation cover, often due to deforestation, overgrazing, or poor farming practices, which leaves the land exposed.\n4. Climate change and extreme weather conditions, which can further increase the frequency and intensity of dust storms.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately lists all the conditions from the source text that contribute to dust storms.",
+          "seconds": 128.7
+        },
+        "gemma3:4b": {
+          "answer": "According to the provided texts, dust storms are more likely to occur due to strong winds lifting loose, dry soil and sand, prolonged drought and low rainfall leading to dry soil, sparse vegetation cover, and climate change/extreme weather conditions.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately lists all the conditions from the source text that contribute to dust storms, including strong winds, drought, sparse vegetation, and climate change.",
+          "seconds": 119.6
+        },
+        "qwen2.5vl:7b": {
+          "answer": "Prolonged drought and low rainfall dry out the soil, making it easier for wind to pick up the fine particles. Sparse vegetation cover, often due to deforestation, overgrazing, or poor farming practices, also leaves the land exposed. Climate change and extreme weather conditions can further increase the frequency and intensity of dust storms.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately lists all the key conditions from the source text that contribute to dust storms, including drought, sparse vegetation, and climate change.",
+          "seconds": 163.1
+        }
+      }
+    },
+    {
+      "id": "earthsurf_22",
+      "question": "What factors can trigger avalanches, according to the chapter?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to the chapter, the factors that can trigger avalanches include:\n\n1. Heavy snowfall within a short period, which adds extra weight to the snowpack, making it unstable.\n2. Sudden rise in temperature, which can cause partial melting, reducing the friction that holds the snow together.\n3. Strong winds, which may pile up snow unevenly, creating fragile layers.\n4. Natural disturbances, such as earthquakes and vibrations.\n5. Human activities, such as skiing, trekking, or construction in mountainous areas, which can disturb the balance of the snow-covered slopes.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately lists all the factors from the source text that trigger avalanches, including heavy snowfall, temperature changes, wind, natural disturbances, and human activities.",
+          "seconds": 148.2
+        },
+        "gemma3:4b": {
+          "answer": "According to the provided text, avalanches can be triggered by:\n\n*   The sudden instability of snow on steep mountain slopes.\n*   Heavy snowfall, rising temperatures, and strong winds.\n*   Natural disturbances such as earthquakes, vibrations, and human activities like skiing or construction.",
+          "verdict": "PARTIAL",
+          "judge_raw": "PARTIAL  \nThe student's answer correctly identifies heavy snowfall, rising temperatures, strong winds, natural disturbances, and human activities as triggers but incorrectly lists \"sudden instability of snow\" as a trigger rather than the underlying cause.",
+          "seconds": 167.3
+        },
+        "qwen2.5vl:7b": {
+          "answer": "Avalanches can be triggered by heavy snowfall, sudden temperature rises, strong winds, natural disturbances such as earthquakes and vibrations, and human activities like skiing, trekking, or construction in mountainous areas.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately lists all the factors mentioned in the source text that trigger avalanches.",
+          "seconds": 103.6
+        }
+      }
+    },
+    {
+      "id": "earthsurf_24",
+      "question": "How did landforms such as the Himalayas, the Thar desert, and coasts shape the history of human civilisations in India, according to the chapter?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to the chapter, landforms such as the Himalayas, the Thar desert, and coasts played a major role in shaping the history of human civilisations in India. The Himalayas acted as both a barrier and a protector, shielding India from invasions but also allowing cultural exchanges through passes like the Khyber pass. The Thar desert limited the development of large settlements but encouraged trade routes, such as the Silk Route. Coasts and harbours supported trade, travel, and cultural contacts with distant lands, helping kingdoms like those in south India flourish.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's explanation of how the Himalayas, Thar desert, and coasts influenced human civilizations in India.",
+          "seconds": 120.0
+        },
+        "gemma3:4b": {
+          "answer": "According to the provided text, landforms shaped human civilisations in India in the following ways:\n\n*   **Himalayas:** Shielded India from invasions while allowing for cultural exchanges through passes like the Khyber Pass.\n*   **Thar Desert:** Limited large settlements but encouraged trade routes such as the Silk Route.\n*   **Coasts and Harbours:** Supported trade, travel, and cultural contacts, helping kingdoms like those in South India flourish.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's explanation of how the Himalayas, Thar Desert, and coasts influenced Indian civilisations through protection, trade, and cultural exchange.",
+          "seconds": 145.0
+        },
+        "qwen2.5vl:7b": {
+          "answer": "Landforms such as the Himalayas, the Thar desert, and coasts played significant roles in shaping the history of human civilisations in India by acting as barriers and protectors, limiting the development of large settlements but encouraging trade routes, and supporting trade, travel, and cultural contacts with distant lands.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's explanation of how the Himalayas, Thar desert, and coasts influenced human civilizations in India through barriers, trade routes, and cultural exchanges.",
+          "seconds": 132.2
+        }
+      }
+    },
+    {
+      "id": "atmosphere_01",
+      "question": "What are the two most abundant gases in the Earth's atmosphere, and what percentage does each make up?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to the provided sources, the two most abundant gases in the Earth's atmosphere are:\n\n1. Nitrogen: 78%\n2. Oxygen: 21%\n\nThese percentages are mentioned in [स्रोत 1], which is a textbook passage on the composition of the atmosphere.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the percentages of nitrogen (78%) and oxygen (21%) from the source text, which explicitly lists these as the two most abundant gases.",
+          "seconds": 98.9
+        },
+        "gemma3:4b": {
+          "answer": "According to the provided context, the two most abundant gases in the Earth’s atmosphere are nitrogen and oxygen. Nitrogen makes up 78% of the atmosphere, and oxygen makes up 21%.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately identifies nitrogen (78%) and oxygen (21%) as the two most abundant gases in the Earth's atmosphere, matching the percentages explicitly stated in the source text.",
+          "seconds": 94.1
+        },
+        "qwen2.5vl:7b": {
+          "answer": "The two most abundant gases in the Earth's atmosphere are nitrogen and oxygen. Nitrogen makes up 78% and oxygen makes up 21%.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student correctly identifies nitrogen (78%) and oxygen (21%) as the two most abundant gases, matching the source text's explicit percentages.",
+          "seconds": 112.0
+        }
+      }
+    },
+    {
+      "id": "atmosphere_02",
+      "question": "What is the typical range of water vapour content in the atmosphere, and what role does it play?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to the given context, the typical range of water vapour content in the atmosphere is between 0.04% to 0.4%. It plays a significant role in cloud formation and precipitation.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's stated range of 0.04% to 0.4% for water vapour and correctly identifies its role in cloud formation and precipitation.",
+          "seconds": 117.2
+        },
+        "gemma3:4b": {
+          "answer": "The water vapour content in the atmosphere generally ranges from 0.2 per cent to 0.4 per cent. It plays a significant role in cloud formation and precipitation.",
+          "verdict": "PARTIAL",
+          "judge_raw": "PARTIAL  \nThe student's answer correctly states the role of water vapor in cloud formation and precipitation but inaccurately specifies the lower end of the range (0.2% vs. the source's 0.001%–0.4%).",
+          "seconds": 129.9
+        },
+        "qwen2.5vl:7b": {
+          "answer": "The typical range of water vapour content in the atmosphere is generally from 0.2% to 0.4%. It plays a significant role in cloud formation and precipitation.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer correctly states the upper range of water vapour (0.4%) and its role in cloud formation and precipitation, which aligns with the source text.",
+          "seconds": 119.6
+        }
+      }
+    },
+    {
+      "id": "atmosphere_03",
+      "question": "Which layer of the atmosphere contains the air we breathe and is where nearly all weather phenomena, such as rainfall, fog, and hail, occur?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "The answer is the TROPOSPHERE. According to the text, the Troposphere is the most important layer of the atmosphere, with an average height of about 2 kilometres. In this layer, temperature decreases with increasing altitude. The air we breathe exists here, along with most of the water vapour and clouds. Nearly all weather phenomena, such as rainfall, fog, and hail, occur in this layer.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's explicit statement that the troposphere contains breathable air and is where most weather phenomena occur.",
+          "seconds": 101.6
+        },
+        "gemma3:4b": {
+          "answer": "The troposphere contains the air we breathe and is where nearly all weather phenomena occur.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer correctly identifies the troposphere as the layer containing breathable air and where weather phenomena occur, as explicitly stated in the source text.",
+          "seconds": 88.4
+        },
+        "qwen2.5vl:7b": {
+          "answer": "Troposphere",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe source text explicitly states that the troposphere contains the air we breathe and where all weather phenomena occur.",
+          "seconds": 63.7
+        }
+      }
+    },
+    {
+      "id": "atmosphere_04",
+      "question": "What does the Stratosphere contain that shields us from harmful solar radiation, and why is it ideal for flying aeroplanes?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "The Stratosphere contains a layer of ozone gas which shields us from harmful solar radiation, including ultraviolet radiation. This is because the ozone layer absorbs the harmful radiation, preventing it from reaching the Earth's surface. The Stratosphere is ideal for flying aeroplanes because it is free of clouds and other weather disturbances, making it a stable and predictable environment for aircraft to operate in.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's information about the ozone layer's role in shielding from solar radiation and the stratosphere's suitability for aviation due to stable weather conditions.",
+          "seconds": 90.6
+        },
+        "gemma3:4b": {
+          "answer": "According to the provided context, the stratosphere contains a layer of ozone gas which filters harmful radiation, including ultraviolet radiation. It is ideal for flying aeroplanes because it is free of clouds and other weather disturbances.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's information about ozone shielding from UV radiation and the stratosphere's suitability for aviation due to lack of weather disturbances.",
+          "seconds": 57.8
+        },
+        "qwen2.5vl:7b": {
+          "answer": "The Stratosphere contains a layer of ozone gas, which shields us from harmful solar radiation, including ultraviolet radiation. It is ideal for flying aeroplanes because it is free of clouds and other weather disturbances.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's information about ozone shielding from UV radiation and the stratosphere's suitability for aviation due to lack of weather disturbances.",
+          "seconds": 135.7
+        }
+      }
+    },
+    {
+      "id": "atmosphere_07",
+      "question": "Why does temperature rise very rapidly with increasing altitude in the Thermosphere?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to the given text, temperature rises very rapidly with increasing altitude in the Thermosphere because the gas molecules in this layer absorb the X-rays and short-wave ultraviolet radiation of the Sun.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer correctly identifies that gas molecules in the thermosphere absorb X-rays and short-wave UV radiation, which is explicitly stated in the source text as the reason for the rapid temperature increase.",
+          "seconds": 78.5
+        },
+        "gemma3:4b": {
+          "answer": "The thermosphere temperature rises very rapidly with increasing altitude as gas molecules in this layer absorb the sun's rays and short-wave ultraviolet radiation.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer correctly identifies that gas molecules in the thermosphere absorb solar radiation (specifically short-wave ultraviolet) leading to rapid temperature increase, as stated in the source text.",
+          "seconds": 68.3
+        },
+        "qwen2.5vl:7b": {
+          "answer": "Temperature rises very rapidly with increasing altitude in the thermosphere because the gas molecules in this layer absorb the X-rays and short-wave ultraviolet radiation of the Sun.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer correctly states that gas molecules in the thermosphere absorb X-rays and short-wave UV radiation, which is explicitly mentioned in the source text as the reason for the rapid temperature rise.",
+          "seconds": 47.5
+        }
+      }
+    },
+    {
+      "id": "atmosphere_09",
+      "question": "What is the difference between weather and climate, according to the chapter?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to the chapter, weather refers to the hour-to-hour and day-to-day conditions of the atmosphere, while climate refers to the average weather conditions of a place over a longer period of time, usually thirty years or more.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the definitions of weather and climate provided in the source text, aligning with the distinctions made regarding time frames and atmospheric conditions.",
+          "seconds": 87.2
+        },
+        "gemma3:4b": {
+          "answer": "According to the provided sources:\n\n*   **Weather** refers to the hour-to-hour and day-to-day conditions of the atmosphere, like temperature or humidity. It varies significantly from day to day.\n\n*   **Climate** refers to the average weather conditions of a place over a longer period of time (usually 30 years or more).",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the definitions of weather and climate from the source text, correctly noting the short-term variability of weather and the long-term average of climate.",
+          "seconds": 70.3
+        },
+        "qwen2.5vl:7b": {
+          "answer": "Weather refers to the hour-to-hour and day-to-day conditions of the atmosphere, while climate is the average weather of a place over a longer period of time, usually thirty years or more.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the definitions of weather and climate provided in the source text, focusing on the time frames (short-term vs. long-term) as described.",
+          "seconds": 75.2
+        }
+      }
+    },
+    {
+      "id": "atmosphere_10",
+      "question": "What are the major elements of weather and climate that impact human life, as listed in the chapter?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to the chapter, the major elements of weather and climate that impact human life are:\n\n1. Temperature\n2. Precipitation\n3. Humidity\n4. Wind\n5. Atmospheric pressure\n\nThese elements can change under varying conditions and have a significant impact on human life on Earth.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately lists the five major elements of weather and climate (temperature, precipitation, humidity, wind, atmospheric pressure) as explicitly stated in the source text.",
+          "seconds": 93.9
+        },
+        "gemma3:4b": {
+          "answer": "The major elements of weather and climate that impact human life, as listed in the chapter, are temperature, precipitation, humidity, wind, and atmospheric pressure.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately lists the five major elements (temperature, precipitation, humidity, wind, and atmospheric pressure) explicitly mentioned in the source text as impacting human life.",
+          "seconds": 72.0
+        },
+        "qwen2.5vl:7b": {
+          "answer": "The major elements of weather and climate that impact human life, as listed in the chapter, are temperature, precipitation, humidity, wind, and atmospheric pressure.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer correctly lists the five major elements (temperature, precipitation, humidity, wind, and atmospheric pressure) as specified in the source text.",
+          "seconds": 65.9
+        }
+      }
+    },
+    {
+      "id": "atmosphere_12",
+      "question": "Why does temperature generally decrease from the equator towards the poles?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to the given context, the temperature generally decreases from the equator towards the poles because insolation decreases from the equator towards the poles.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer directly reflects the source text's explanation that decreasing insolation from the equator to the poles causes the temperature to decrease.",
+          "seconds": 60.2
+        },
+        "gemma3:4b": {
+          "answer": "The temperature decreases from the equator towards the poles due to the decrease in insolation.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer correctly identifies insolation decrease as the reason for temperature decline from the equator to the poles, aligning with the source text.",
+          "seconds": 79.5
+        },
+        "qwen2.5vl:7b": {
+          "answer": "Temperature generally decreases from the equator towards the poles because the angle of sunlight striking the Earth decreases as one moves away from the equator towards the poles. This results in less direct sunlight and lower temperatures.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer correctly attributes the temperature decrease to the angle of sunlight, which is explicitly supported by the source text's mention of insolation decreasing from the equator towards the poles.",
+          "seconds": 67.0
+        }
+      }
+    },
+    {
+      "id": "atmosphere_13",
+      "question": "What is humidity, and how does warmer air affect its capacity to hold water vapour?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to the given context, humidity refers to the presence of water vapour in the air, creating moisture. As the air gets warmer, its capacity to hold water vapour increases, leading to higher humidity levels. This means that on a warmer day, clothes take longer to dry, and sweat evaporates more slowly, leaving us feeling very uncomfortable.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's definition of humidity and the relationship between warmer air and its increased capacity to hold water vapor, including the effects on drying and sweat evaporation.",
+          "seconds": 70.8
+        },
+        "gemma3:4b": {
+          "answer": "Humidity refers to the presence of water vapour in the air, creating moisture. As the air gets warmer, its capacity to hold water vapour increases, leading to higher humidity levels.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's definition of humidity and the relationship between warmer air and its increased capacity to hold water vapour.",
+          "seconds": 41.1
+        },
+        "qwen2.5vl:7b": {
+          "answer": "Humidity refers to the presence of water vapour in the air, creating moisture. Warmer air has a higher capacity to hold water vapour, leading to higher humidity levels.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's definition of humidity and the relationship between air temperature and water vapor capacity.",
+          "seconds": 108.0
+        }
+      }
+    },
+    {
+      "id": "atmosphere_14",
+      "question": "What is precipitation, and what forms can it take according to the chapter?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to the chapter, precipitation is when a part of the atmosphere becomes liquid or falls on the Earth due to gravity. It can take the following forms:\n\n* Rain\n* Driple\n* Snow\n* Sleet\n* Hail",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer correctly lists all the forms of precipitation mentioned in the source text (rain, snow, sleet, hail, and drizzle, despite the typo \"driple\" instead of \"drizzle\").",
+          "seconds": 141.2
+        },
+        "gemma3:4b": {
+          "answer": "Precipitation occurs when a part of the atmosphere falls on the Earth due to gravity. It includes forms like drizzle, rain, snow, sleet, and hail.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately lists all the forms of precipitation (drizzle, rain, snow, sleet, hail) mentioned in the source text and correctly describes precipitation as atmospheric moisture falling due to gravity.",
+          "seconds": 66.5
+        },
+        "qwen2.5vl:7b": {
+          "answer": "Precipitation is the process where a part of the atmosphere becomes liquid or falls on the Earth due to gravity. It can take the forms of drizzle, rain, snow, sleet, and hail.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately defines precipitation and lists all the forms (drizzle, rain, snow, sleet, hail) explicitly mentioned in the source text.",
+          "seconds": 66.0
+        }
+      }
+    },
+    {
+      "id": "atmosphere_15",
+      "question": "What is atmospheric pressure, and how does it change with altitude?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to the given context, atmospheric pressure is the pressure exerted by the weight of air on the surface. As we go higher in the atmosphere, pressure falls rapidly. It is highest at sea level and decreases with altitude.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's explanation of atmospheric pressure as the weight of air on the surface and its decrease with altitude.",
+          "seconds": 59.3
+        },
+        "gemma3:4b": {
+          "answer": "Atmospheric pressure is the pressure exerted by the weight of air at a surface. It falls rapidly as we go higher in the atmosphere and is highest at sea level, decreasing with altitude.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's definition of atmospheric pressure and its decrease with altitude.",
+          "seconds": 65.7
+        },
+        "qwen2.5vl:7b": {
+          "answer": "Atmospheric pressure is the pressure exerted by the weight of air at a given place. It is highest at sea level and decreases with altitude.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's definition of atmospheric pressure and its variation with altitude.",
+          "seconds": 54.1
+        }
+      }
+    },
+    {
+      "id": "atmosphere_18",
+      "question": "What is a land breeze, and why does it occur at night?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to the text, a land breeze is a local wind that blows from land to sea during the night, resulting from differential surface cooling between the land and the sea. The land cools faster than the sea at night, creating a difference in temperatures and air pressure between the two. This leads to the formation of a low-pressure region over the land, causing the wind to blow from the land to the sea.",
+          "verdict": "INCORRECT",
+          "judge_raw": "INCORRECT  \nThe student incorrectly states that a low-pressure region forms over the land during a land breeze, whereas the source text explains that the temperature and air pressure difference between land and sea is low at night, resulting in a land breeze from land to sea due to differential cooling, not a low-pressure region over land.",
+          "seconds": 308.6
+        },
+        "gemma3:4b": {
+          "answer": "A land breeze is a local wind that blows from land to sea during the night. It occurs because land cools faster than sea at night, creating a low-pressure area over the land and a high-pressure area over the sea, causing the wind to blow from the land to the sea.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately describes the land breeze as a nighttime wind from land to sea due to faster land cooling, aligning with the source text.",
+          "seconds": 59.9
+        },
+        "qwen2.5vl:7b": {
+          "answer": "A land breeze is a local wind that blows from land to sea during the night, resulting from differential surface cooling between the land and the sea.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately describes the land breeze as a local wind blowing from land to sea at night due to differential surface cooling, as stated in the source text.",
+          "seconds": 65.1
+        }
+      }
+    },
+    {
+      "id": "atmosphere_20",
+      "question": "What are the four distinct seasons of India recognised by the Indian Meteorological Department (IMD)?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to the provided context, the four distinct seasons of India recognised by the Indian Meteorological Department (IMD) are:\n\n1. Winter: The winter season generally lasts from December to early April. The coldest months of the year are December and January, when the average temperature in the northwest is around 15°C. Temperatures increase towards the east and south.\n2. Summer or pre-monsoon: The summer or pre-monsoon season spans from April to June or up to July in northwestern India. In western and southern regions, the hottest month is April, while in northern regions, it is May. The average temperature across most parts of the country is around 40°C.\n3. Monsoon or rainy (Advancing monsoon): The monsoon season generally spans from June to September. This season is dominated by the humid southwest summer monsoon, which slowly sweeps across the country in late May or early June. Monsoon rain begins to recede from north India at the beginning of October, and south India typically receives more rainfall during this time.\n4. Post-monsoon (Retreating monsoon): The post-monsoon season lasts from October to December. In northwestern India, October and November are usually cloudless.\n\nThese seasons are based on the generalised monthly atmospheric conditions or a common pattern over a year, such as the days being cool or hot, windy, or rainy.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the four seasons recognized by the IMD as detailed in the source text, including their respective timeframes, temperature ranges, and climatic characteristics.",
+          "seconds": 65.5
+        },
+        "gemma3:4b": {
+          "answer": "The four distinct seasons of India recognised by the IMD are: Winter, Summer or pre-monsoon, Monsoon or rainy (Advancing monsoon), and Post-monsoon.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately lists the four seasons recognized by the IMD as per the source text.",
+          "seconds": 86.7
+        },
+        "qwen2.5vl:7b": {
+          "answer": "Winter, Summer or pre-monsoon, Monsoon or rainy (Advancing monsoon), Post-monsoon (Retreating monsoon)",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately lists the four distinct seasons recognized by the IMD as per the source text.",
+          "seconds": 57.0
+        }
+      }
+    },
+    {
+      "id": "atmosphere_21",
+      "question": "According to the traditional Indian calendar, how many seasons does India experience, and what are they based on?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to the traditional Indian calendar, India experiences six seasons, which are based on the astronomical division of the year into six parts. These seasons are:\n\n1. Vasanta (spring)\n2. Grishma (summer)\n3. Varsha (monsoon)\n4. Sharad (early autumn)\n5. Hemant (late autumn)\n6. Shishira (winter)\n\nThese seasons are not based on the Gregorian calendar, but rather on the astronomical division of the year.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately lists six seasons based on the traditional Indian calendar and correctly attributes their basis to astronomical divisions, aligning with the source text.",
+          "seconds": 54.3
+        },
+        "gemma3:4b": {
+          "answer": "According to the traditional Indian calendar, India experiences six seasons based on the astronomical division of the two months into six parts. These seasons are: spring, summer, monsoon, early autumn, late autumn, and winter.",
+          "verdict": "PARTIAL",
+          "judge_raw": "PARTIAL  \nThe answer correctly lists six seasons but incorrectly states they are based on dividing \"two months\" into six parts, whereas the source text refers to the astronomical division of the 12 months into six parts.",
+          "seconds": 51.1
+        },
+        "qwen2.5vl:7b": {
+          "answer": "According to the traditional Indian calendar, India experiences six seasons, which are based on the astronomical division of the 12 months into six parts.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student correctly identifies six seasons based on the astronomical division of 12 months, aligning with the source text.",
+          "seconds": 51.6
+        }
+      }
+    },
+    {
+      "id": "atmosphere_22",
+      "question": "Which ancient Indian text is noted for containing scientific measurements of rainfall used for revenue and relief efforts?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to the provided context, the answer is $rthaĜhÃstra.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer directly matches the source text's mention of $rthaĜhÃstra containing scientific rainfall measurements for revenue and relief.",
+          "seconds": 61.0
+        },
+        "gemma3:4b": {
+          "answer": "$rthaĜhÃstra",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer matches the source text's mention of \"$rthaĜhÃstra\" (likely a corrupted form of \"Arthashastra\") containing rainfall measurements for revenue and relief.",
+          "seconds": 100.5
+        },
+        "qwen2.5vl:7b": {
+          "answer": "$rthaĜhÃstra",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer matches the exact text from the source, which explicitly states that \"s $rthaĜhÃstra\" contains records of scientific rainfall measurements for revenue and relief efforts.",
+          "seconds": 82.8
+        }
+      }
+    },
+    {
+      "id": "atmosphere_23",
+      "question": "What is the origin of the word 'monsoon', and who were among the first to notice the monsoon phenomenon?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to the given context, the word \"monsoon\" derived from the Arabic word \"mausim\", which literally means season. Sailors who came to India during ancient times were among the first to notice the phenomenon of monsoon.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe answer accurately reflects the source text's information about the origin of \"monsoon\" from the Arabic word \"mausim\" and the sailors' role in noticing the phenomenon.",
+          "seconds": 68.9
+        },
+        "gemma3:4b": {
+          "answer": "The word 'monsoon' is derived from the Arabic word \"mausim,\" which literally means \"season.\" Sailors who came to India during ancient times were among the first to notice the monsoon phenomenon.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's information about the origin of \"monsoon\" from the Arabic word \"mausim\" and the sailors' role in noticing the phenomenon.",
+          "seconds": 61.9
+        },
+        "qwen2.5vl:7b": {
+          "answer": "The word 'monsoon' is derived from the Arabic word 'mausim', which literally means 'season'. The sailors who came to India during ancient times were among the first to notice the monsoon phenomenon.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's information about the origin of 'monsoon' from the Arabic word 'mausim' and the sailors' role in noticing the phenomenon.",
+          "seconds": 73.1
+        }
+      }
+    },
+    {
+      "id": "atmosphere_24",
+      "question": "What causes the southwest (summer) monsoon in India, and between which months does it typically occur?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to the given context, the southwest (summer) monsoon in India is caused by the \"uneTual heating of land and the sea\". During summer, the landmass of India heats up faster than the surrounding oceans, creating a low-pressure area over the Indian subcontinent while the Indian Ocean remains relatively cooler and has high pressure. Winds move from high-pressure areas to low-pressure areas, so moist winds blow from the ocean towards the land, bringing rainfall. The southwest monsoon typically occurs between June and September.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's explanation of the southwest monsoon's cause (unequal heating of land and sea) and timing (June to September).",
+          "seconds": 56.2
+        },
+        "gemma3:4b": {
+          "answer": "The southwest (summer) monsoon is caused by the landmass of India heating up faster than the surrounding oceans, creating a low-pressure area. It typically occurs between June and September.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's explanation of the southwest monsoon's cause (land-sea temperature differences creating pressure gradients) and timing (June to September).",
+          "seconds": 55.7
+        },
+        "qwen2.5vl:7b": {
+          "answer": "The southwest (summer) monsoon in India is caused by the unequal heating of land and sea. It typically occurs between June and September.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's explanation of the southwest monsoon's cause (unequal land-sea heating) and timing (June to September).",
+          "seconds": 58.9
+        }
+      }
+    },
+    {
+      "id": "atmosphere_25",
+      "question": "What is the northeast (winter) monsoon, and between which months does it occur in India?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to the given context, the northeast (winter) monsoon occurs in India from October to February.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe source text explicitly states that the winter monsoon (northeast monsoon) occurs in India from October to February.",
+          "seconds": 55.0
+        },
+        "gemma3:4b": {
+          "answer": "The northeast (winter) monsoon occurs in India from October to February.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text stating the northeast (winter) monsoon occurs in India from October to February.",
+          "seconds": 56.8
+        },
+        "qwen2.5vl:7b": {
+          "answer": "The northeast (winter) monsoon occurs in India from October to February.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer correctly states that the northeast (winter) monsoon occurs in India from October to February, as explicitly mentioned in the source text.",
+          "seconds": 62.6
+        }
+      }
+    },
+    {
+      "id": "atmosphere_27",
+      "question": "What is the National Monsoon Mission (NMM), and which ministry developed it?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "The National Monsoon Mission (NMM) is designed to position India as a global leader in weather and climate sciences. The Ministry of Earth Sciences (Government of India) has developed state-of-the-art weather and climate prediction models under the NMM. The overall objective of the NMM is to enhance monsoon predictions for India over all time frames.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's information about the National Monsoon Mission's purpose and the Ministry of Earth Sciences' role in its development.",
+          "seconds": 45.3
+        },
+        "gemma3:4b": {
+          "answer": "The National Monsoon Mission (NMM) aims to enhance monsoon predictions for India over all time frames, positioning India as a global leader in weather and climate sciences. It was developed by the Ministry of Earth Sciences.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately identifies the Ministry of Earth Sciences as the developer of the National Monsoon Mission and correctly summarizes its objective of enhancing monsoon predictions and positioning India as a global leader in weather sciences, as stated in the source text.",
+          "seconds": 53.4
+        },
+        "qwen2.5vl:7b": {
+          "answer": "The National Monsoon Mission (NMM) is a mission under the Ministry of Earth Sciences (MoES) of the Government of India.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer correctly identifies the National Monsoon Mission (NMM) as being under the Ministry of Earth Sciences (MoES) of the Government of India, as explicitly stated in the source text.",
+          "seconds": 48.8
+        }
+      }
+    },
+    {
+      "id": "atmosphere_28",
+      "question": "According to the chapter's climate data table (Table 3.3), what is the annual rainfall recorded at Mumbai, and how does it compare to Delhi's annual rainfall?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to the chapter's climate data table (Table 3.3), the annual rainfall recorded at Mumbai is 183.4 cm.\n\nThe annual rainfall recorded at Delhi is 124.2 cm.\n\nTherefore, Mumbai receives more rainfall than Delhi.",
+          "verdict": "PARTIAL",
+          "judge_raw": "PARTIAL  \nThe student correctly identified Mumbai's annual rainfall as 183.4 cm but incorrectly stated Delhi's annual rainfall as 124.2 cm (the correct value from the source text is 67.0 cm).",
+          "seconds": 41.2
+        },
+        "gemma3:4b": {
+          "answer": "Mumbai has an annual rainfall of 183.4 cm, while Delhi has an annual rainfall of 67.0 cm.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student accurately reported Mumbai's annual rainfall as 183.4 cm and Delhi's as 67.0 cm, both directly sourced from Table 3.3.",
+          "seconds": 42.3
+        },
+        "qwen2.5vl:7b": {
+          "answer": "According to the chapter's climate data table (Table 3.3), the annual rainfall recorded at Mumbai is 183.4 cm, and it is significantly higher than Delhi's annual rainfall of 67.0 cm.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student correctly identifies Mumbai's annual rainfall as 183.4 cm and notes it is significantly higher than Delhi's 67.0 cm, both of which are directly supported by Table 3.3.",
+          "seconds": 43.3
+        }
+      }
+    },
+    {
+      "id": "atmosphere_31",
+      "question": "What were the main natural causes of the 2025 Punjab floods described in the chapter's case study?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to the chapter's case study, the main natural causes of the 2025 Punjab floods were:\n\n* Heavy monsoon rains\n* Western disturbances that brought additional moisture and rain\n* Rivers already flowing high before the heavy rains began\n* Water from hills and local rainfall causing rivers to overflow\n\nThese natural factors combined to cause severe flooding in many parts of Punjab.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately lists the natural causes from the source text, including monsoon rains, western disturbances, pre-existing high river levels, and hill runoff contributing to flooding.",
+          "seconds": 39.8
+        },
+        "gemma3:4b": {
+          "answer": "The main natural causes were very heavy monsoon rains intensified by western disturbances, and rivers (6atluM\u000f %eas\u000f and 5avi) already flowing high due to prior rainfall.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately identifies the natural causes of the floods as heavy monsoon rains intensified by western disturbances and rivers already at high levels due to prior rainfall, both of which are explicitly stated in the source text.",
+          "seconds": 89.3
+        },
+        "qwen2.5vl:7b": {
+          "answer": "The main natural causes of the 2025 Punjab floods described in the chapter's case study were:\n\n1. Very heavy monsoon rains.\n2. Intensification by western disturbances that brought even more moisture and rain.\n3. Rivers already flowing high before the heavy rains began.\n4. Additional rain causing rivers to overflow.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately lists the natural causes from the source text, including heavy monsoon rains, western disturbances, pre-existing high river levels, and additional rainfall leading to overflow.",
+          "seconds": 80.4
+        }
+      }
+    },
+    {
+      "id": "atmosphere_32",
+      "question": "What human-made factors aggravated the 2025 Punjab floods, according to the chapter?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to the chapter, the human-made factors that aggravated the 2025 Punjab floods were:\n\n1. Weak and old river embankments (dhĬsí EÃndh) that could not stop the rising water during heavy monsoon rains.\n2. People building houses and farms too close to the rivers, reducing the natural space where floodwater could spread safely.\n3. Silt and mud collecting in rivers and dams, reducing their capacity to hold and carry water.\n4. Late or unclear flood warnings in some areas, leaving people unprepared.\n\nThese human-made factors, combined with natural factors like heavy monsoon rains, increased the damage caused by the floods.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately lists all the human-made factors from the source text, including weak embankments, encroachment near rivers, silt accumulation, and delayed flood warnings.",
+          "seconds": 78.6
+        },
+        "gemma3:4b": {
+          "answer": "According to the chapter, human-made factors that aggravated the 2025 Punjab floods included weak and old river embankments (dhīśī endh), houses and farms built too close to rivers, and silt and mud collecting in rivers and dams, which reduced their capacity.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately lists the human-made factors from the source text, including weak embankments, proximity of structures to rivers, and silt/mud accumulation, which are explicitly mentioned as aggravating factors.",
+          "seconds": 90.0
+        },
+        "qwen2.5vl:7b": {
+          "answer": "Weak and old river embankments, people building houses and farms too close to the rivers, and delayed or unclear communication of flood warnings.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately lists the human-made factors from the source text: weak embankments, houses/farms near rivers, and delayed/unclear flood warnings.",
+          "seconds": 66.1
+        }
+      }
+    },
+    {
+      "id": "atmosphere_34",
+      "question": "What is a carbon footprint, according to the chapter's glossary?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to the chapter's glossary, a carbon footprint is \"The total amount of greenhouse gases released into the atmosphere as a result of human activities, such as energy use, transportation, or the production of goods and services.\"",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer directly quotes the exact definition of \"carbon footprint\" from the source text's glossary.",
+          "seconds": 60.1
+        },
+        "gemma3:4b": {
+          "answer": "According to the chapter, a carbon footprint is “the total amount of greenhouse gases released into the atmosphere as a result of human activities, such as energy use, transportation, or the production of goods and services.”",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer directly quotes the exact definition of carbon footprint from the source text.",
+          "seconds": 68.9
+        },
+        "qwen2.5vl:7b": {
+          "answer": "The total amount of greenhouse gases released into the atmosphere as a result of human activities, such as energy use, transportation, or the production of goods and services.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer exactly matches the definition provided in the source text.",
+          "seconds": 90.1
+        }
+      }
+    },
+    {
+      "id": "atmosphere_35",
+      "question": "What is climate change, and what human activities does the chapter identify as its main causes?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to the chapter, climate change is the long-term change in weather patterns, such as temperature, rainfall, and wind, caused mainly by human activities like:\n\n1. Burning fuels\n2. Cutting trees\n3. Industrial pollution that releases gases like carbon dioxide into the atmosphere\n\nThese activities increase greenhouse gases in the atmosphere, trapping heat and raising global temperatures, leading to extreme weather conditions like floods, droughts, melting of glaciers, rising sea levels, and loss of biodiversity.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately identifies the main human causes of climate change as burning fossil fuels, deforestation, and industrial pollution releasing greenhouse gases, as stated in the source text.",
+          "seconds": 92.1
+        },
+        "gemma3:4b": {
+          "answer": "जलवायु परिवर्तन दीर्घकालिक मौसम में परिवर्तन है जो मुख्य रूप से मानव गतिविधियों, जैसे कि ईंधन जलाना और पेड़ों को काटना, के कारण होता है, जिससे वैश्विक वार्मिंग और चरम मौसम की स्थिति पैदा होती है। अध्याय में कार्बन डाइऑक्साइड, मीथेन और नाइट्रस ऑक्साइड जैसे ग्रीनहाउस गैसों में वृद्धि के कारण होने वाले मानव गतिविधियों को भी मुख्य कारणों में बताया गया है जो वातावरण में गर्मी को फंसाती हैं।",
+          "verdict": "PARTIAL",
+          "judge_raw": "PARTIAL  \nThe student correctly identifies burning fossil fuels and deforestation as main causes but omits industrial pollution, which is explicitly mentioned in the source text.",
+          "seconds": 190.8
+        },
+        "qwen2.5vl:7b": {
+          "answer": "Climate change is the long-term change in weather patterns, such as temperature, rainfall, and wind, caused mainly by human activities like burning fuels and deforestation.",
+          "verdict": "PARTIAL",
+          "judge_raw": "PARTIAL  \nThe answer correctly identifies burning of fossil fuels and deforestation as main causes but omits industrial pollution, which is explicitly mentioned in the source text.",
+          "seconds": 138.4
+        }
+      }
+    },
+    {
+      "id": "earlyhumans_01",
+      "question": "What is the key difference between 'biological evolution' and 'cultural evolution' as defined in the chapter?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to the chapter, \"Biological evolution\" refers to the gradual physical and genetic changes through which our early ancestors, known as australopithecines, evolved into modern human beings, Homo sapiens.\n\nOn the other hand, \"Cultural evolution\" explains how humans adapted to their surroundings during the Quaternary Period, including the present. This refers to the development of societies, cultures, and ways of living over time, shaped by environmental and climatic changes.\n\nIn other words, biological evolution is about the physical and genetic changes that occurred in the human species, whereas cultural evolution is about the social, cultural, and technological changes that occurred in human societies over time.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's definitions of biological and cultural evolution, capturing the core distinction between physical/genetic changes in biological evolution and adaptation to surroundings during the Quaternary Period in cultural evolution.",
+          "seconds": 131.9
+        },
+        "gemma3:4b": {
+          "answer": "'Biological evolution' refers to gradual physical and genetic changes in ancestors, while ‘cultural evolution’ explains how humans adapted to their surroundings during the Quaternary Period through changes in behaviour and social structures.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's distinction between biological evolution (physical/genetic changes) and cultural evolution (adaptation through behavior/social structures during the Quaternary Period).",
+          "seconds": 140.0
+        },
+        "qwen2.5vl:7b": {
+          "answer": "Biological evolution refers to the gradual physical and genetic changes through which our early ancestors evolved into modern human beings called Homo sapiens. Cultural evolution explains how humans adapted to their surroundings during the Quaternary Period (the last 2 million years, including the present).",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately defines both biological and cultural evolution as per the source text, correctly linking biological evolution to physical/genetic changes into Homo sapiens and cultural evolution to adaptation during the Quaternary Period.",
+          "seconds": 3146.2
+        }
+      }
+    },
+    {
+      "id": "earlyhumans_02",
+      "question": "According to the chapter's comparison table, what proportion of human history falls under the period before writing was invented?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to the chapter's comparison table, more than 99% of human history falls under the period before writing was invented, which is from about 4 million years ago to 5000 years ago.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's statement that over 99% of human history predates writing, with the specified time frame.",
+          "seconds": 98.1
+        },
+        "gemma3:4b": {
+          "answer": "More than 99 per cent of human history falls under the period before writing was invented.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer directly matches the source text's statement that more than 99% of human history predates writing.",
+          "seconds": 117.3
+        },
+        "qwen2.5vl:7b": {
+          "answer": "More than 99 per cent of human history falls under this period.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer directly matches the exact statement in the source text about more than 99% of human history occurring before writing.",
+          "seconds": 60.1
+        }
+      }
+    },
+    {
+      "id": "earlyhumans_03",
+      "question": "What are 'hominins', and around when did an early human ancestor make the earliest stone tools?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to the provided context, hominins are a group that includes modern humans and our early human-like ancestors. An early human ancestor, Homo erectus, made the earliest stone tools, and this marked the beginning of human behaviour, around 2 million years ago.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student correctly identifies hominins as tool-makers and states the earliest stone tools were made around 2 million years ago, aligning with the source text's mention of \"around \u0016.\u0016 million years ago\" (interpreted as ~2.5 million years ago).",
+          "seconds": 113.4
+        },
+        "gemma3:4b": {
+          "answer": "Hominins are a group that includes modern humans and our early human-like ancestors. An early human ancestor made the earliest stone tools around 2 million years ago.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student correctly defines hominins as tool-makers and states the earliest stone tools were made around 2 million years ago, aligning with the source text's mention of \"around 2.5 million years ago\" (with minor rounding differences).",
+          "seconds": 109.0
+        },
+        "qwen2.5vl:7b": {
+          "answer": "Hominins are a group that includes modern humans and our early human-like ancestors. An early human ancestor made the earliest stone tools around 2.5 million years ago.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately defines hominins as tool-making humans and correctly states the earliest stone tools were made around 2.5 million years ago, matching the source text.",
+          "seconds": 83.6
+        }
+      }
+    },
+    {
+      "id": "earlyhumans_04",
+      "question": "Which early human ancestor was the first hominin to exit Africa, and what stone tools did it make?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to the given context, Homo erectus was the first hominin to exit Africa, and it made stone tools such as hand axes and cleavers.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's assertion that Homo erectus was the first hominin to exit Africa and used hand axes and cleavers.",
+          "seconds": 77.2
+        },
+        "gemma3:4b": {
+          "answer": "According to the sources, Homo erectus was the first hominin to exit Africa, and it made stone tools such as hand axes and cleavers.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe answer accurately identifies Homo erectus as the first hominin to exit Africa and correctly lists hand axes and cleavers as the stone tools it made, both of which are explicitly stated in the source text.",
+          "seconds": 88.1
+        },
+        "qwen2.5vl:7b": {
+          "answer": "Homo erectus was the first hominin to exit Africa, and it made stone tools such as hand axes and cleavers.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately identifies Homo erectus as the first hominin to exit Africa and correctly lists hand axes and cleavers as the stone tools associated with them, as stated in the source text.",
+          "seconds": 72.2
+        }
+      }
+    },
+    {
+      "id": "earlyhumans_05",
+      "question": "Where did Homo habilis live, and what tools did this early human ancestor make?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to the provided context, Homo habilis lived in Olduvai Gorge, Tanzania and Kenya, 2-6 million years ago. This early human ancestor made chopper stone tools.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's information about Homo habilis living in Olduvai Gorge, Tanzania, and Kenya, and making chopper stone tools.",
+          "seconds": 72.0
+        },
+        "gemma3:4b": {
+          "answer": "Homo habilis lived in Olduvai Gorge, Tanzania and Kenya, and made chopper stone tools.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's information about Homo habilis living in Olduvai Gorge, Tanzania, and Kenya, and making chopper stone tools.",
+          "seconds": 62.2
+        },
+        "qwen2.5vl:7b": {
+          "answer": "Homo habilis lived in Olduvai Gorge, Tanzania and Kenya, 2-6 million years ago; made chopper stone tools.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe answer accurately reflects the source text's information about Homo habilis' habitat and tools.",
+          "seconds": 72.9
+        }
+      }
+    },
+    {
+      "id": "earlyhumans_07",
+      "question": "In the Indian subcontinent, approximately how old is the oldest human settlement, and which two sites are given dates in the chapter?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to the chapter, in the Indian subcontinent, the oldest human settlement dates back to approximately 2 million years ago. Two specific sites mentioned in the chapter with dates are:\n\n1. Attirampakkam in Tamil Nadu, dated to about 1.5-1.7 million years ago.\n2. Isampur in Karnataka, dated to about 0.2 million years ago.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the dates and sites mentioned in the source text.",
+          "seconds": 98.9
+        },
+        "gemma3:4b": {
+          "answer": "The oldest human settlement in the Indian subcontinent is approximately 2 million years old. The chapter mentions Attirampakkam and Isampur as sites dated to 1.5–1.7 million years ago and 0.2 million years ago, respectively.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's information about the oldest human settlement being 2 million years old and the two sites, Attirampakkam and Isampur, with their respective dates.",
+          "seconds": 89.3
+        },
+        "qwen2.5vl:7b": {
+          "answer": "The oldest human settlement in the Indian subcontinent dates back to about 2 million years ago. The two sites given dates in the chapter are Attirampakkam in Tamil Nadu and Isampur in Karnataka.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's information about the oldest settlement dating to 2 million years ago and the two specifically dated sites, Attirampakkam and Isampur.",
+          "seconds": 92.3
+        }
+      }
+    },
+    {
+      "id": "earlyhumans_08",
+      "question": "What tools were used by Palaeolithic hunter-gatherers to chop meat, dig tubers, and scrape animal skin?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to the provided context, Palaeolithic hunter-gatherers used \"cleavers and handaxe\" to chop animal meat, dig out tubers, and scrape animal skin.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer correctly identifies cleavers and handaxes as the tools used for the specified tasks, as explicitly stated in the source text.",
+          "seconds": 1608.4
+        },
+        "gemma3:4b": {
+          "answer": "According to the provided sources, Palaeolithic hunter-gatherers used tools like cleavers, handaxes, scrapers, and borers to chop meat, dig out tubers, and scrape animal skin.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer correctly identifies cleavers, handaxes, scrapers, and borers as tools used for the specified tasks, all explicitly mentioned in the source text.",
+          "seconds": 124.7
+        },
+        "qwen2.5vl:7b": {
+          "answer": "Cleavers and handaxes.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe source text explicitly mentions cleavers and handaxes as the tools used for chopping meat, digging tubers, and scraping animal skin.",
+          "seconds": 63.4
+        }
+      }
+    },
+    {
+      "id": "earlyhumans_09",
+      "question": "What environmental changes led to the first-ever population explosion in human history during the Mesolithic period?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to the context, the environmental changes that led to the first-ever population explosion in human history during the Mesolithic period were the climate becoming warmer, leading to significant changes in the environment. Forests and grasslands expanded into areas that were previously covered by ice sheets, offering a wider variety of resources, including small game animals, fish, and edible wild grains.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's explanation of climate warming, environmental changes, and resource availability as the causes of the Mesolithic population explosion.",
+          "seconds": 57.9
+        },
+        "gemma3:4b": {
+          "answer": "The warmer climate led to forests and grasslands expanding into areas previously covered by ice sheets, offering a wider variety of resources such as small game animals, fish, and edible wild grains.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately identifies the warmer climate and environmental changes (forests/grasslands expanding into ice-covered areas) as the key factors leading to resource abundance, which is directly stated in the source text.",
+          "seconds": 78.5
+        },
+        "qwen2.5vl:7b": {
+          "answer": "The environmental changes that led to the first-ever population explosion in human history during the Mesolithic period were the warming climate, which led to significant changes in the environment. Forests and grasslands expanded into areas that were previously covered by ice sheets, offering a wider variety of resources, including small game animals, fish, and edible wild grains.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's explanation of warming climate, environmental changes, and resource expansion as causes of the Mesolithic population explosion.",
+          "seconds": 80.4
+        }
+      }
+    },
+    {
+      "id": "earlyhumans_10",
+      "question": "What is the World Heritage Site of Bhimbetka known for, according to the chapter?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to the chapter, the World Heritage Site of Bhimbetka is known for containing hundreds of painted rock shelters with Mesolithic and earlier human occupation.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's statement about Bhimbetka's painted rock shelters and Mesolithic human occupation.",
+          "seconds": 61.2
+        },
+        "gemma3:4b": {
+          "answer": "According to the provided text, the World Heritage Site of Bhimbetka contains hundreds of painted rock shelters with Mesolithic and earlier human occupation.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer directly matches the source text's statement about Bhimbetka's painted rock shelters and Mesolithic human occupation.",
+          "seconds": 251.2
+        },
+        "qwen2.5vl:7b": {
+          "answer": "The World Heritage Site of Bhimbetka is known for its painted rock shelters with Mesolithic and earlier human occupation.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's statement about Bhimbetka's painted rock shelters and Mesolithic/earlier human occupation.",
+          "seconds": 63.9
+        }
+      }
+    },
+    {
+      "id": "earlyhumans_11",
+      "question": "What was the hallmark of the Neolithic Revolution, and how did Neolithic farmers' tools differ from those of hunter-gatherers?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "The hallmark of the Neolithic Revolution was the domestication of select animals and plants, bringing them under human control, and the development of new breeds through cultivation and husbandry. According to the text, Neolithic farmers made tools for food production and processing, whereas hunter-gatherers produced tools for procuring food.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe answer accurately reflects the source text's description of the Neolithic Revolution's hallmark and the distinction between tools used by farmers and hunter-gatherers.",
+          "seconds": 64.9
+        },
+        "gemma3:4b": {
+          "answer": "The hallmark of the Neolithic Revolution was the domestication of select animals and plants, bringing them under human control. Neolithic farmers made tools for food production and processing, while gatherers produced tools for procuring food.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's emphasis on domestication as the Neolithic Revolution's hallmark and the distinction between gatherers' procurement tools and farmers' production-processing tools.",
+          "seconds": 71.9
+        },
+        "qwen2.5vl:7b": {
+          "answer": "The hallmark of the Neolithic Revolution was the domestication of select animals and plants, bringing them under human control, and the development of new breeds through cultivation and husbandry. Neolithic farmers' tools were more specialized for food production and processing compared to the general-purpose tools used by hunter-gatherers.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's emphasis on domestication as the hallmark and the specialization of tools for food production versus general-purpose tools for hunting/gathering.",
+          "seconds": 68.9
+        }
+      }
+    },
+    {
+      "id": "earlyhumans_12",
+      "question": "What is Mehrgarh, and approximately when was it established as the earliest agricultural village in the Indian subcontinent?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to the provided context (संदर्भ), Mehrgarh is the oldest Neolithic site in the Indian subcontinent, located on the Bolan River in present-day Pakistan. It was also the earliest agricultural village, dating back to about 7000 BCE.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's information about Mehrgarh being the oldest Neolithic site and earliest agricultural village in the Indian subcontinent, dated to approximately 7000 BCE.",
+          "seconds": 71.9
+        },
+        "gemma3:4b": {
+          "answer": "Mehrgarh was the oldest agricultural village in the Indian subcontinent, established around 9000 BCE.",
+          "verdict": "INCORRECT",
+          "judge_raw": "INCORRECT  \nThe source text states Mehrgarh was established around 7000 BCE, but the student's answer claims 9000 BCE, which is inconsistent with the provided source.",
+          "seconds": 81.3
+        },
+        "qwen2.5vl:7b": {
+          "answer": "Mehrgarh is the oldest Neolithic site in the Indian subcontinent, and it was established as the earliest agricultural village around 8000 BCE.",
+          "verdict": "INCORRECT",
+          "judge_raw": "INCORRECT  \nThe source text states Mehrgarh was established around 7000 BCE, not 8000 BCE.",
+          "seconds": 2980.9
+        }
+      }
+    },
+    {
+      "id": "earlyhumans_13",
+      "question": "What four early world civilisations emerged in river plains, according to the chapter, and along which rivers?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to the chapter, the four early world civilisations that emerged in river plains are:\n\n1. The Harappan civilisation along the Sindhu and Sarasvatí rivers.\n2. The Mesopotamian civilisation in the region around the Euphrates and Tigris rivers in Western Asia.\n3. The Egyptian civilisation along the Nile River.\n4. The Chinese civilisation in the Yangtze River basin in northern China.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately lists the four civilizations and their associated rivers as specified in the source text.",
+          "seconds": 62.8
+        },
+        "gemma3:4b": {
+          "answer": "According to the chapter, the four early world civilisations emerged in river plains along the Sindhu and Sarasvati rivers (Harappan), the Euphrates and Tigris rivers (Mesopotamian), the Nile River (Egyptian), and the Huang He basin (Chinese).",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately lists the four civilizations and their respective rivers as stated in the source text.",
+          "seconds": 41.3
+        },
+        "qwen2.5vl:7b": {
+          "answer": "The four early world civilisations that emerged in river plains, according to the chapter, were the Harappan civilisation along the Sindhu and Sarasvati rivers, the Mesopotamian civilisation in the region around the Euphrates and Tigris rivers in West Asia, the Egyptian civilisation along the Nile River, and the Chinese civilisation in the Huang He basin in northern China.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately lists the four civilizations and their respective rivers as stated in the source text.",
+          "seconds": 41.6
+        }
+      }
+    },
+    {
+      "id": "earlyhumans_14",
+      "question": "What does the name 'Mesopotamia' mean, and which two rivers drain the region known as the 'fertile crescent'?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "The name \"Mesopotamia\" means the \"land in between\" and refers to the region drained by the Euphrates and Tigris rivers.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe answer correctly states that Mesopotamia means \"the land in between\" and refers to the Euphrates and Tigris rivers, as supported by the source text.",
+          "seconds": 43.5
+        },
+        "gemma3:4b": {
+          "answer": "The name ‘Mesopotamia’ means “the land in between”. The region is drained by the Euphrates and Tigris rivers.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's explanation that Mesopotamia means \"the land in between\" and is drained by the Euphrates and Tigris rivers, which are tied to the fertile crescent region.",
+          "seconds": 43.9
+        },
+        "qwen2.5vl:7b": {
+          "answer": "The name 'Mesopotamia' means 'the land in between,' and the two rivers that drain the region known as the 'fertile crescent' are the Euphrates and Tigris rivers.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer correctly states that Mesopotamia means \"the land in between\" and that the Euphrates and Tigris rivers drain the 'fertile crescent,' as explicitly mentioned in the source text.",
+          "seconds": 83.6
+        }
+      }
+    },
+    {
+      "id": "earlyhumans_15",
+      "question": "What were the four major city-based civilisations that flourished in Mesopotamia from around 3500 BCE onwards?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to the provided context, the four major city-based civilisations that flourished in Mesopotamia from around 3500 BCE onwards are the Sumerian, Akkadian, Assyrian, and Babylonian civilisations.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer correctly lists the four civilizations (Sumerian, Akkadian, Assyrian, Babylonian) as stated in the source text.",
+          "seconds": 35.5
+        },
+        "gemma3:4b": {
+          "answer": "The four major city-based civilisations that flourished in Mesopotamia from around 3500 BCE onwards were the Sumerian, Akkadian, Assyrian, and Babylonian.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately lists the four civilizations mentioned in the source text as flourishing in Mesopotamia from 3500 BCE onwards.",
+          "seconds": 35.5
+        },
+        "qwen2.5vl:7b": {
+          "answer": "The four major city-based civilisations that flourished in Mesopotamia from around 3500 BCE onwards were the Sumerian, Akkadian, Assyrian, and Babylonian civilizations.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer correctly lists the four civilizations (Sumerian, Akkadian, Assyrian, Babylonian) mentioned in the source text as flourishing in Mesopotamia from around 3500 BCE onwards.",
+          "seconds": 46.1
+        }
+      }
+    },
+    {
+      "id": "earlyhumans_16",
+      "question": "What was a ziggurat, and what role did it play in Sumerian cities?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to the given context, a ziggurat was a tower-like stepped pyramid-shaped temple with several floors above which the main temple was located. The top of the ziggurat was a holy place, and the area around the ziggurat contained palaces and royal storehouses. The surrounding walls had only one entrance, as the ziggurat also served as the city's treasury. The ziggurat played an important role in people's lives, and each city built a grand ziggurat for its chief god and the city grew around this main temple. All economic activities, such as agriculture, trade, and the transport of goods, were tied to the temple authority.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's description of a ziggurat's structure, its role as a religious and administrative center, and its connection to economic activities and social hierarchy in Sumerian cities.",
+          "seconds": 50.5
+        },
+        "gemma3:4b": {
+          "answer": "A ziggurat was a tower-like, stepped pyramid-shaped temple with several floors. It served as a holy place and the city’s treasury, and all economic activities were tied to the temple authority.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately describes the ziggurat's structure and its dual role as a holy place and treasury, with economic activities tied to temple authority, all supported by the source text.",
+          "seconds": 56.3
+        },
+        "qwen2.5vl:7b": {
+          "answer": "A ziggurat was a tower-like stepped pyramid-shaped temple with several floors above which the main temple was located. The top of the ziggurat was a holy place, and the area around the ziggurat contained palaces and royal storehouses. The surrounding walls had only one entrance as the ziggurat also served as the city's treasury. Temples played an important role in people's lives, and each city built a grand temple called a ziggurat for its chief god, and the city grew around this main temple. Economic activities, such as agriculture, trade, and the transport of goods, were tied to the temple authority.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately describes the ziggurat's structure, its role as a religious and administrative center, and its connection to economic activities, all supported by the source text.",
+          "seconds": 56.7
+        }
+      }
+    },
+    {
+      "id": "earlyhumans_17",
+      "question": "Who was Hammurabi, and what was his most significant contribution to Babylonian civilisation?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to the given context, Hammurabi was the king who ascended to power in Babylonia in 1792 BCE. His most significant contribution was the compilation of rules and regulations for civil and social conduct, known as the Code of Hammurabi, throughout his empire. This code served as a foundational model for many future legal systems.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's information about Hammurabi's reign and his compilation of the Code of Hammurabi as a foundational legal contribution.",
+          "seconds": 42.7
+        },
+        "gemma3:4b": {
+          "answer": "Hammurabi was the ruler of Babylon who compiled the Code of Hammurabi, which was a set of rules and regulations for civil and social conduct. This Code served as a foundational model for future legal systems.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's assertion that Hammurabi compiled the Code of Hammurabi, a foundational legal framework for future systems.",
+          "seconds": 37.4
+        },
+        "qwen2.5vl:7b": {
+          "answer": "Hammurabi was a king of Babylon who, in 1754 BCE, conquered neighboring regions and expanded the small city-state into a large empire. His most significant contribution was the compilation of rules and regulations for civil and social conduct known as the Code of Hammurabi, which served as a foundational model for many future legal systems.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer correctly identifies Hammurabi as a Babylonian king who expanded his city-state into an empire and highlights the Code of Hammurabi as his key contribution, aligning with the source text's description.",
+          "seconds": 98.5
+        }
+      }
+    },
+    {
+      "id": "earlyhumans_18",
+      "question": "What is cuneiform, and which civilisation is credited with developing it?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to the given context, cuneiform is a system of writing that was developed by the Sumerians. It was written by pressing a wedge-shaped stylus into soft clay tablets. The word \"cuneiform\" comes from the Latin word \"cuneus\", meaning \"wedge\", referring to the wedge-shaped marks used in the script.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately identifies the Sumerians as the developers of cuneiform and correctly describes its wedge-shaped script and origin from the Latin \"cuneus.\"",
+          "seconds": 40.1
+        },
+        "gemma3:4b": {
+          "answer": "Cuneiform is a writing system consisting of hundreds of marks pressed onto damp clay tablets using sharp wedge-shaped reeds. The Sumerians developed it.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately states that cuneiform is a writing system developed by the Sumerians, as explicitly confirmed by the source text.",
+          "seconds": 38.6
+        },
+        "qwen2.5vl:7b": {
+          "answer": "Cuneiform is one of the earliest systems of writing that was developed by the Sumerians. It was written by pressing a wedge-shaped stylus into soft clay tablets.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately states that cuneiform was developed by the Sumerians and describes the wedge-shaped stylus method from the source text.",
+          "seconds": 45.0
+        }
+      }
+    },
+    {
+      "id": "earlyhumans_20",
+      "question": "How was the Rosetta Stone significant for deciphering the Egyptian script, and who finally deciphered it?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "The Rosetta Stone was significant for deciphering the Egyptian script because it had three types of writing, including Greek, which people could still read. This was like having a bilingual dictionary for a lost language. The Rosetta Stone was discovered in 1799 by Pierre Bouchard, a French army engineer, while repairing a fort in Egypt. Finally, Jean-François Champollion, a French linguist, deciphered the script in 1822.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's information about the Rosetta Stone's significance and Champollion's role in deciphering it.",
+          "seconds": 46.3
+        },
+        "gemma3:4b": {
+          "answer": "According to the provided sources, the Rosetta Stone was significant because it had three types of writing, including Greek. Since people could still read Greek, it served as a bilingual dictionary for a lost language. Pierre Bouchard, a French army engineer, found the stone, but it was ultimately Jean-François Champollion who finally deciphered the Egyptian script using the Rosetta Stone.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's information about the Rosetta Stone's role as a bilingual key and Champollion's successful deciphering.",
+          "seconds": 48.9
+        },
+        "qwen2.5vl:7b": {
+          "answer": "The Rosetta Stone was significant for deciphering the Egyptian script because it had three types of writing, including Greek, which allowed French linguist Jean-François Champollion to use the Greek text as a key to decipher the Egyptian hieroglyphs. Jean-François Champollion finally deciphered the script.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's information about the Rosetta Stone's three scripts (including Greek) enabling Champollion to decipher Egyptian hieroglyphs.",
+          "seconds": 47.9
+        }
+      }
+    },
+    {
+      "id": "earlyhumans_21",
+      "question": "Why did the Egyptians refer to their land as 'Kemet', and what does the word mean?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "The Egyptians referred to their land as \"Kemet\" because it means \"the black\" or \"black soil\", coming from the black river valley soil.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's explanation that \"Kemet\" means \"the black\" referring to the black river valley soil.",
+          "seconds": 40.7
+        },
+        "gemma3:4b": {
+          "answer": "According to the provided text, the Egyptians referred to their land as Kemet because the soil was black, originating from the black river valley soil. “Kemet” means “the black”.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's explanation that \"Kemet\" means \"the black\" due to the black river valley soil.",
+          "seconds": 38.3
+        },
+        "qwen2.5vl:7b": {
+          "answer": "The Egyptians referred to their land as 'Kemet' because it means 'the black', coming from the black river valley soil.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer correctly states that Kemet means 'the black' derived from the black river valley soil, as explicitly stated in the source text.",
+          "seconds": 46.6
+        }
+      }
+    },
+    {
+      "id": "earlyhumans_23",
+      "question": "Why were Egyptian pyramids built, according to the chapter, and what process was used to preserve the body?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to the chapter, Egyptian pyramids were built primarily because the Egyptians believed that each person had a ka (a spiritual double) that lived on after death if the body was preserved through mummification.\n\nThe process used to preserve the body was called mummification. It involved removing the internal organs (except the heart) and drying the body with natron. The body was then oiled, wrapped in linen strips, placed in a coffin, and buried with rituals.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's explanation of the purpose of pyramids and the mummification process.",
+          "seconds": 44.9
+        },
+        "gemma3:4b": {
+          "answer": "According to the chapter, Egyptian pyramids were built because the Egyptians believed each person had a ‘ka’ (a spiritual double) that lived on after death if the body was preserved through mummification. The process involved removing the internal organs (except the heart), drying the body with natron, and wrapping it in linen strips.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's explanation of the pyramids' purpose related to the ka and mummification process.",
+          "seconds": 40.1
+        },
+        "qwen2.5vl:7b": {
+          "answer": "Egyptian pyramids were built primarily because the Egyptians believed that each person had a ka (a spiritual double) that lived on after death if the body was preserved through mummification. The process used to preserve the body involved removing the internal organs (except the heart) and drying the body with natron. The body was then oiled, wrapped in linen strips, placed in a coffin, and buried with rituals.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's explanation for pyramid construction and the mummification process.",
+          "seconds": 45.4
+        }
+      }
+    },
+    {
+      "id": "earlyhumans_24",
+      "question": "Which two rivers were centres of early Chinese Neolithic cultures, and around when did urban centres begin to emerge in China?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to the provided context, the two rivers were the Yellow River and the Yangtze River, which were centres of early Chinese Neolithic cultures. Urban centres began to emerge in China around 4000 BCE, with the expansion of agricultural productivity and advancements in metallurgy and craft production.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student correctly identifies the Yellow River and Yangtze River as the Neolithic centers and accurately states urban emergence around 4000 BCE, matching the source text.",
+          "seconds": 50.7
+        },
+        "gemma3:4b": {
+          "answer": "The Yellow River and the Yangtze River were centres of early Chinese Neolithic cultures, and urban centres began to emerge around 2100 BCE.",
+          "verdict": "PARTIAL",
+          "judge_raw": "PARTIAL  \nThe student correctly identified the Yellow River and Yangtze River as centres of early Neolithic cultures but inaccurately stated the emergence of urban centres as around 2100 BCE, whereas the source text specifies approximately 1900 BCE.",
+          "seconds": 37.8
+        },
+        "qwen2.5vl:7b": {
+          "answer": "The two rivers that were centres of early Chinese Neolithic cultures were the Yellow River and the Yangtze. Urban centres began to emerge in China around 2000 BCE.",
+          "verdict": "PARTIAL",
+          "judge_raw": "PARTIAL  \nThe student correctly identified the Yellow River and Yangtze as the two rivers but incorrectly stated the time for urban centers (2000 BCE vs. the source's 1500 BCE).",
+          "seconds": 45.3
+        }
+      }
+    },
+    {
+      "id": "earlyhumans_25",
+      "question": "What was the earliest source of information about early Chinese civilisation, based on oracle bones?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "Based on the provided context, the earliest source of information about early Chinese civilisation is symbols made on pieces of animal bones and tortoise shells. These bones were heated until they cracked, and interpretations were made based on the patterns of the cracks. These oracles were often used to foretell the future, and today, they tell us a lot about the hopes, desires, and fears of the early Chinese.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's description of oracle bones as the earliest source of information about early Chinese civilization, including their use in divination and the interpretation of cracks.",
+          "seconds": 40.0
+        },
+        "gemma3:4b": {
+          "answer": "The earliest source of information about early Chinese civilisation was symbols made on pieces of animal bones and tortoise shells, which were heated until they cracked and interpreted to foretell the future.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's description of oracle bones as the earliest source of information about early Chinese civilization.",
+          "seconds": 40.2
+        },
+        "qwen2.5vl:7b": {
+          "answer": "Symbols made on pieces of animal bones and tortoise shells.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately identifies the earliest source of information about early Chinese civilization as symbols on animal bones and tortoise shells, as stated in the source text.",
+          "seconds": 36.0
+        }
+      }
+    },
+    {
+      "id": "earlyhumans_26",
+      "question": "Around which century CE did silk become a major item of external trade during the Han dynasty, leading to the naming of the 'Silk Route'?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to the given references, silk became a major item of external trade during the Han dynasty around the 2nd century CE.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's statement that silk became a major trade item during the Han dynasty around the 2nd century CE.",
+          "seconds": 36.9
+        },
+        "gemma3:4b": {
+          "answer": "Around the 2nd century CE.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe source text explicitly states that silk became a major trade item during the Han dynasty around the 2nd century CE, directly supporting the student's answer.",
+          "seconds": 29.8
+        },
+        "qwen2.5vl:7b": {
+          "answer": "Around the 2nd century CE, silk became a major item of external trade during the Han dynasty, leading to the naming of the 'Silk Route'.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the source text's statement about silk becoming a major trade item during the Han dynasty in the 2nd century CE, leading to the Silk Route's name.",
+          "seconds": 41.6
+        }
+      }
+    },
+    {
+      "id": "earlyhumans_27",
+      "question": "What innovations is China credited with being the first country to introduce, according to the chapter's 'Don't Miss Out' note?",
+      "answers": {
+        "llama3:8b": {
+          "answer": "According to the \"Don't Miss Out\" note in the chapter, China is credited with being the first country to introduce:\n\n1. Paper currency\n2. Civil services through public examination",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately lists the two innovations mentioned in the 'Don't Miss Out' note: paper currency and civil services through public examination.",
+          "seconds": 38.1
+        },
+        "gemma3:4b": {
+          "answer": "According to the provided text, China was the first country to introduce paper currency and develop civil services through public examination.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the two innovations mentioned in the 'Don't Miss Out' section of the source text.",
+          "seconds": 33.0
+        },
+        "qwen2.5vl:7b": {
+          "answer": "Paper currency and civil services through public examination.",
+          "verdict": "CORRECT",
+          "judge_raw": "CORRECT  \nThe student's answer accurately reflects the two innovations mentioned in the 'Don't Miss Out' section: paper currency and civil services through public examination.",
+          "seconds": 42.4
+        }
+      }
+    }
+  ]
+}

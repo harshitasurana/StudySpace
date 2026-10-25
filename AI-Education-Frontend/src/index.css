@@ -1,0 +1,559 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500&family=Caveat:wght@600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=swap');
+
+@config "../tailwind.config.js";
+
+.font-handwriting {
+    font-family: 'Caveat', cursive;
+}
+
+
+:root {
+    --motion-fast: 160ms;
+    --motion-base: 240ms;
+    --motion-slow: 600ms;
+    --ease-standard: cubic-bezier(.2, .8, .2, 1);
+}
+
+.interactive-card {
+    transition:
+        transform var(--motion-base) var(--ease-standard),
+        box-shadow var(--motion-base) var(--ease-standard),
+        border-color var(--motion-base) var(--ease-standard);
+}
+
+.interactive-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 28px rgba(38, 50, 130, 0.14);
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .interactive-card,
+    .interactive-card:hover {
+        transform: none !important;
+        transition: none !important;
+    }
+}
+
+.material-symbols-outlined {
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.bento-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 280px), 1fr));
+    gap: 16px;
+}
+
+.mastery-glow {
+    box-shadow: 0 0 12px rgba(47, 133, 90, 0.4);
+}
+
+.glass-card {
+    background: #FFFFFF;
+    border: 1px solid #E5E7EB;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05), 0 1px 2px 0 rgba(0, 0, 0, 0.03);
+}
+
+.custom-scrollbar {
+    scrollbar-width: none;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+.role-card:hover {
+    border-color: #6D5FE0;
+    background-color: #FBF7F0;
+}
+
+.role-card.active {
+    border-color: #6D5FE0;
+    background-color: #EDEBFC;
+    box-shadow: 0 4px 6px -1px rgba(109, 95, 224, 0.1);
+}
+
+body {
+    background-color: #fbf7ef;
+    color: #172033;
+}
+
+/* Dark Mode Overrides */
+.dark {
+    --color-background: #0b1324;
+    --color-surface: #152238;
+    --color-surface-bright: #0b1324;
+    --color-surface-container-lowest: #152238;
+    --color-surface-container-low: #1b2a47;
+    --color-surface-container: #1b2a47;
+    --color-surface-container-high: #233658;
+    --color-surface-container-highest: #2e4570;
+    --color-border-subtle: #243556;
+    --color-outline-variant: #2e4570;
+    --color-on-surface: #f8fafc;
+    --color-on-surface-variant: #94a3b8;
+    --color-primary: #818cf8;
+}
+
+.dark body {
+    background-color: #0b1324;
+    color: #f8fafc;
+}
+
+.dark aside {
+    background-color: #111c30 !important;
+    border-color: #243556 !important;
+}
+
+.dark [class*="bg-surface-container-lowest"] {
+    background-color: #152238 !important;
+}
+
+.dark [class*="bg-surface-container-low"] {
+    background-color: #1b2a47 !important;
+}
+
+.dark [class*="bg-surface-container-high"] {
+    background-color: #233658 !important;
+}
+
+.dark .bg-white {
+    background-color: #152238 !important;
+}
+
+.dark .bg-surface,
+.dark .bg-surface-bright {
+    background-color: #0b1324 !important;
+}
+
+.dark .text-on-surface {
+    color: #f8fafc !important;
+}
+
+.dark .text-primary {
+    color: #818cf8 !important;
+}
+
+.dark .text-on-surface-variant {
+    color: #94a3b8 !important;
+}
+
+.dark .border-border-subtle {
+    border-color: #243556 !important;
+}
+
+.dark input,
+.dark select,
+.dark textarea {
+    background-color: #1b2a47 !important;
+    border-color: #2e426a !important;
+    color: #f8fafc !important;
+}
+
+.dark input::placeholder,
+.dark textarea::placeholder {
+    color: #64748b !important;
+}
+
+.dark table th {
+    color: #94a3b8 !important;
+}
+
+.dark table td {
+    color: #e2e8f0 !important;
+}
+
+.dark .bg-primary-container {
+    background-color: #1e293b !important;
+}
+
+.dark .text-primary-fixed {
+    color: #a5b4fc !important;
+}
+
+.dark .glass-card {
+    background: rgba(21, 34, 56, 0.85);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    box-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.35);
+}
+
+.dark .glass-card:hover {
+    border-color: rgba(129, 140, 248, 0.35);
+    box-shadow: 0 8px 25px -4px rgba(0, 0, 0, 0.5), 0 0 15px rgba(129, 140, 248, 0.12);
+}
+
+.dark .glass-card-elevated {
+    background: rgba(27, 42, 71, 0.9);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    box-shadow: 0 8px 30px -4px rgba(0, 0, 0, 0.45);
+}
+
+/* Rendered rich-text Help Center article content (authored via the admin's
+   HTML editor) — Tailwind's preflight strips default list/heading styling,
+   so restore just enough for this content to read correctly. */
+.help-article-body p {
+    margin-bottom: 0.75em;
+}
+
+.help-article-body h2,
+.help-article-body h3 {
+    font-weight: 700;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
+
+.help-article-body ul {
+    list-style: disc;
+    padding-left: 1.5em;
+    margin-bottom: 0.75em;
+}
+
+.help-article-body ol {
+    list-style: decimal;
+    padding-left: 1.5em;
+    margin-bottom: 0.75em;
+}
+
+.help-article-body a {
+    color: #002045;
+    text-decoration: underline;
+}
+
+/* Chapter Reader highlighter — highlightDom.js's renderHighlightOverlay
+   renders saved/selected highlights as absolutely-positioned overlay divs
+   (one per visual line, via Range.getClientRects()) appended alongside
+   react-pdf's rendered canvas, rather than wrapping the underlying text.
+   Wrapping the text directly (an earlier <mark>-based approach) doesn't
+   work here: every real span in pdf.js's text layer carries an inline
+   `transform: scaleX(...)` (font-metric correction so the invisible text
+   lines up with the canvas's actual glyph widths), and `transform`
+   creates a new stacking context / GPU compositing layer — an element
+   blended (mix-blend-mode) from inside one only blends within that
+   layer, never reaching the canvas painted behind it. Confirmed
+   empirically: mix-blend-mode on a <mark> nested in a transformed span
+   didn't tint the text, it fully hid it. A plain, non-blended background
+   has the opposite problem — it's opaque alpha compositing, so making it
+   translucent enough to not wash out dark text underneath also makes the
+   tint barely visible on the white page. Rendering as separate overlay
+   rects OUTSIDE any transformed span sidesteps both: mix-blend-mode here
+   correctly blends against the real canvas, same as a genuine highlighter
+   pen — dark text stays legible, the color only shows where the page
+   itself is light. */
+.chapter-highlight-overlay {
+    position: absolute;
+    pointer-events: none;
+    border-radius: 2px;
+    mix-blend-mode: multiply;
+}
+
+.chapter-highlight-yellow {
+    background: #fef08a;
+}
+
+.chapter-highlight-green {
+    background: #bbf7d0;
+}
+
+.chapter-highlight-blue {
+    background: #bfdbfe;
+}
+
+.chapter-highlight-pink {
+    background: #fbcfe8;
+}
+
+.chapter-highlight-orange {
+    background: #fed7aa;
+}
+
+/* pdf.js text layer (react-pdf's <Page>): each word is its own absolutely-
+   positioned span with cursor:text, with real gaps between words/lines.
+   pdf.js's own .endOfContent element (used to extend a selection past the
+   last line) expands to cover the whole text layer with cursor:default
+   while a selection drag is in progress, so the cursor flickers between
+   text/default as the mouse crosses those gaps mid-drag. Selection itself
+   is unaffected either way; this just keeps the cursor visually steady. */
+.textLayer .endOfContent {
+    cursor: text;
+}
+
+/* Each word in pdf.js's text layer is its own absolutely-positioned span
+   with a real physical gap to the next one (matching real inter-word
+   spacing in the PDF) — the browser's native in-progress selection
+   highlight (this ::selection rule, shown while actively dragging, before
+   a color is picked from the toolbar) necessarily renders as one rect per
+   span rather than one continuous flowing band, since these spans aren't
+   in normal inline text flow. This is standard for any PDF text layer
+   (matches Chrome's/Firefox's own built-in PDF viewers) and can't be
+   smoothed away — but the harsh saturated default OS blue makes the
+   per-word boxiness look worse than it needs to. A softer, brand-matched
+   tone reads calmer even with the same underlying word-by-word shape. */
+.textLayer ::selection {
+    background: rgba(25, 96, 163, 0.35);
+}
+
+/* Search-match and read-aloud "currently speaking" overlays reuse
+   .chapter-highlight-overlay's positioning (see above) but need their own
+   color and a distinct z-index layer so they never visually merge with a
+   saved highlight sitting on the same word. */
+.chapter-search-match-overlay {
+    position: absolute;
+    pointer-events: none;
+    border-radius: 2px;
+    background: rgba(37, 99, 235, 0.35);
+    outline: 2px solid rgba(37, 99, 235, 0.7);
+}
+
+.chapter-speech-overlay {
+    position: absolute;
+    pointer-events: none;
+    border-radius: 2px;
+    background: rgba(245, 158, 11, 0.35);
+}
+
+/* Reduced motion — standard prefers-reduced-motion pattern applied via an
+   explicit student preference (ChapterReader.jsx's reducedMotion pref)
+   rather than only the OS-level media query, since a student may want
+   this on/off independent of their system setting. Scoped to the reader
+   subtree, not the whole app. */
+.reader-reduced-motion,
+.reader-reduced-motion * {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+}
+
+/* Interactive Reader Visual Enhancements */
+.interactive-hover-lift {
+    transition: transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.interactive-hover-lift:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px -4px rgba(40, 53, 147, 0.12);
+}
+
+.dark .interactive-hover-lift:hover {
+    box-shadow: 0 8px 20px -4px rgba(0, 0, 0, 0.4);
+}
+
+.glass-pill {
+    background: #FFFFFF;
+    border: 1px solid #E5E7EB;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.04);
+}
+
+.dark .glass-pill {
+    background: rgba(21, 34, 56, 0.7);
+    border-color: rgba(46, 63, 95, 0.8);
+}
+
+.animated-gradient-text {
+    color: #172033;
+}
+
+.dark .animated-gradient-text {
+    color: #f1f5f9;
+}
+
+@keyframes pulse-subtle {
+
+    0%,
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    50% {
+        opacity: 0.85;
+        transform: scale(1.02);
+    }
+}
+
+.animate-pulse-subtle {
+    animation: pulse-subtle 2.5s infinite ease-in-out;
+}
+
+/* `animate-fade-in` is referenced across ~23 files (panels, drawers,
+   wizards) but was never actually defined anywhere in the codebase —
+   a silent no-op everywhere it's used. Defining it here is purely
+   additive: every existing reference starts actually fading in instead
+   of snapping into place, nothing can regress since the class did
+   nothing before. */
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.animate-fade-in {
+    animation: fade-in 200ms ease-out;
+}
+
+/* AI Learning Deck slide transitions (SlideDeck.jsx) — a real "push"-style
+   transition between slides, direction-aware (forward advances feel like
+   the next slide is entering from the right, backward from the left),
+   the way an actual presentation viewer transitions rather than content
+   just snapping to the next slide's text. */
+@keyframes slide-in-from-right {
+    from {
+        opacity: 0;
+        transform: translateX(28px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slide-in-from-left {
+    from {
+        opacity: 0;
+        transform: translateX(-28px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.animate-slide-in-right {
+    animation: slide-in-from-right 320ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.animate-slide-in-left {
+    animation: slide-in-from-left 320ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* Mind Map graph (react-flow) — smooth relayout instead of an instant
+   snap when dagre recomputes positions (expand/collapse, variant
+   switch), and a gentle fade-in for nodes that are genuinely new to the
+   DOM (re-laid-out EXISTING nodes only move, they don't remount, so
+   this animation only ever plays once per node). Global, not scoped to
+   a custom node component, because the actual position transform lives
+   on react-flow's own .react-flow__node wrapper, not on anything this
+   app's components render directly. */
+.react-flow__node {
+    transition: transform 300ms ease-out;
+    animation: fade-in 250ms ease-out;
+}
+
+/* Premium Glassmorphism & UI Utilities */
+.glass-card-elevated {
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(229, 231, 235, 0.7);
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05), 0 8px 10px -6px rgba(0, 0, 0, 0.01);
+}
+
+.dark .glass-card-elevated {
+    background: rgba(21, 34, 56, 0.85);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-color: rgba(46, 63, 95, 0.8);
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);
+}
+
+.glass-modal {
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(229, 231, 235, 0.8);
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+
+.dark .glass-modal {
+    background: rgba(21, 34, 56, 0.95);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border-color: rgba(46, 63, 95, 0.9);
+}
+
+.gradient-text-primary {
+    background: linear-gradient(135deg, #6D5FE0 0%, #3B82C4 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.dark .gradient-text-primary {
+    background: linear-gradient(135deg, #60A5FA 0%, #A5B4FC 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.gradient-text-accent {
+    background: linear-gradient(135deg, #E89B3C 0%, #F4B942 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.glow-effect-primary {
+    box-shadow: 0 0 20px -3px rgba(40, 53, 147, 0.35);
+}
+
+.dark .glow-effect-primary {
+    box-shadow: 0 0 20px -3px rgba(96, 165, 250, 0.35);
+}
+
+.glow-effect-accent {
+    box-shadow: 0 0 20px -3px rgba(244, 185, 66, 0.4);
+}
+
+@keyframes scale-in {
+    from {
+        opacity: 0;
+        transform: scale(0.95);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes slide-up {
+    from {
+        opacity: 0;
+        transform: translateY(16px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes float-subtle {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-4px);
+    }
+}
+
+.animate-scale-in {
+    animation: scale-in 220ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.animate-slide-up {
+    animation: slide-up 280ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.animate-float {
+    animation: float-subtle 3s ease-in-out infinite;
+}
