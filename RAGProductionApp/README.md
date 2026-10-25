@@ -130,3 +130,11 @@ RAGProductionApp/
 ├── pyproject.toml          # uv / PyPI dependencies definition
 └── requirements.txt        # Pip requirement specifications
 ```
+
+---
+
+## 👥 Authors & Contributors
+
+- **Harshita Surana** - Project Author & Lead Developer ([@harshitasurana](https://github.com/harshitasurana))
+- **Yash Joshi** - Co-Author & Core Contributor
+

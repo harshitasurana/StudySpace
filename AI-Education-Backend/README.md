@@ -68,7 +68,7 @@ NODE_ENV=development
 
 # Database Configuration
 DB_DIALECT=sqlite
-DB_STORAGE=./healthcare.db
+DB_STORAGE=./education.db
 # For PostgreSQL:
 # DB_HOST=localhost
 # DB_PORT=5432
@@ -148,3 +148,11 @@ AI-Education-Backend/
 ├── docker-compose.yml      # Docker container stack configuration
 └── package.json            # Node dependencies and npm scripts
 ```
+
+---
+
+## 👥 Authors & Contributors
+
+- **Harshita Surana** - Project Author & Lead Developer ([@harshitasurana](https://github.com/harshitasurana))
+- **Yash Joshi** - Co-Author & Core Contributor
+

@@ -160,3 +160,11 @@ AI-Education-Frontend/
 ├── vite.config.js           # Vite server & build configuration
 └── package.json             # Project dependencies and scripts
 ```
+
+---
+
+## 👥 Authors & Contributors
+
+- **Harshita Surana** - Project Author & Lead Developer ([@harshitasurana](https://github.com/harshitasurana))
+- **Yash Joshi** - Co-Author & Core Contributor
+

@@ -1,6 +1,6 @@
-# 🏥 B2B Healthcare Admin Frontend
+# 🎓 StudySpace Admin Frontend
 
-This is the **frontend admin panel** for the B2B Healthcare Management System, built with **React**, **Vite**, and **CSS modules**. It connects to a secure Node.js/Express backend and provides an admin interface for managing healthcare-related operations.
+This is the **frontend admin panel** for the **StudySpace** Educational Management System, built with **React**, **Vite**, and **CSS modules**. It connects to a secure Node.js/Express backend (`AI-Education-Backend`) and provides an administrative interface for managing CBSE academic curricula, student learning paths, subject syllabi, and educational operations.
 
 ---
 
@@ -8,9 +8,9 @@ This is the **frontend admin panel** for the B2B Healthcare Management System, b
 
 - ⚛️ **React** (Functional Components + Hooks)
 - ⚡ **Vite** (for blazing-fast development)
-- 🎨 **CSS Modules** (modular component styling)
+- 🎨 **CSS Modules & Bootstrap** (modular component styling)
 - 🔐 **JWT Authentication**
-- 🌐 **REST API** integration via `fetch`
+- 🌐 **REST API** integration via `axios` / `fetch`
 - 🧠 Organized using feature-based folder structure
 
 ---
@@ -21,54 +21,60 @@ This is the **frontend admin panel** for the B2B Healthcare Management System, b
 
 ```bash
 npm install
+```
 
-2. ⚙️ Set up Environment Variables
-Create a .env file in the root and define:
+### 2. ⚙️ Set up Environment Variables
 
-.env
-VITE_API_BASE_URL=http://localhost:3000/api
+Create a `.env` file in the root and define:
+
+```env
+VITE_API_BASE_URL=http://localhost:5000/api
+```
+
 Make sure this URL matches your backend server.
 
-3. 💻 Start Development Server
+### 3. 💻 Start Development Server
+
+```bash
 npm run dev
-This will start the app at: http://localhost:5190
+```
 
-🔐 Authentication Flow
-Admins login via /admin/login API using JWT
+This will start the app at: `http://localhost:5173` (or configured Vite port).
 
-authService.js handles all auth requests
+---
 
-Credentials stored securely (no localStorage yet, can add it later)
+## 🔐 Authentication Flow
 
-📦 Production Build
-bash
+- Admins login via `/admin/login` API using JWT.
+- `authService.js` handles all authentication requests and token management.
+- Protected route wrappers secure administrative modules and curriculum editors.
+
+---
+
+## 📦 Production Build
+
+```bash
 npm run build
+```
+
 To preview the production build locally:
 
-bash
+```bash
 npm run preview
+```
 
-📈 Features
-🧑‍⚕️ Admin Login with API integration
+---
 
-📊 Admin Dashboard layout
+## 📈 Features
 
-🧩 Reusable UI components
+- 🧑‍💼 Admin Login & Authentication flow
+- 📊 Academic & Curriculum Management Dashboard
+- 📚 CBSE Syllabus, Subjects, and Chapters configuration
+- 🧩 Reusable UI components & interactive data tables
+- 📁 Clean feature-based folder organization
 
-🔄 Password reset UI (under development)
+---
 
-📁 Clean folder organization
+## 👥 Authors & Contributors
 
-🛠️ To-Do / Future Improvements
-Add routing with React Router
-
-Add token persistence (localStorage/session)
-
-Form validations (Yup/React Hook Form)
-
-Improve UI with a component library (e.g., Material UI)
-
-Dark mode toggle 🌗
-
-🧑‍💻 Author
-Built by HARSH3 
+Built by **Harshita Surana** ([@harshitasurana](https://github.com/harshitasurana)) and **Yash Joshi**.

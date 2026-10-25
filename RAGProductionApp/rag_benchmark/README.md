@@ -160,3 +160,11 @@ subject-dependent (Science beats the paper, Hindi doesn't) — report both,
 don't generalize from one subject. The paper itself doesn't evaluate
 generation quality or do a retrieval/generation failure decomposition —
 that piece here is this project's own addition, not a paper comparison.
+
+---
+
+## 👥 Authors & Contributors
+
+- **Harshita Surana** - Project Author & Lead Developer ([@harshitasurana](https://github.com/harshitasurana))
+- **Yash Joshi** - Co-Author & Core Contributor
+

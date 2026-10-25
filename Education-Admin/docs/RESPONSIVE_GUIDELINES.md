@@ -1,4 +1,4 @@
-# Responsive Design Guidelines — HealthCare Admin
+# Responsive Design Guidelines — StudySpace Admin
 
 This document codifies the responsive patterns established across the frontend. All new pages and components **must** follow these conventions.
 

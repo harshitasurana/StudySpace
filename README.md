@@ -82,6 +82,15 @@ StudySpace/
 │   ├── tailwind.config.js
 │   └── vite.config.js
 │
+├── Education-Admin/            # React + Vite Admin & Operations Dashboard
+│   ├── src/
+│   │   ├── components/         # Admin UI components & management panels
+│   │   ├── data/               # CBSE curriculum schemas & subject data
+│   │   ├── services/           # Admin authentication & API services
+│   │   └── pages/              # Curriculum & admin management pages
+│   ├── package.json
+│   └── vite.config.js
+│
 └── RAGProductionApp/           # Python FastAPI Hybrid RAG Microservice
     ├── core/                   # Engine logic, RRF fusion, embeddings
     ├── rag/                    # Chunking, indexing, and retriever pipelines
@@ -138,7 +147,16 @@ cp .env.example .env
 npm run dev
 ```
 
-### 3. RAG Microservice Setup
+### 3. Admin Dashboard Setup
+
+```bash
+cd Education-Admin
+npm install
+cp .env.example .env
+npm run dev
+```
+
+### 4. RAG Microservice Setup
 
 ```bash
 cd RAGProductionApp
@@ -155,6 +173,7 @@ uvicorn main:app --host 0.0.0.0 --port 8000 --reload
 ## 👥 Contributors
 
 - **Harshita Surana** - Project Author & Lead Developer ([GitHub](https://github.com/harshitasurana))
+- **Yash Joshi** - Co-Author & Core Contributor
 
 ---
 
