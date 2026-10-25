@@ -1,0 +1,33 @@
+{
+  "dataset_id": "ds_edu_0005",
+  "module": "cbse_grade10_science_taxonomy",
+  "title": "CBSE Standard 10 Science physics, chemistry, biology chapter roadmap",
+  "board": "CBSE",
+  "standard": "Standard 9",
+  "version": "2026.1",
+  "last_updated": "2026-10-25",
+  "author": "Harshita Surana",
+  "records_count": 45,
+  "competencies": [
+    {
+      "code": "COMP-005-A",
+      "level": "Foundational",
+      "description": "Mastery of CBSE Standard 10 Science physics, chemistry, biology chapter roadmap primary concepts"
+    },
+    {
+      "code": "COMP-005-B",
+      "level": "Intermediate",
+      "description": "Analytical application of CBSE Standard 10 Science physics, chemistry, biology chapter roadmap principles"
+    },
+    {
+      "code": "COMP-005-C",
+      "level": "Advanced",
+      "description": "Critical synthesis and problem solving for CBSE Standard 10 Science physics, chemistry, biology chapter roadmap"
+    }
+  ],
+  "rubrics": {
+    "excellent": "Demonstrates thorough understanding with >90% precision and clear reasoning",
+    "proficient": "Demonstrates competent application with 75-89% accuracy",
+    "developing": "Requires targeted remedial intervention on foundational principles"
+  }
+}

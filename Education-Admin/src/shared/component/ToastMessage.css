@@ -1,0 +1,94 @@
+.hc-toast-message {
+  position: fixed;
+  z-index: 9999;
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  min-width: 320px;
+  width: min(460px, calc(100vw - 24px));
+  padding: 1rem 1.1rem;
+  border-radius: var(--hc-radius-lg);
+  box-shadow: var(--hc-shadow);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  color: #ffffff;
+}
+
+.hc-toast-message--fixed { }
+
+.hc-toast-message--inline {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  min-width: 0;
+  width: 100%;
+  padding: 0.6rem 0.8rem;
+  background: transparent; /* background handled by modifiers */
+  border: none;
+  box-shadow: none;
+  color: inherit;
+  border-radius: 10px;
+}
+
+.hc-toast-message__icon {
+  font-size: 1.25rem;
+  margin-top: 0.15rem;
+  line-height: 1;
+}
+
+.hc-toast-message__message {
+  flex: 1;
+  font-weight: 600;
+  line-height: 1.45;
+  word-break: break-word;
+}
+
+.hc-toast-message--success {
+  background: rgba(22, 163, 74, 0.95);
+}
+
+.hc-toast-message--error,
+.hc-toast-message--danger {
+  background: rgba(220, 38, 38, 0.95);
+}
+
+.hc-toast-message--warning {
+  background: rgba(245, 158, 11, 0.95);
+}
+
+.hc-toast-message--info {
+  background: rgba(14, 165, 233, 0.95);
+}
+
+/* Inline modifiers: subtle background and colored text */
+.hc-toast-message--inline.hc-toast-message--success {
+  background: rgba(22,163,74,0.08);
+  color: #065f46;
+  border: 1px solid rgba(22,163,74,0.12);
+}
+.hc-toast-message--inline.hc-toast-message--error,
+.hc-toast-message--inline.hc-toast-message--danger {
+  background: rgba(220,38,38,0.06);
+  color: #7f1d1d;
+  border: 1px solid rgba(220,38,38,0.08);
+}
+.hc-toast-message--inline.hc-toast-message--warning {
+  background: rgba(245,158,11,0.06);
+  color: #78350f;
+  border: 1px solid rgba(245,158,11,0.08);
+}
+.hc-toast-message--inline.hc-toast-message--info {
+  background: rgba(14,165,233,0.06);
+  color: #035e7b;
+  border: 1px solid rgba(14,165,233,0.08);
+}
+
+@media (max-width: 576px) {
+  .hc-toast-message {
+    left: 12px;
+    right: 12px;
+    width: auto;
+    min-width: auto;
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "dataset_id": "ds_edu_0056",
+  "module": "case_based_study_scenarios_sci",
+  "title": "Class 9 Science real-world case study scenario and problem set",
+  "board": "CBSE",
+  "standard": "Standard 10",
+  "version": "2026.1",
+  "last_updated": "2026-10-25",
+  "author": "Harshita Surana",
+  "records_count": 75,
+  "competencies": [
+    {
+      "code": "COMP-056-A",
+      "level": "Foundational",
+      "description": "Mastery of Class 9 Science real-world case study scenario and problem set primary concepts"
+    },
+    {
+      "code": "COMP-056-B",
+      "level": "Intermediate",
+      "description": "Analytical application of Class 9 Science real-world case study scenario and problem set principles"
+    },
+    {
+      "code": "COMP-056-C",
+      "level": "Advanced",
+      "description": "Critical synthesis and problem solving for Class 9 Science real-world case study scenario and problem set"
+    }
+  ],
+  "rubrics": {
+    "excellent": "Demonstrates thorough understanding with >90% precision and clear reasoning",
+    "proficient": "Demonstrates competent application with 75-89% accuracy",
+    "developing": "Requires targeted remedial intervention on foundational principles"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "dataset_id": "ds_edu_0016",
+  "module": "chapter_competency_science_ch8",
+  "title": "Science Chapter 8 Force and Laws of Motion Newton mechanics schema",
+  "board": "CBSE",
+  "standard": "Standard 10",
+  "version": "2026.1",
+  "last_updated": "2026-10-25",
+  "author": "Harshita Surana",
+  "records_count": 25,
+  "competencies": [
+    {
+      "code": "COMP-016-A",
+      "level": "Foundational",
+      "description": "Mastery of Science Chapter 8 Force and Laws of Motion Newton mechanics schema primary concepts"
+    },
+    {
+      "code": "COMP-016-B",
+      "level": "Intermediate",
+      "description": "Analytical application of Science Chapter 8 Force and Laws of Motion Newton mechanics schema principles"
+    },
+    {
+      "code": "COMP-016-C",
+      "level": "Advanced",
+      "description": "Critical synthesis and problem solving for Science Chapter 8 Force and Laws of Motion Newton mechanics schema"
+    }
+  ],
+  "rubrics": {
+    "excellent": "Demonstrates thorough understanding with >90% precision and clear reasoning",
+    "proficient": "Demonstrates competent application with 75-89% accuracy",
+    "developing": "Requires targeted remedial intervention on foundational principles"
+  }
+}

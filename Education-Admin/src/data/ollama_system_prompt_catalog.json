@@ -1,0 +1,33 @@
+{
+  "dataset_id": "ds_edu_0092",
+  "module": "ollama_system_prompt_catalog",
+  "title": "Curated system prompts for Socratic tutor, Examiner, and Explainer roles",
+  "board": "CBSE",
+  "standard": "Standard 10",
+  "version": "2026.1",
+  "last_updated": "2026-10-25",
+  "author": "Harshita Surana",
+  "records_count": 30,
+  "competencies": [
+    {
+      "code": "COMP-092-A",
+      "level": "Foundational",
+      "description": "Mastery of Curated system prompts for Socratic tutor, Examiner, and Explainer roles primary concepts"
+    },
+    {
+      "code": "COMP-092-B",
+      "level": "Intermediate",
+      "description": "Analytical application of Curated system prompts for Socratic tutor, Examiner, and Explainer roles principles"
+    },
+    {
+      "code": "COMP-092-C",
+      "level": "Advanced",
+      "description": "Critical synthesis and problem solving for Curated system prompts for Socratic tutor, Examiner, and Explainer roles"
+    }
+  ],
+  "rubrics": {
+    "excellent": "Demonstrates thorough understanding with >90% precision and clear reasoning",
+    "proficient": "Demonstrates competent application with 75-89% accuracy",
+    "developing": "Requires targeted remedial intervention on foundational principles"
+  }
+}

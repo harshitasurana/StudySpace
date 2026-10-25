@@ -1,0 +1,14 @@
+/* Organization selector */
+.hc-org-select-wrap { padding: 10px 12px; position: relative; }
+.hc-org-select { display:flex; align-items:center; gap:10px; width:100%; background: rgba(255,255,255,0.02); border: 1px solid rgba(255,255,255,0.03); padding:8px 10px; border-radius:12px; color: #e9f7fb; cursor:pointer; }
+.hc-org-badge { width:32px; height:32px; border-radius:8px; display:inline-flex; align-items:center; justify-content:center; color:#fff; font-weight:700; font-size:0.85rem; background: linear-gradient(135deg,#63d2f0,#1a709b); }
+.hc-org-text { flex:1; text-align:left; font-size:0.92rem; font-weight:600; color:#f3fcff; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+.hc-org-chevron { font-size:0.82rem; color: rgba(255,255,255,0.7); }
+.hc-org-chevron--open { transform: rotate(180deg); }
+.hc-org-dropdown { position: absolute; z-index: 60; left: 10px; right: 10px; top: 62px; background: #082034; border: 1px solid rgba(255,255,255,0.06); border-radius: 10px; box-shadow: 0 8px 30px rgba(2,10,20,0.6); padding: 8px; }
+.hc-org-dropdown-search { padding: 6px; }
+.hc-org-dropdown-list { max-height: 260px; overflow:auto; }
+.hc-org-dropdown-item { display:flex; align-items:center; gap:10px; width:100%; padding:8px 10px; border-radius:8px; background:transparent; color:#e9f7fb; border:none; text-align:left; cursor:pointer; }
+.hc-org-dropdown-item:hover { background: rgba(255,255,255,0.03); }
+.hc-org-dot { width:28px; height:28px; border-radius:6px; display:inline-block; flex-shrink:0; }
+.hc-org-name { font-size:0.95rem; font-weight:600; }

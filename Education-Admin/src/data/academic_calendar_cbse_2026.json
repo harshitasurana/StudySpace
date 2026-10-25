@@ -1,0 +1,33 @@
+{
+  "dataset_id": "ds_edu_0037",
+  "module": "academic_calendar_cbse_2026",
+  "title": "CBSE Academic Year 2026-27 term dates, assessment cycles, and holiday schema",
+  "board": "CBSE",
+  "standard": "Standard 9",
+  "version": "2026.1",
+  "last_updated": "2026-10-25",
+  "author": "Harshita Surana",
+  "records_count": 55,
+  "competencies": [
+    {
+      "code": "COMP-037-A",
+      "level": "Foundational",
+      "description": "Mastery of CBSE Academic Year 2026-27 term dates, assessment cycles, and holiday schema primary concepts"
+    },
+    {
+      "code": "COMP-037-B",
+      "level": "Intermediate",
+      "description": "Analytical application of CBSE Academic Year 2026-27 term dates, assessment cycles, and holiday schema principles"
+    },
+    {
+      "code": "COMP-037-C",
+      "level": "Advanced",
+      "description": "Critical synthesis and problem solving for CBSE Academic Year 2026-27 term dates, assessment cycles, and holiday schema"
+    }
+  ],
+  "rubrics": {
+    "excellent": "Demonstrates thorough understanding with >90% precision and clear reasoning",
+    "proficient": "Demonstrates competent application with 75-89% accuracy",
+    "developing": "Requires targeted remedial intervention on foundational principles"
+  }
+}

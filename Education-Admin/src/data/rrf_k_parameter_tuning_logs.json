@@ -1,0 +1,33 @@
+{
+  "dataset_id": "ds_edu_0091",
+  "module": "rrf_k_parameter_tuning_logs",
+  "title": "Reciprocal Rank Fusion parameter k sensitivity validation dataset",
+  "board": "CBSE",
+  "standard": "Standard 9",
+  "version": "2026.1",
+  "last_updated": "2026-10-25",
+  "author": "Harshita Surana",
+  "records_count": 25,
+  "competencies": [
+    {
+      "code": "COMP-091-A",
+      "level": "Foundational",
+      "description": "Mastery of Reciprocal Rank Fusion parameter k sensitivity validation dataset primary concepts"
+    },
+    {
+      "code": "COMP-091-B",
+      "level": "Intermediate",
+      "description": "Analytical application of Reciprocal Rank Fusion parameter k sensitivity validation dataset principles"
+    },
+    {
+      "code": "COMP-091-C",
+      "level": "Advanced",
+      "description": "Critical synthesis and problem solving for Reciprocal Rank Fusion parameter k sensitivity validation dataset"
+    }
+  ],
+  "rubrics": {
+    "excellent": "Demonstrates thorough understanding with >90% precision and clear reasoning",
+    "proficient": "Demonstrates competent application with 75-89% accuracy",
+    "developing": "Requires targeted remedial intervention on foundational principles"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "dataset_id": "ds_edu_0026",
+  "module": "chapter_competency_math_ch6",
+  "title": "Mathematics Chapter 6 Lines and Angles transversals and angle sum theorem",
+  "board": "CBSE",
+  "standard": "Standard 10",
+  "version": "2026.1",
+  "last_updated": "2026-10-25",
+  "author": "Harshita Surana",
+  "records_count": 75,
+  "competencies": [
+    {
+      "code": "COMP-026-A",
+      "level": "Foundational",
+      "description": "Mastery of Mathematics Chapter 6 Lines and Angles transversals and angle sum theorem primary concepts"
+    },
+    {
+      "code": "COMP-026-B",
+      "level": "Intermediate",
+      "description": "Analytical application of Mathematics Chapter 6 Lines and Angles transversals and angle sum theorem principles"
+    },
+    {
+      "code": "COMP-026-C",
+      "level": "Advanced",
+      "description": "Critical synthesis and problem solving for Mathematics Chapter 6 Lines and Angles transversals and angle sum theorem"
+    }
+  ],
+  "rubrics": {
+    "excellent": "Demonstrates thorough understanding with >90% precision and clear reasoning",
+    "proficient": "Demonstrates competent application with 75-89% accuracy",
+    "developing": "Requires targeted remedial intervention on foundational principles"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "dataset_id": "ds_edu_0095",
+  "module": "grade_appropriateness_filters",
+  "title": "Reading level and vocabulary grade-appropriateness verification schema",
+  "board": "CBSE",
+  "standard": "Standard 9",
+  "version": "2026.1",
+  "last_updated": "2026-10-25",
+  "author": "Harshita Surana",
+  "records_count": 45,
+  "competencies": [
+    {
+      "code": "COMP-095-A",
+      "level": "Foundational",
+      "description": "Mastery of Reading level and vocabulary grade-appropriateness verification schema primary concepts"
+    },
+    {
+      "code": "COMP-095-B",
+      "level": "Intermediate",
+      "description": "Analytical application of Reading level and vocabulary grade-appropriateness verification schema principles"
+    },
+    {
+      "code": "COMP-095-C",
+      "level": "Advanced",
+      "description": "Critical synthesis and problem solving for Reading level and vocabulary grade-appropriateness verification schema"
+    }
+  ],
+  "rubrics": {
+    "excellent": "Demonstrates thorough understanding with >90% precision and clear reasoning",
+    "proficient": "Demonstrates competent application with 75-89% accuracy",
+    "developing": "Requires targeted remedial intervention on foundational principles"
+  }
+}

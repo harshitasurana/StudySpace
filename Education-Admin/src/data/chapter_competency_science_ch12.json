@@ -1,0 +1,33 @@
+{
+  "dataset_id": "ds_edu_0020",
+  "module": "chapter_competency_science_ch12",
+  "title": "Science Chapter 12 Improvement in Food Resources agricultural schemas",
+  "board": "CBSE",
+  "standard": "Standard 10",
+  "version": "2026.1",
+  "last_updated": "2026-10-25",
+  "author": "Harshita Surana",
+  "records_count": 45,
+  "competencies": [
+    {
+      "code": "COMP-020-A",
+      "level": "Foundational",
+      "description": "Mastery of Science Chapter 12 Improvement in Food Resources agricultural schemas primary concepts"
+    },
+    {
+      "code": "COMP-020-B",
+      "level": "Intermediate",
+      "description": "Analytical application of Science Chapter 12 Improvement in Food Resources agricultural schemas principles"
+    },
+    {
+      "code": "COMP-020-C",
+      "level": "Advanced",
+      "description": "Critical synthesis and problem solving for Science Chapter 12 Improvement in Food Resources agricultural schemas"
+    }
+  ],
+  "rubrics": {
+    "excellent": "Demonstrates thorough understanding with >90% precision and clear reasoning",
+    "proficient": "Demonstrates competent application with 75-89% accuracy",
+    "developing": "Requires targeted remedial intervention on foundational principles"
+  }
+}

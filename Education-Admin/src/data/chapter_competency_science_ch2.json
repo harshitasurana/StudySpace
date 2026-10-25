@@ -1,0 +1,33 @@
+{
+  "dataset_id": "ds_edu_0010",
+  "module": "chapter_competency_science_ch2",
+  "title": "Science Chapter 2 Is Matter Around Us Pure learning goals",
+  "board": "CBSE",
+  "standard": "Standard 10",
+  "version": "2026.1",
+  "last_updated": "2026-10-25",
+  "author": "Harshita Surana",
+  "records_count": 70,
+  "competencies": [
+    {
+      "code": "COMP-010-A",
+      "level": "Foundational",
+      "description": "Mastery of Science Chapter 2 Is Matter Around Us Pure learning goals primary concepts"
+    },
+    {
+      "code": "COMP-010-B",
+      "level": "Intermediate",
+      "description": "Analytical application of Science Chapter 2 Is Matter Around Us Pure learning goals principles"
+    },
+    {
+      "code": "COMP-010-C",
+      "level": "Advanced",
+      "description": "Critical synthesis and problem solving for Science Chapter 2 Is Matter Around Us Pure learning goals"
+    }
+  ],
+  "rubrics": {
+    "excellent": "Demonstrates thorough understanding with >90% precision and clear reasoning",
+    "proficient": "Demonstrates competent application with 75-89% accuracy",
+    "developing": "Requires targeted remedial intervention on foundational principles"
+  }
+}

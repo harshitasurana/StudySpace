@@ -1,0 +1,33 @@
+{
+  "dataset_id": "ds_edu_0080",
+  "module": "audio_transcription_glossary",
+  "title": "Speech-to-text education domain dictionary and phonetic pronunciation map",
+  "board": "CBSE",
+  "standard": "Standard 10",
+  "version": "2026.1",
+  "last_updated": "2026-10-25",
+  "author": "Harshita Surana",
+  "records_count": 45,
+  "competencies": [
+    {
+      "code": "COMP-080-A",
+      "level": "Foundational",
+      "description": "Mastery of Speech-to-text education domain dictionary and phonetic pronunciation map primary concepts"
+    },
+    {
+      "code": "COMP-080-B",
+      "level": "Intermediate",
+      "description": "Analytical application of Speech-to-text education domain dictionary and phonetic pronunciation map principles"
+    },
+    {
+      "code": "COMP-080-C",
+      "level": "Advanced",
+      "description": "Critical synthesis and problem solving for Speech-to-text education domain dictionary and phonetic pronunciation map"
+    }
+  ],
+  "rubrics": {
+    "excellent": "Demonstrates thorough understanding with >90% precision and clear reasoning",
+    "proficient": "Demonstrates competent application with 75-89% accuracy",
+    "developing": "Requires targeted remedial intervention on foundational principles"
+  }
+}

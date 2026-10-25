@@ -1,0 +1,92 @@
+.hc-dashboard-shell {
+  background: linear-gradient(160deg, #f6fbff 0%, #eef4f9 100%);
+}
+
+.hc-dashboard-shell #layoutSidenav {
+  padding-top: 60px;
+}
+
+.hc-dashboard-shell #layoutSidenav #layoutSidenav_nav {
+  top: 60px !important;
+  height: calc(100vh - 60px) !important;
+  width: 250px !important;
+  flex-basis: 250px !important;
+  transition: width 0.24s ease, flex-basis 0.24s ease, transform 0.24s ease;
+}
+
+.hc-dashboard-shell #layoutSidenav #layoutSidenav_nav .sb-sidenav {
+  padding-top: 0 !important;
+}
+
+.hc-dashboard-shell #layoutSidenav #layoutSidenav_content {
+  top: 0 !important;
+  min-height: calc(100vh - 60px);
+  padding-left: 250px !important;
+  transition: padding-left 0.24s ease;
+}
+
+@media (min-width: 992px) {
+  .hc-dashboard-shell #layoutSidenav #layoutSidenav_nav {
+    transform: translateX(0) !important;
+  }
+
+  .hc-dashboard-shell.hc-shell--collapsed #layoutSidenav #layoutSidenav_nav {
+    width: 86px !important;
+    flex-basis: 86px !important;
+  }
+
+  .hc-dashboard-shell.hc-shell--collapsed #layoutSidenav #layoutSidenav_content {
+    padding-left: 86px !important;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .hc-dashboard-shell #layoutSidenav #layoutSidenav_nav {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 280px !important;
+    flex-basis: 280px !important;
+    transform: translateX(-100%) !important;
+    box-shadow: 14px 0 34px rgba(6, 20, 34, 0.28);
+    z-index: 1040 !important;
+    transition: transform 0.28s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .hc-dashboard-shell.hc-shell--mobile-open #layoutSidenav #layoutSidenav_nav {
+    transform: translateX(0) !important;
+  }
+
+  .hc-dashboard-shell #layoutSidenav #layoutSidenav_content {
+    padding-left: 0 !important;
+  }
+
+  .hc-dashboard-shell.hc-shell--mobile-open #layoutSidenav #layoutSidenav_content::before {
+    content: "";
+    position: fixed;
+    inset: 60px 0 0 0;
+    background: rgba(2, 12, 22, 0.5);
+    z-index: 1037;
+    backdrop-filter: blur(2px);
+  }
+
+  .hc-dashboard-shell #layoutSidenav #layoutSidenav_nav .app-sidenav-scroll {
+    height: 100%;
+    overflow-y: auto;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .hc-dashboard-shell #layoutSidenav #layoutSidenav_nav {
+    width: 260px !important;
+    flex-basis: 260px !important;
+  }
+
+  .hc-dashboard-shell #layoutSidenav #layoutSidenav_content {
+    min-height: calc(100vh - 56px);
+  }
+
+  .hc-dashboard-shell.hc-shell--mobile-open #layoutSidenav #layoutSidenav_content::before {
+    inset: 56px 0 0 0;
+  }
+}

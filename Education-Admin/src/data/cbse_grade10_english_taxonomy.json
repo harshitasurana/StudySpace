@@ -1,0 +1,33 @@
+{
+  "dataset_id": "ds_edu_0008",
+  "module": "cbse_grade10_english_taxonomy",
+  "title": "CBSE Standard 10 English prose, poetry, and grammar mastery schema",
+  "board": "CBSE",
+  "standard": "Standard 10",
+  "version": "2026.1",
+  "last_updated": "2026-10-25",
+  "author": "Harshita Surana",
+  "records_count": 60,
+  "competencies": [
+    {
+      "code": "COMP-008-A",
+      "level": "Foundational",
+      "description": "Mastery of CBSE Standard 10 English prose, poetry, and grammar mastery schema primary concepts"
+    },
+    {
+      "code": "COMP-008-B",
+      "level": "Intermediate",
+      "description": "Analytical application of CBSE Standard 10 English prose, poetry, and grammar mastery schema principles"
+    },
+    {
+      "code": "COMP-008-C",
+      "level": "Advanced",
+      "description": "Critical synthesis and problem solving for CBSE Standard 10 English prose, poetry, and grammar mastery schema"
+    }
+  ],
+  "rubrics": {
+    "excellent": "Demonstrates thorough understanding with >90% precision and clear reasoning",
+    "proficient": "Demonstrates competent application with 75-89% accuracy",
+    "developing": "Requires targeted remedial intervention on foundational principles"
+  }
+}

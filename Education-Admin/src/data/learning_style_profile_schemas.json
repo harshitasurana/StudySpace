@@ -1,0 +1,33 @@
+{
+  "dataset_id": "ds_edu_0054",
+  "module": "learning_style_profile_schemas",
+  "title": "Visual, Auditory, and Kinesthetic learning modality preference schemas",
+  "board": "CBSE",
+  "standard": "Standard 10",
+  "version": "2026.1",
+  "last_updated": "2026-10-25",
+  "author": "Harshita Surana",
+  "records_count": 65,
+  "competencies": [
+    {
+      "code": "COMP-054-A",
+      "level": "Foundational",
+      "description": "Mastery of Visual, Auditory, and Kinesthetic learning modality preference schemas primary concepts"
+    },
+    {
+      "code": "COMP-054-B",
+      "level": "Intermediate",
+      "description": "Analytical application of Visual, Auditory, and Kinesthetic learning modality preference schemas principles"
+    },
+    {
+      "code": "COMP-054-C",
+      "level": "Advanced",
+      "description": "Critical synthesis and problem solving for Visual, Auditory, and Kinesthetic learning modality preference schemas"
+    }
+  ],
+  "rubrics": {
+    "excellent": "Demonstrates thorough understanding with >90% precision and clear reasoning",
+    "proficient": "Demonstrates competent application with 75-89% accuracy",
+    "developing": "Requires targeted remedial intervention on foundational principles"
+  }
+}

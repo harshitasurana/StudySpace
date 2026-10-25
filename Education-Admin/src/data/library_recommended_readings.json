@@ -1,0 +1,33 @@
+{
+  "dataset_id": "ds_edu_0079",
+  "module": "library_recommended_readings",
+  "title": "Supplemental curriculum reading list and reference book citations",
+  "board": "CBSE",
+  "standard": "Standard 9",
+  "version": "2026.1",
+  "last_updated": "2026-10-25",
+  "author": "Harshita Surana",
+  "records_count": 40,
+  "competencies": [
+    {
+      "code": "COMP-079-A",
+      "level": "Foundational",
+      "description": "Mastery of Supplemental curriculum reading list and reference book citations primary concepts"
+    },
+    {
+      "code": "COMP-079-B",
+      "level": "Intermediate",
+      "description": "Analytical application of Supplemental curriculum reading list and reference book citations principles"
+    },
+    {
+      "code": "COMP-079-C",
+      "level": "Advanced",
+      "description": "Critical synthesis and problem solving for Supplemental curriculum reading list and reference book citations"
+    }
+  ],
+  "rubrics": {
+    "excellent": "Demonstrates thorough understanding with >90% precision and clear reasoning",
+    "proficient": "Demonstrates competent application with 75-89% accuracy",
+    "developing": "Requires targeted remedial intervention on foundational principles"
+  }
+}
